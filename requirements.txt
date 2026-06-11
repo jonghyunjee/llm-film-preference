@@ -1,0 +1,11 @@
+# Core dependencies for bt_film.py
+anthropic>=0.40.0
+openai>=1.50.0    
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Optional: Excel output via --save-excel
+openpyxl>=3.1.0
+
+# Standard library:
+# argparse, collections, datetime, json, math, random, typing, os, re, io
