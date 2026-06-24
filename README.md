@@ -20,6 +20,7 @@ This repository contains the code and data needed to reproduce the statistical r
 llm-film-preference/
 ├── README.md
 ├── requirements.txt          # Python dependencies
+├── renv.lock                 # R dependencies
 │
 ├── data/
 │   └── film_sample_200.json   # stimulus set + covariates
