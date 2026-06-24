@@ -20,7 +20,6 @@ This repository contains the code and data needed to reproduce the statistical r
 llm-film-preference/
 ├── README.md
 ├── requirements.txt          # Python dependencies
-├── renv.lock                 # R dependencies
 │
 ├── data/
 │   └── film_sample_200.csv   # stimulus set + covariates
@@ -41,32 +40,15 @@ llm-film-preference/
 ## Reproduction levels
 
 ### Level 1 — Reproduce all statistical results
-*(No API access required. Estimated time: ~10 minutes.)*
+*(No API access required.)*
 
 ```r
 quarto render analysis/LLM_Film_Regression.qmd
 quarto render analysis/LLM_Film_Primary.qmd
 ```
 
-Both QMDs read from `data/film_sample_200.csv` and produce all tables
-and figures reported in the paper.
-
-### Level 2 — Reproduce from raw BT outputs
-*(No API access required. Estimated time: ~30 minutes.)*
-
-Download the raw BT comparison JSONs from Zenodo:
-[doi:10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
-
-Unzip into `data/raw/`, then run:
-
-```bash
-python src/aggregate_bt_results.py --input data/raw/ --output data/film_sample_200.csv
-```
-
-Then proceed to Level 1.
-
-### Level 3 — Full reproduction from scratch
-*(Requires API keys and budget. Estimated cost: ~$XX across all 8 models.)*
+### Level 2 — Full reproduction from scratch
+*(Requires API keys and budget.)*
 
 Set environment variables for the providers you want to run:
 
@@ -87,8 +69,6 @@ python src/bt_film.py \
     --max-comparisons 4000 \
     --output-dir data/raw/
 ```
-
-Repeat for each model in Table 1 of the paper. Then proceed to Level 2.
 
 ---
 
