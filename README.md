@@ -23,19 +23,17 @@ llm-film-preference/
 ├── renv.lock                 # R dependencies
 │
 ├── data/
-│   ├── film_sample_200.csv   # 200-film benchmark with set assignments
-│   │                         # and all regression covariates
-│   └── codebook.md           # Variable definitions
-│
-├── src/
-│   └── bt_film.py            # Bradley-Terry elicitation pipeline
+│   ├── film_sample_200.csv   # stimulus set + covariates
 │
 ├── analysis/
 │   ├── LLM_Film_Regression.qmd   # Regression analysis (Tables 2, D1)
 │   └── LLM_Film_Primary.qmd      # Primary analysis (Tables 1, Figures 1–2)
+│   ├── comparison_outcomes.csv   # required data for primary
+│   ├── film_lambdas.csv          # required data for primary
+│   └── regression_data.csv       # required data for regression
 │
-└── paper/
-    └── main.tex              # arXiv manuscript source
+└── src/
+    └── bt_film.py            # Bradley-Terry elicitation pipeline
 ```
 
 ---
