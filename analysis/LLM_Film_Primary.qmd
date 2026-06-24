@@ -1,0 +1,629 @@
+---
+title: "LLM Film Preference: Primary Analysis"
+subtitle: "H2 (Critical Acclaim Orientation), H3 (Dual Legitimacy), H4 (Scale Effect)"
+author: "Jonghyun Jee"
+lang: en
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    code-fold: true
+    code-summary: "Show code"
+    theme: flatly
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+---
+
+## Overview
+
+Primary hypothesis tests using exact BT comparison outcomes and
+per-film lambda_z estimates aggregated from 8 model result JSONs.
+
+| Source file | Contents |
+|---|---|
+| `comparison_outcomes.csv` | Win counts per set-pair per model (from BT match logs) |
+| `film_lambdas.csv` | Per-film lambda, lambda_z, set, rank per model |
+
+| Hypothesis | Test | Source |
+|---|---|---|
+| H2 | Set B vs C win rate > 0.50 (binomial) | comparison_outcomes.csv |
+| H3 | Set A win rate vs B and vs C | comparison_outcomes.csv |
+| H4 | Scale effect on B vs C across tiers | comparison_outcomes.csv |
+| Effect sizes | Cohen's d on lambda_z distributions | film_lambdas.csv |
+
+---
+
+## Setup
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(patchwork)
+library(ggplot2)
+
+OUTCOMES_PATH <- "comparison_outcomes.csv"
+LAMBDAS_PATH  <- "film_lambdas.csv"
+
+FAMILY_LEVELS <- c("OpenAI", "Anthropic", "Mistral", "Alibaba")
+TIER_LEVELS   <- c("Large", "Small")
+```
+
+---
+
+## Load data
+
+```{r}
+#| label: load-data
+outcomes <- read.csv(OUTCOMES_PATH, stringsAsFactors = FALSE) |>
+  mutate(
+    family = factor(family, levels = FAMILY_LEVELS),
+    tier   = factor(tier,   levels = TIER_LEVELS)
+  )
+
+lambdas <- read.csv(LAMBDAS_PATH, stringsAsFactors = FALSE) |>
+  mutate(
+    set    = factor(set,    levels = c("A", "B", "C")),
+    family = factor(family, levels = FAMILY_LEVELS),
+    tier   = factor(tier,   levels = TIER_LEVELS)
+  )
+
+cat(sprintf("comparison_outcomes: %d rows x %d cols\n",
+            nrow(outcomes), ncol(outcomes)))
+cat(sprintf("film_lambdas:        %d rows x %d cols\n",
+            nrow(lambdas), ncol(lambdas)))
+
+# Model ordering: family then tier
+model_order <- lambdas |>
+  distinct(model, family, tier) |>
+  arrange(tier, family) |>
+  pull(model)
+```
+
+### Data check: BvC win rates match Python results
+
+```{r}
+#| label: data-check
+bvc_check <- outcomes |>
+  filter(set_winner == "B", set_loser == "C") |>
+  arrange(tier, desc(win_rate)) |>
+  mutate(win_rate_pct = sprintf("%.1f%%", win_rate * 100))
+
+bvc_check[, c("model", "tier", "win_rate_pct", "wins", "total")] |>
+  setNames(c("Model", "Tier", "Win rate", "Wins", "Total")) |>
+  kable(caption = "Set B vs C win rates (from comparison_outcomes.csv)",
+        row.names = FALSE) |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+---
+
+## Helper functions
+
+```{r}
+#| label: helpers
+
+# One-sided binomial test: win_rate > 0.50
+run_binom <- function(wins, total) {
+  bt <- binom.test(wins, total, p = 0.5, alternative = "greater")
+  list(p = bt$p.value,
+       sig = case_when(bt$p.value < .001 ~ "***",
+                       bt$p.value < .01  ~ "**",
+                       bt$p.value < .05  ~ "*",
+                       TRUE              ~ "n.s."))
+}
+
+# Two-sample Cohen's d (pooled SD)
+cohens_d <- function(x, y) {
+  nx <- length(x); ny <- length(y)
+  sp <- sqrt(((nx - 1) * var(x) + (ny - 1) * var(y)) / (nx + ny - 2))
+  (mean(x) - mean(y)) / sp
+}
+
+# Significance stars
+sig_stars <- function(p) {
+  case_when(p < .001 ~ "***", p < .01 ~ "**",
+            p < .05  ~ "*",   TRUE    ~ "n.s.")
+}
+```
+
+---
+
+## H2 -- Critical Acclaim Orientation
+
+Set B (critically acclaimed) wins significantly more than 50% of
+head-to-head matchups against Set C (commercially successful).
+
+```{r}
+#| label: h2-compute
+h2 <- outcomes |>
+  filter(set_winner == "B", set_loser == "C") |>
+  mutate(
+    p_binom = map2_dbl(wins, total,
+                       \(w, n) run_binom(w, n)$p),
+    sig     = map2_chr(wins, total,
+                       \(w, n) run_binom(w, n)$sig)
+  )
+
+# Cohen's d from lambda_z
+h2_d <- lambdas |>
+  filter(set %in% c("B", "C")) |>
+  group_by(model, family, tier) |>
+  summarise(
+    cohens_d = cohens_d(lambda_z[set == "B"],
+                        lambda_z[set == "C"]),
+    .groups = "drop"
+  )
+
+h2 <- h2 |>
+  left_join(h2_d, by = c("model", "family", "tier")) |>
+  arrange(family, tier)
+```
+
+```{r}
+#| label: h2-table
+h2 |>
+  mutate(
+    `Win rate`   = sprintf("%.1f%%", win_rate * 100),
+    `Wins/Total` = sprintf("%d/%d", wins, total),
+    `Cohen's d`  = sprintf("%.2f", cohens_d),
+    `p (binom)`  = ifelse(p_binom < .001, "< .001",
+                          sprintf("%.4f", p_binom))
+  ) |>
+  select(Model = model, Family = family, Tier = tier,
+         `Win rate`, `Wins/Total`, `Cohen's d`, `p (binom)`, ` ` = sig) |>
+  kable(caption = "H2 -- Set B vs Set C win rates (binomial test vs p = 0.50)") |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE) |>
+  footnote(general = "Win rates from actual BT comparison outcomes. Cohen's d from lambda_z distributions.")
+```
+
+```{r}
+#| label: h2-summary-by-tier
+cat("Large tier:\n")
+h2 |> filter(tier == "Large") |>
+  summarise(mean_wr = mean(win_rate) |> round(3),
+            range   = sprintf("%.1f%%-%.1f%%",
+                              min(win_rate)*100, max(win_rate)*100),
+            mean_d  = mean(cohens_d) |> round(2)) |>
+  print()
+
+cat("\nSmall tier:\n")
+h2 |> filter(tier == "Small") |>
+  summarise(mean_wr = mean(win_rate) |> round(3),
+            range   = sprintf("%.1f%%-%.1f%%",
+                              min(win_rate)*100, max(win_rate)*100),
+            mean_d  = mean(cohens_d) |> round(2)) |>
+  print()
+```
+
+```{r}
+#| label: h2-plot
+#| fig-width: 9
+#| fig-height: 4.5
+h2 |>
+  mutate(model = factor(model, levels = model_order)) |>
+  ggplot(aes(x = model, y = win_rate, fill = tier)) +
+  geom_col(width = 0.65, alpha = 0.85) +
+  geom_hline(yintercept = 0.5, linetype = "dashed",
+             colour = "grey50", linewidth = 0.7) +
+  geom_text(aes(label = sprintf("%.1f%%", win_rate * 100)),
+            vjust = -0.4, size = 3.5, family = "mono") +
+  scale_fill_manual(values = c(Large = "#1E3A5F", Small = "#94A3B8"),
+                    name = "Tier") +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1),
+                     limits = c(0, 1.05), expand = c(0, 0)) +
+  labs(title    = "H2 -- Set B vs Set C Win Rates",
+       subtitle = "All models p < .001 vs chance  |  dashed = 0.50",
+       x = NULL, y = "Set B win rate") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 25, hjust = 1),
+        panel.grid.major.x = element_blank())
+```
+
+---
+
+## H3 -- Dual Legitimacy
+
+Set A (dual-legitimacy) win rates against Set B and Set C. H3 predicts A > B.
+
+```{r}
+#| label: h3-compute
+get_comparison <- function(winner, loser) {
+  outcomes |>
+    filter(set_winner == winner, set_loser == loser) |>
+    mutate(
+      p_binom = map2_dbl(wins, total,
+                         \(w, n) run_binom(w, n)$p),
+      sig     = map2_chr(wins, total,
+                         \(w, n) run_binom(w, n)$sig)
+    )
+}
+
+h3_ab <- get_comparison("A", "B")
+h3_ac <- get_comparison("A", "C")
+
+# Cohen's d for A vs B and A vs C
+d_ab <- lambdas |>
+  filter(set %in% c("A", "B")) |>
+  group_by(model, family, tier) |>
+  summarise(d_ab = cohens_d(lambda_z[set == "A"],
+                            lambda_z[set == "B"]),
+            .groups = "drop")
+
+d_ac <- lambdas |>
+  filter(set %in% c("A", "C")) |>
+  group_by(model, family, tier) |>
+  summarise(d_ac = cohens_d(lambda_z[set == "A"],
+                            lambda_z[set == "C"]),
+            .groups = "drop")
+
+h3 <- h3_ab |>
+  select(model, family, tier,
+         AvB_rate = win_rate, AvB_wins = wins,
+         AvB_total = total, AvB_p = p_binom, AvB_sig = sig) |>
+  left_join(
+    h3_ac |> select(model,
+                    AvC_rate = win_rate, AvC_wins = wins,
+                    AvC_total = total, AvC_p = p_binom, AvC_sig = sig),
+    by = "model"
+  ) |>
+  left_join(d_ab, by = c("model", "family", "tier")) |>
+  left_join(d_ac, by = c("model", "family", "tier")) |>
+  arrange(family, tier)
+```
+
+```{r}
+#| label: h3-table
+h3 |>
+  mutate(
+    `A vs B` = sprintf("%.1f%% %s (d=%+.2f)",
+                       AvB_rate*100, AvB_sig, d_ab),
+    `A vs C` = sprintf("%.1f%% %s (d=%+.2f)",
+                       AvC_rate*100, AvC_sig, d_ac)
+  ) |>
+  select(Model = model, Tier = tier, `A vs B`, `A vs C`) |>
+  kable(
+    caption = "H3 -- Set A win rates vs Set B (hypothesis) and Set C (context)"
+  ) |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE) |>
+  footnote(general = paste(
+    "Positive d = Set A preferred; negative d = Set B preferred."
+  ))
+```
+
+```{r}
+#| label: h3-by-tier
+cat("A vs B by tier:\n")
+h3 |>
+  select(model, tier, AvB_rate, AvB_sig, d_ab) |>
+  mutate(across(c(AvB_rate, d_ab), \(x) round(x, 3))) |>
+  arrange(tier, desc(AvB_rate)) |>
+  print()
+```
+
+```{r}
+#| label: h3-plot
+#| fig-width: 10
+#| fig-height: 5
+h3 |>
+  pivot_longer(c(AvB_rate, AvC_rate),
+               names_to = "comparison", values_to = "rate") |>
+  mutate(
+    comparison = recode(comparison,
+                        AvB_rate = "A vs B (H3 test)",
+                        AvC_rate = "A vs C (context)"),
+    model = factor(model, levels = model_order)
+  ) |>
+  ggplot(aes(x = model, y = rate,
+             fill = tier, alpha = comparison)) +
+  geom_col(position = position_dodge(width = 0.7), width = 0.6) +
+  geom_hline(yintercept = 0.5, linetype = "dashed",
+             colour = "grey50", linewidth = 0.7) +
+  scale_fill_manual(values = c(Large = "#1E3A5F", Small = "#94A3B8"),
+                    name = "Tier") +
+  scale_alpha_manual(values = c("A vs B (H3 test)" = 0.95,
+                                "A vs C (context)" = 0.40),
+                     name = "Comparison") +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1),
+                     limits = c(0, 1.05), expand = c(0, 0)) +
+  labs(title    = "H3 -- Set A Win Rates",
+       subtitle = "Solid = A vs B (H3 test)  |  Transparent = A vs C (context)  |  dashed = 0.50",
+       x = NULL, y = "Set A win rate") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 25, hjust = 1),
+        panel.grid.major.x = element_blank())
+```
+
+```{r}
+# Model display order and title for each panel
+model_titles <- model_order
+
+lambdas_plot <- lambdas |>
+  mutate(
+    model    = factor(model, levels = model_order),
+    set      = factor(set,   levels = c("A", "B", "C")),
+    set_label = factor(set,
+                       levels = c("A", "B", "C"),
+                       labels = c("Set A\n(Critical + Popular)",
+                                  "Set B\n(Critical Only)",
+                                  "Set C\n(Popular Only)"))
+  )
+
+#| label: violin-plot
+#| fig-width: 16
+#| fig-height: 10
+
+medians <- lambdas_plot |>
+  group_by(model, set, set_label) |>
+  summarise(med = median(lambda_z), .groups = "drop") |>
+  mutate(med_label = sprintf("%+.2f", med))
+
+set_colours <- c(A = "#5B9ABD", B = "#D4894A", C = "#4FA899")
+set_fills   <- c(A = "#ADD0E8", B = "#F5CFA0", C = "#A8D8D4")
+
+lambdas_plot <- lambdas |>
+  mutate(
+    model    = factor(model, levels = model_order),
+    set      = factor(set, levels = c("A", "B", "C")),
+    set_label = factor(set, levels = c("A", "B", "C"),
+                       labels = c("Set A", "Set B", "Set C"))
+  )
+
+medians <- lambdas_plot |>
+  group_by(model, set, set_label) |>
+  summarise(med = median(lambda_z), .groups = "drop") |>
+  mutate(med_label = sprintf("%+.2f", med))
+
+ggplot(lambdas_plot, aes(x = set_label, y = lambda_z, fill = set)) +
+
+  # Violin
+  geom_violin(colour = NA, alpha = 0.50, trim = TRUE) +
+
+  # IQR bar
+  stat_summary(aes(colour = set),
+               fun.min = \(x) quantile(x, 0.25),
+               fun.max = \(x) quantile(x, 0.75),
+               fun     = median,
+               geom    = "linerange",
+               linewidth = 2.0, alpha = 0.85) +
+
+  # Median tick
+  stat_summary(aes(colour = set),
+               fun  = median,
+               geom = "crossbar",
+               width = 0.22, linewidth = 0.7) +
+
+  # Individual films -- smaller, more transparent
+  # geom_jitter(aes(color = set),
+              #width = 0.06, size = 0.7,
+              #alpha = 0.35, shape = 16) +
+
+  # Reference line
+  geom_hline(yintercept = 0, linetype = "dashed",
+             colour = "grey55", linewidth = 0.4) +
+
+  geom_text(data = medians,
+            aes(x    = set_label,
+                y    = -2.15,
+                label = med_label,
+                colour = set),
+            size = 2.6, hjust = 0.5,
+            fontface = "plain", family = "mono",
+            inherit.aes = FALSE) +
+
+  facet_wrap(~ model, nrow = 2, ncol = 4) +
+
+  scale_fill_manual(
+    values = set_fills,
+    labels = c("Set A: Critical + Popular",
+               "Set B: Critical Only",
+               "Set C: Popular Only"),
+    name = NULL
+  ) +
+  scale_colour_manual(
+    values = set_colours,
+    labels = c("Set A: Critical + Popular",
+               "Set B: Critical Only",
+               "Set C: Popular Only"),
+    name = NULL
+  ) +
+  scale_y_continuous(
+    limits = c(-2.3, 2.3),
+    breaks = seq(-2, 2, 1),
+    labels = c("-2", "-1", "0", "+1", "+2")
+  ) +
+  scale_x_discrete(labels = c("A", "B", "C")) +
+  labs(
+    title    = "H3 & H4: Preference Distribution by Corpus Set",
+    subtitle = "Bar = IQR  |  line = median",
+    x = NULL,
+    y = "Standardized lambda_z"
+  ) +
+  theme_minimal(base_size = 10.5) +
+  theme(
+    strip.text         = element_text(face = "bold", size = 10.5),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.spacing.x    = unit(0.8, "lines"),
+    panel.spacing.y    = unit(1.0, "lines"),
+    legend.position    = "bottom",
+    legend.key.size    = unit(0.8, "lines"),
+    legend.text        = element_text(size = 9),
+    axis.text.x        = element_text(size = 9),
+    axis.text.y        = element_text(size = 8),
+    plot.title         = element_text(face = "bold", size = 13),
+    plot.subtitle      = element_text(size = 9.5, colour = "grey40"),
+    plot.margin        = margin(10, 15, 10, 10)
+  )
+```
+
+
+---
+
+## H4 -- Scale-Dependent Orientation
+
+Within-family comparison: does B vs C win rate increase with scale more than A vs C?
+
+```{r}
+#| label: h4-compute
+h4_base <- outcomes |>
+  filter((set_winner == "B" & set_loser == "C") |
+         (set_winner == "A" & set_loser == "C")) |>
+  mutate(comparison = ifelse(set_winner == "B", "B vs C", "A vs C")) |>
+  select(model, family, tier, comparison, win_rate)
+
+h4_family <- h4_base |>
+  group_by(family, comparison) |>
+  summarise(
+    large = win_rate[tier == "Large"],
+    small = win_rate[tier == "Small"],
+    delta = large - small,
+    .groups = "drop"
+  ) |>
+  mutate(family = factor(family, levels = FAMILY_LEVELS))
+```
+
+```{r}
+#| label: h4-table
+h4_family |>
+  mutate(across(c(large, small, delta),
+                \(x) sprintf("%.1f%%", x * 100))) |>
+  pivot_wider(names_from  = comparison,
+              values_from = c(large, small, delta),
+              names_glue  = "{comparison}_{.value}") |>
+  select(Family = family,
+         `B vs C_small`, `B vs C_large`, `B vs C_delta`,
+         `A vs C_small`, `A vs C_large`, `A vs C_delta`) |>
+  kable(
+    col.names = c("Family",
+                  "Small", "Large", "Delta (pp)",
+                  "Small", "Large", "Delta (pp)"),
+    caption   = "H4 -- Scale effect on B vs C and A vs C win rates"
+  ) |>
+  add_header_above(c(" " = 1,
+                     "Critical acclaim orientation (H2)" = 3,
+                     "Dual-legitimacy anchor" = 3)) |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+```
+
+```{r}
+#| label: h4-coverage-check
+cat("Coverage pattern check:\n")
+cat("B vs C delta should exceed A vs C delta within each family.\n\n")
+
+h4_family |>
+  select(family, comparison, delta) |>
+  pivot_wider(names_from = comparison, values_from = delta) |>
+  mutate(
+    BvC_exceeds_AvC = `B vs C` > `A vs C`,
+    difference      = `B vs C` - `A vs C`
+  ) |>
+  mutate(across(c(`B vs C`, `A vs C`, difference),
+                \(x) sprintf("%+.3f", x))) |>
+  kable(caption = "H4 -- Differential scale effect") |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left") |>
+  footnote(general = paste(
+    "BvC_exceeds_AvC = TRUE means scale raises B vs C more than A vs C"
+  ))
+```
+
+```{r}
+#| label: h4-delta-plot
+#| fig-width: 9
+#| fig-height: 5
+p_delta <- h4_family |>
+  ggplot(aes(x = family, y = delta, fill = comparison)) +
+  geom_col(position = position_dodge(width = 0.6),
+           width = 0.5, alpha = 0.85) +
+  geom_hline(yintercept = 0, linewidth = 0.5, colour = "grey40") +
+  geom_text(aes(label = sprintf("%+.1f%%", delta * 100)),
+            position = position_dodge(width = 0.6),
+            vjust = -0.5, size = 3.5, family = "mono") +
+  scale_fill_manual(
+    values = c("B vs C" = "#1E3A5F", "A vs C" = "#94A3B8"),
+    name   = "Comparison"
+  ) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1),
+                     limits = c(-0.02, 0.25)) +
+  labs(title    = "H4 -- Scale Effect: Win Rate Increase (Large - Small)",
+       x = NULL, y = "Delta win rate (large - small)") +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.major.x = element_blank())
+
+p_delta
+```
+
+```{r}
+#| label: h4-absolute-plot
+#| fig-width: 11
+#| fig-height: 5
+
+# Absolute win rates with lines connecting small to large within family
+p_abs <- h4_base |>
+  mutate(model = factor(model, levels = model_order)) |>
+  ggplot(aes(x = model, y = win_rate,
+             colour = comparison, shape = tier,
+             group = interaction(family, comparison))) +
+  geom_line(linewidth = 0.8, alpha = 0.5) +
+  geom_point(size = 4) +
+  geom_hline(yintercept = 0.5, linetype = "dashed",
+             colour = "grey60", linewidth = 0.5) +
+  scale_colour_manual(
+    values = c("B vs C" = "#1E3A5F", "A vs C" = "#94A3B8"),
+    name   = "Comparison"
+  ) +
+  scale_shape_manual(
+    values = c(Large = 16, Small = 17),
+    name   = "Tier"
+  ) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1),
+                     limits = c(0.6, 1.0)) +
+  labs(title    = "H4 -- Absolute Win Rates by Model",
+       subtitle = "Lines connect small/large within each family  |  dashed = 0.50",
+       x = NULL, y = "Win rate") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 25, hjust = 1),
+        panel.grid.major.x = element_blank())
+
+p_abs
+```
+
+---
+
+## Effect sizes summary
+
+Cohen's d for all three set comparisons across all models.
+
+```{r}
+#| label: effect-sizes-all
+
+effect_sizes <- lambdas |>
+  group_by(model, family, tier) |>
+  summarise(
+    d_BvC = cohens_d(lambda_z[set == "B"], lambda_z[set == "C"]),
+    d_AvB = cohens_d(lambda_z[set == "A"], lambda_z[set == "B"]),
+    d_AvC = cohens_d(lambda_z[set == "A"], lambda_z[set == "C"]),
+    .groups = "drop"
+  ) |>
+  arrange(family, tier)
+
+effect_sizes |>
+  mutate(across(c(d_BvC, d_AvB, d_AvC), \(x) round(x, 2))) |>
+  select(Model = model, Tier = tier, Family = family,
+         `B vs C` = d_BvC, `A vs B` = d_AvB, `A vs C` = d_AvC) |>
+  kable(
+    caption = "Cohen's d for all set comparisons (positive = first set preferred)"
+  ) |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE) |>
+  footnote(general = paste(
+    "B vs C: positive = Set B preferred (H2).",
+    "A vs B: positive = Set A preferred (H3); negative = Set B preferred.",
+    "A vs C: positive = Set A preferred."
+  ))
+```

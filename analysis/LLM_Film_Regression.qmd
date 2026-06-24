@@ -1,0 +1,744 @@
+---
+title: "LLM Film Preference: Regression Analysis"
+subtitle: "What predicts Bradley-Terry preference scores across 8 language models?"
+author: "Jonghyun Jee"
+lang: en
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    code-fold: true
+    code-summary: "Show code"
+    theme: flatly
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+---
+
+## Overview
+
+This document runs mixed-effects regressions to identify what film-level
+characteristics predict LLM preference strength (`lambda_z`, standardized
+Bradley-Terry log-strength) throughout 8 models.
+
+Models are nested from sparse to full:
+
+| ID | Predictors |
+|---|---|
+| M1 | `set` only (baseline) |
+| M2 | `+ era_f` (era control) |
+| M3 | `+ log_imdb_votes` (knowledge coverage) |
+| M4 | `+ imdb_rating` (quality signal) |
+| M3w | `+ log_imdb_votes + log_wiki_revisions` (parallel robustness check) |
+
+Set A (critical + popular) is the reference category throughout.
+
+---
+
+## Setup
+
+```{r}
+#| label: setup
+library(lme4)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(patchwork)
+library(broom)
+library(sandwich)
+library(lmtest)
+
+select <- dplyr::select
+filter <- dplyr::filter
+
+DATA_PATH <- "regression_data.csv"
+```
+
+---
+
+## Data
+
+```{r}
+#| label: load-data
+df_wide <- read.csv(DATA_PATH, stringsAsFactors = FALSE)
+cat(sprintf("%d films, %d columns\n", nrow(df_wide), ncol(df_wide)))
+```
+
+### Set distribution
+
+```{r}
+#| label: set-dist
+df_wide |>
+  count(set) |>
+  mutate(pct = sprintf("%.0f%%", n / sum(n) * 100)) |>
+  kable(col.names = c("Set", "n", "%")) |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+### English x Set (key confound)
+
+Set C is 86% English; Set B is 15% English.
+
+```{r}
+#| label: english-set
+table(set = df_wide$set, english = df_wide$english) |>
+  addmargins() |>
+  kable() |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+### IMDb votes & ratings by set
+
+Log IMDb votes proxies training-data coverage per film.
+
+```{r}
+#| label: votes-by-set
+df_wide |>
+  group_by(set) |>
+  summarise(
+    n              = n(),
+    median_votes   = median(imdb_votes),
+    mean_log_votes = mean(log_imdb_votes) |> round(2),
+    sd_log_votes   = sd(log_imdb_votes)   |> round(2),
+    .groups = "drop"
+  ) |>
+  kable(caption = "IMDb vote counts by corpus set") |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+```{r}
+#| label: imdb-by-set-anova
+
+# Descriptive: votes and ratings by set
+df_wide |>
+  group_by(set) |>
+  summarise(
+    n             = n(),
+    mean_rating   = mean(imdb_rating,    na.rm = TRUE) |> round(2),
+    sd_rating     = sd(imdb_rating,      na.rm = TRUE) |> round(2),
+    median_votes  = median(imdb_votes,   na.rm = TRUE),
+    mean_log_votes = mean(log_imdb_votes, na.rm = TRUE) |> round(2),
+    .groups = "drop"
+  ) |>
+  kable(caption = "IMDb ratings and votes by corpus set") |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+```{r}
+#| label: anova-votes
+
+# ANOVA: do sets differ in log IMDb votes?
+aov_votes <- aov(log_imdb_votes ~ set, data = df_wide)
+cat("=== ANOVA: log_imdb_votes ~ set ===\n")
+print(summary(aov_votes))
+
+cat("\n=== Tukey HSD post hoc ===\n")
+print(TukeyHSD(aov_votes))
+```
+
+```{r}
+#| label: anova-rating
+
+# ANOVA: do sets differ significantly in IMDb rating?
+aov_rating <- aov(imdb_rating ~ set, data = df_wide)
+cat("=== ANOVA: IMDb rating ~ set ===\n")
+print(summary(aov_rating))
+
+# Tukey HSD post hoc
+cat("\n=== Tukey HSD post hoc ===\n")
+print(TukeyHSD(aov_rating))
+```
+
+```{r}
+#| label: set-votes-rating-plot
+#| fig-width: 10
+#| fig-height: 4.5
+
+p1 <- ggplot(df_wide, aes(x = log_imdb_votes, y = imdb_rating,
+                           color = set, shape = set)) +
+  geom_point(alpha = 0.65, size = 2) +
+  scale_color_manual(values = c(A = "#2563EB", B = "#D97706", C = "#0D9488"),
+                      name = "Set") +
+  scale_shape_manual(values = c(A = 16, B = 17, C = 15), name = "Set") +
+  labs(title = "IMDb votes vs rating by corpus set",
+       x = "log IMDb votes", y = "IMDb rating") +
+  theme_minimal(base_size = 11)
+
+p2 <- df_wide |>
+  pivot_longer(c(log_imdb_votes, imdb_rating),
+               names_to = "measure", values_to = "value") |>
+  mutate(measure = recode(measure,
+                          log_imdb_votes = "log IMDb votes",
+                          imdb_rating    = "IMDb rating")) |>
+  ggplot(aes(x = set, y = value, fill = set)) +
+  geom_boxplot(alpha = 0.7, outlier.size = 1) +
+  scale_fill_manual(values = c(A = "#2563EB", B = "#D97706", C = "#0D9488"),
+                    guide = "none") +
+  facet_wrap(~ measure, scales = "free_y") +
+  labs(title = "Distribution by set", x = "Corpus set", y = NULL) +
+  theme_minimal(base_size = 11)
+
+p1 + p2
+```
+
+---
+
+## Factor setup
+
+```{r}
+#| label: factor-setup
+df_wide <- df_wide |>
+  mutate(
+    set   = factor(set, levels = c("A", "B", "C")),
+    era_f = factor(era_f,
+                   levels = c("pre1960", "1960s_70s",
+                              "1980s_90s", "2000s_plus")),
+    english              = as.integer(english),
+    log_imdb_votes_c     = as.numeric(
+      scale(log_imdb_votes,     center = TRUE, scale = FALSE)),
+    imdb_rating_c        = as.numeric(
+      scale(imdb_rating,        center = TRUE, scale = FALSE)),
+    log_wiki_revisions_c = as.numeric(
+      scale(log_wiki_revisions, center = TRUE, scale = FALSE)),
+    log_wiki_length_c    = as.numeric(
+      scale(log_wiki_length,    center = TRUE, scale = FALSE)),
+    wiki_n_languages_c   = as.numeric(
+      scale(wiki_n_languages,   center = TRUE, scale = FALSE))
+  )
+
+n_wiki <- sum(!is.na(df_wide$log_wiki_revisions))
+cat(sprintf(
+  "Grand-mean log_imdb_votes = %.2f  |  imdb_rating = %.2f\n",
+  mean(df_wide$log_imdb_votes, na.rm = TRUE),
+  mean(df_wide$imdb_rating,    na.rm = TRUE)
+))
+```
+
+---
+
+## Reshape to long format
+
+One row per film x model (200 x 8 = 1,600 rows).
+Model metadata (family, tier) is defined in a single registry table and joined here.
+
+```{r}
+#| label: model-registry
+
+# Detect lambda_z columns from the CSV automatically
+lz_cols <- grep("^lam_z_", names(df_wide), value = TRUE)
+
+# Single source of truth: column -> label, family, tier
+model_registry <- tribble(
+  ~col,                                   ~label,              ~family,     ~tier,
+  "lam_z_claude_sonnet_4_6",              "Claude Sonnet 4.6", "Anthropic", "Large",
+  "lam_z_gpt_5_4_2026_03_05",             "GPT-5.4",           "OpenAI",    "Large",
+  "lam_z_mistral_large_2512",             "Mistral Large 3",     "Mistral",   "Large",
+  "lam_z_qwen_plus",                      "Qwen 2.5 Plus",         "Alibaba",   "Large",
+  "lam_z_claude_haiku_4_5",               "Claude Haiku 4.5",  "Anthropic", "Small",
+  "lam_z_gpt_5_4_nano_2026_03_17",        "GPT-5.4 Nano",      "OpenAI",    "Small",
+  "lam_z_mistral_small_3_2_24b_instruct", "Mistral Small 3.2", "Mistral",   "Small",
+  "lam_z_qwen_turbo",                     "Qwen 2.5 Turbo",        "Alibaba",   "Small"
+) |>
+  filter(col %in% lz_cols)
+
+missing <- setdiff(model_registry$col, lz_cols)
+if (length(missing) > 0) warning("Missing columns: ", paste(missing, collapse = ", "))
+```
+
+```{r}
+#| label: reshape-long
+mk_vec <- function(field) setNames(model_registry[[field]], model_registry$col)
+
+df_long <- df_wide |>
+  pivot_longer(
+    cols      = all_of(model_registry$col),
+    names_to  = "model_col",
+    values_to = "lambda_z"
+  ) |>
+  filter(!is.na(lambda_z)) |>
+  mutate(
+    model  = mk_vec("label")[model_col],
+    family = factor(mk_vec("family")[model_col],
+                    levels = c("Anthropic", "OpenAI", "Mistral", "Alibaba")),
+    tier   = factor(mk_vec("tier")[model_col],
+                    levels = c("Small", "Large"))
+  )
+
+cat(sprintf("Long format: %d rows\n", nrow(df_long)))
+```
+
+### Mean `lambda_z` by set and model
+
+```{r}
+#| label: lz-by-set
+df_long |>
+  group_by(model, tier, family, set) |>
+  summarise(mean_lz = round(mean(lambda_z), 3), .groups = "drop") |>
+  pivot_wider(names_from = set, values_from = mean_lz,
+              names_prefix = "Set_") |>
+  mutate(
+    family = factor(family, levels = c("OpenAI", "Anthropic", "Mistral", "Alibaba")),
+    tier   = factor(tier,   levels = c("Large", "Small"))
+  ) |>
+  arrange(family, tier) |>
+  select(model, family, tier, Set_A, Set_B, Set_C) |>
+  kable(caption = "Mean lambda_z by set and model") |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+```
+
+```{r}
+#| label: descriptive-stats
+
+desc_vars <- c("lambda_z", "log_imdb_votes", "log_imdb_votes_c",
+               "imdb_rating", "imdb_rating_c",
+               "log_wiki_revisions", "log_wiki_revisions_c")
+
+df_long |>
+  dplyr::select(any_of(desc_vars)) |>
+  pivot_longer(everything(),
+               names_to  = "Variable",
+               values_to = "value") |>
+  group_by(Variable) |>
+  summarise(
+    N    = sum(!is.na(value)),
+    Mean = mean(value, na.rm = TRUE) |> round(3),
+    SD   = sd(value,   na.rm = TRUE) |> round(3),
+    Min  = min(value,  na.rm = TRUE) |> round(3),
+    Max  = max(value,  na.rm = TRUE) |> round(3),
+    .groups = "drop"
+  ) |>
+  arrange(Variable) |>
+  kable(caption = "Table A1: Descriptive statistics for regression variables") |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+```
+
+
+---
+
+## Model fitting
+
+All models are estimated via pooled OLS. Lambda_z is z-scored within each
+model before pooling, which removes between-model variance in the outcome
+by construction; a random intercept adds nothing under this standardization
+and was confirmed to be near-zero (boundary singular fit) in preliminary
+models. 
+
+```{r}
+#| label: fit-models
+
+m1 <- lm(lambda_z ~ set, data = df_long)
+
+m2 <- lm(lambda_z ~ set + era_f, data = df_long)
+
+m3 <- lm(lambda_z ~ set + era_f + log_imdb_votes_c, data = df_long)
+
+# M3w: adds Wikipedia revision count alongside IMDb votes
+wiki_available <- sum(!is.na(df_long$log_wiki_revisions_c)) > 100
+
+m3w <- tryCatch(
+  lm(lambda_z ~ set + era_f +
+       log_imdb_votes_c + log_wiki_revisions_c,
+     data = df_long),
+  error = function(e) {
+    message("M3w failed: ", conditionMessage(e)); NULL
+  }
+)
+
+# M4: full model -- IMDb coverage + quality signal
+# M3w serves as a parallel robustness check.
+m4 <- lm(lambda_z ~ set + era_f +
+            log_imdb_votes_c + imdb_rating_c,
+          data = df_long)
+
+cat("Fitted: M1, M2, M3",
+    if (!is.null(m3w)) ", M3w" else "",
+    ", M4")
+
+# Robust standard errors (HC3) for all primary models
+m1_robust  <- coeftest(m1,  vcov = vcovHC(m1,  type = "HC3"))
+m2_robust  <- coeftest(m2,  vcov = vcovHC(m2,  type = "HC3"))
+m3_robust  <- coeftest(m3,  vcov = vcovHC(m3,  type = "HC3"))
+m3w_robust <- if (!is.null(m3w))
+                coeftest(m3w, vcov = vcovHC(m3w, type = "HC3")) else NULL
+m4_robust  <- coeftest(m4,  vcov = vcovHC(m4,  type = "HC3"))
+```
+
+---
+
+### M3 vs M3w: Wikipedia robustness check
+
+```{r}
+#| label: m3w-robustness
+if (!is.null(m3w)) {
+  cat("LRT: M3 vs M3w (does adding Wiki revisions help?)\n")
+  print(anova(m3, m3w))
+
+  extract_b <- function(ct, term) {
+    df <- as.data.frame(ct)
+    as.numeric(df[rownames(df) == term, "Estimate"])
+  }
+  b_m3  <- extract_b(m3_robust,  "setB")
+  b_m3w <- extract_b(m3w_robust, "setB")
+  m1_b  <- extract_b(m1_robust,  "setB")
+  cat(sprintf("\nSet B coefficient (HC3): M3 = %.3f  |  M3w = %.3f\n",
+              b_m3, b_m3w))
+  cat(sprintf("Sign reversal holds under M3w: %s\n",
+              ifelse(sign(b_m3w) != sign(m1_b), "YES", "NO")))
+} else {
+  cat("M3w not available (Wikipedia data missing)\n")
+}
+```
+
+## Model comparison
+
+```{r}
+#| label: model-comparison
+fitted_models <- list(M1 = m1, M2 = m2, M3 = m3)
+if (!is.null(m3w)) fitted_models[["M3w"]] <- m3w
+fitted_models[["M4"]]    <- m4
+
+# Sequential F-tests: M1 -> M2 -> M3 -> M3w -> M4
+# M3w is nested in M3 (adds one predictor: log_wiki_revisions_c)
+# M4 is nested in M3 (adds one predictor: imdb_rating_c)
+# Note: M3w and M4 are not nested in each other
+if (!is.null(m3w)) {
+  cat("=== M1 -> M2 -> M3 -> M4 (main sequence) ===\n")
+  print(anova(m1, m2, m3, m4))
+  cat("\n=== M3 -> M3w (wiki robustness within coverage step) ===\n")
+  print(anova(m3, m3w))
+} else {
+  anova(m1, m2, m3, m4)
+}
+```
+
+### Fit indices
+
+```{r}
+#| label: aic-table
+formulas <- c(
+  M1 = "set",
+  M2 = "+ era_f",
+  M3 = "+ log_imdb_votes",
+  M4 = "+ imdb_rating",
+  M3w = "+ log_wiki_revisions"
+)
+
+tibble(
+  Model   = names(fitted_models),
+  AIC     = map_dbl(fitted_models, AIC)    |> round(1),
+  BIC     = map_dbl(fitted_models, BIC)    |> round(1),
+  R2      = map_dbl(fitted_models,
+                    \(m) summary(m)$r.squared |> round(3)),
+  adj_R2  = map_dbl(fitted_models,
+                    \(m) summary(m)$adj.r.squared |> round(3))
+) |>
+  kable(caption = "Model fit indices") |>
+  kable_styling(bootstrap_options = "striped",
+                full_width = FALSE, position = "left")
+```
+
+---
+
+## Fixed-effect coefficients
+
+### M1--M4 summaries with HC3 standard errors
+
+```{r}
+#| label: m1-summary
+cat("=== M1 (HC3) ===\n")
+print(m1_robust)
+cat(sprintf("Adj. R2 = %.3f\n", summary(m1)$adj.r.squared))
+
+cat("\n=== M2 (HC3) ===\n")
+print(m2_robust)
+cat(sprintf("Adj. R2 = %.3f\n", summary(m2)$adj.r.squared))
+
+cat("\n=== M3 (HC3) ===\n")
+print(m3_robust)
+cat(sprintf("Adj. R2 = %.3f\n", summary(m3)$adj.r.squared))
+
+cat("\n=== M4 (HC3) ===\n")
+print(m4_robust)
+cat(sprintf("Adj. R2 = %.3f\n", summary(m4)$adj.r.squared))
+```
+
+```{r}
+cat("\n=== M3w (HC3) ===\n")
+print(m3w_robust)
+cat(sprintf("Adj. R2 = %.3f\n", summary(m4)$adj.r.squared))
+```
+
+### Key coefficients across M1-M4
+
+```{r}
+#| label: coef-table
+tidy_robust <- function(ct, model_id) {
+  m   <- unclass(ct)                      
+  rn  <- rownames(m)
+  tibble::tibble(
+    model_id  = model_id,
+    term      = rn,
+    estimate  = as.numeric(m[, "Estimate"]),
+    std.error = as.numeric(m[, "Std. Error"]),
+    statistic = as.numeric(m[, "t value"]),
+    p.value   = as.numeric(m[, "Pr(>|t|)"]),
+    conf.low  = as.numeric(m[, "Estimate"]) - 1.96 * as.numeric(m[, "Std. Error"]),
+    conf.high = as.numeric(m[, "Estimate"]) + 1.96 * as.numeric(m[, "Std. Error"])
+  )
+}
+
+tidy_all <- bind_rows(
+  tidy_robust(m1_robust, "M1"),
+  tidy_robust(m2_robust, "M2"),
+  tidy_robust(m3_robust, "M3"),
+  tidy_robust(m4_robust, "M4")
+)
+
+key_terms <- c("setB", "setC",
+               "log_imdb_votes_c", "imdb_rating_c")
+
+term_labels <- c(
+  setB             = "Set B (critical only)",
+  setC             = "Set C (commercial only)",
+  log_imdb_votes_c = "log IMDb votes (centered)",
+  imdb_rating_c    = "IMDb rating (centered)"
+)
+
+tidy_all |>
+  filter(term %in% key_terms) |>
+  mutate(
+    Predictor = term_labels[term],
+    sig = case_when(p.value < .001 ~ "***",
+                    p.value < .01  ~ "**",
+                    p.value < .05  ~ "*",
+                    TRUE           ~ ""),
+    across(c(estimate, std.error, conf.low, conf.high),
+           \(x) round(x, 3)),
+    p.value = round(p.value, 4)
+  ) |>
+  select(model_id, Predictor, estimate, std.error,
+         conf.low, conf.high, p.value, sig) |>
+  arrange(Predictor, model_id) |>
+  kable(col.names = c("Model", "Predictor", "b", "SE",
+                      "CI low", "CI high", "p", ""),
+        caption = "Key fixed-effect coefficients") |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+```
+
+### Set B from M1 to M4
+
+```{r}
+#| label: attenuation
+get_b <- function(robust_ct, term_name) {
+  df <- as.data.frame(robust_ct)
+  as.numeric(df[rownames(df) == term_name, "Estimate"])
+}
+
+m1_setB  <- get_b(m1_robust, "setB")
+m4_setB  <- get_b(m4_robust, "setB")
+direction <- ifelse(sign(m1_setB) != sign(m4_setB),
+                    "SIGN REVERSAL", "attenuation")
+change    <- m4_setB - m1_setB
+
+cat(sprintf(
+  "Set B coefficient M1 -> M4:\n  M1 (set only):  b = %.3f\n  M4 (full):      b = %.3f\n  Change:         %+.3f (%s)\n",
+  m1_setB, m4_setB, change, direction
+))
+```
+
+---
+
+## Coefficient forest plot
+
+```{r}
+#| label: coef-plot
+#| fig-width: 9
+#| fig-height: 5.5
+
+tidy_all |>
+  filter(term %in% key_terms) |>
+  mutate(term_label = factor(term_labels[term],
+                             levels = rev(term_labels))) |>
+  ggplot(aes(x = estimate, y = term_label,
+             color = model_id, shape = model_id)) +
+  geom_vline(xintercept = 0, linetype = "dashed",
+             color = "grey60", linewidth = 0.6) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high),
+                 height = 0.18, linewidth = 0.7,
+                 position = position_dodge(width = 0.65)) +
+  geom_point(size = 3.0,
+             position = position_dodge(width = 0.65)) +
+  scale_color_manual(
+    values = c(M1 = "#94A3B8", M2 = "#2563EB",
+               M3 = "#D97706", M4 = "#16A34A"),
+    name = "Model"
+  ) +
+  scale_shape_manual(
+    values = c(M1 = 16, M2 = 17, M3 = 15, M4 = 18),
+    name = "Model"
+  ) +
+  labs(
+    title    = "Fixed-Effect Coefficients: M1 to M4",
+    subtitle = "Outcome: standardized BT score  |  95% CI  |  Set A = reference",
+    x = "Coefficient estimate",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    axis.text = element_text(size = 13)
+  )
+  theme(panel.grid.major.y = element_blank(),
+        legend.position = "right")
+```
+
+---
+
+## Per-model set coefficients
+
+```{r}
+#| label: per-model-coefs
+#| fig-width: 11
+#| fig-height: 6
+
+model_levels <- model_registry |>
+  arrange(tier, family) |>
+  pull(label)
+
+per_model_coefs <- df_long |>
+  group_by(model, tier, family) |>
+  group_modify(~ {
+    fit <- lm(lambda_z ~ set + era_f +
+                log_imdb_votes_c + imdb_rating_c, data = .x)
+    ct  <- coeftest(fit, vcov = vcovHC(fit, type = "HC3"))
+    m   <- unclass(ct)
+    tibble::tibble(
+      term      = rownames(m),
+      estimate  = as.numeric(m[, "Estimate"]),
+      std.error = as.numeric(m[, "Std. Error"]),
+      conf.low  = as.numeric(m[, "Estimate"]) - 1.96 * as.numeric(m[, "Std. Error"]),
+      conf.high = as.numeric(m[, "Estimate"]) + 1.96 * as.numeric(m[, "Std. Error"])
+    ) |> dplyr::filter(term %in% c("setB", "setC"))
+  }) |>
+  ungroup() |>
+  mutate(
+    term_label = ifelse(term == "setB",
+                        "Set B (critical only)",
+                        "Set C (commercial only)"),
+    model = factor(model, levels = model_levels)
+  )
+
+per_model_coefs |>
+  ggplot(aes(x = estimate, y = model,
+             color = tier, shape = family)) +
+  geom_vline(xintercept = 0, linetype = "dashed",
+             color = "grey60", linewidth = 0.6) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high),
+                 height = 0.25, linewidth = 0.7) +
+  geom_point(size = 3.2) +
+  facet_wrap(~ term_label, scales = "free_x") +
+  scale_color_manual(
+    values = c(Large = "#1E3A5F", Small = "#94A3B8"),
+    name = "Tier"
+  ) +
+  scale_shape_manual(
+    values = c(Anthropic = 16, OpenAI = 17,
+               Mistral = 15, Alibaba = 18),
+    name = "Family"
+  ) +
+  labs(
+    title    = "Per-Model Set Coefficients (M4 covariates)",
+    subtitle = "OLS per model  |  95% CI  |  Set A = reference",
+    x = "Coefficient estimate",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.major.y = element_blank())
+```
+
+---
+
+## M4 diagnostics
+
+```{r}
+#| label: diagnostics
+#| fig-width: 10
+#| fig-height: 8
+
+par(mfrow = c(2, 2))
+
+plot(fitted(m4), residuals(m4),
+     xlab = "Fitted", ylab = "Residuals",
+     main = "Residuals vs Fitted",
+     pch = 19, cex = 0.5, col = adjustcolor("steelblue", 0.4))
+abline(h = 0, lty = 2, col = "red")
+
+qqnorm(residuals(m4), main = "Normal Q-Q",
+       pch = 19, cex = 0.5, col = adjustcolor("steelblue", 0.4))
+qqline(residuals(m4), col = "red")
+
+plot(fitted(m4), sqrt(abs(residuals(m4))),
+     xlab = "Fitted", ylab = "sqrt(|Residuals|)",
+     main = "Scale-Location",
+     pch = 19, cex = 0.5, col = adjustcolor("steelblue", 0.4))
+
+# Mean residual by model: near-zero values confirm pooled OLS is appropriate
+mean_resid <- df_long |>
+  mutate(resid = residuals(m4)) |>
+  group_by(model) |>
+  summarise(mean_resid = mean(resid), .groups = "drop") |>
+  arrange(mean_resid)
+
+dotchart(mean_resid$mean_resid,
+         labels = mean_resid$model,
+         main   = "Mean Residual by Model (M4)",
+         xlab   = "Mean residual (~0 confirms pooled OLS is appropriate)",
+         pch    = 19, col = "steelblue")
+abline(v = 0, lty = 2, col = "red")
+
+par(mfrow = c(1, 1))
+```
+
+
+```{r}
+#| label: rating-set-confound
+
+# Correlation between imdb_rating and set dummies
+cat("Correlation: imdb_rating x set_B =",
+    round(cor(df_wide$imdb_rating, df_wide$set_B, use = "complete"), 3), "\n")
+cat("Correlation: imdb_rating x set_C =",
+    round(cor(df_wide$imdb_rating, df_wide$set_C, use = "complete"), 3), "\n")
+
+# VIF: check multicollinearity in M3w and M4
+library(car)
+
+cat("VIF for M3w (IMDb votes + Wiki revisions):\n")
+if (!is.null(m3w)) {
+  vif_m3w <- vif(m3w)
+  print(round(vif_m3w, 3))
+  cat("\nNote: r(log_imdb_votes, log_wiki_revisions) = 0.93;\n")
+  cat("M3w is a robustness check, not an additive theoretical step.\n")
+}
+
+cat("\nVIF for M4 (full model):\n")
+# VIF for M4 -- check collinearity with both coverage proxies
+vif_m4 <- vif(m4)
+print(round(vif_m4, 3))
+
+# Show M3 vs M4 set coefficients side by side
+bind_rows(
+  tidy_robust(m3_robust, "M3"),
+  tidy_robust(m4_robust, "M4")
+) |>
+  filter(term %in% c("setB", "setC")) |>
+  mutate(across(c(estimate, std.error, conf.low, conf.high),
+                \(x) round(x, 3))) |>
+  select(model_id, term, estimate, std.error, conf.low, conf.high) |>
+  kable(caption = "Set B and Set C: M3 vs M4 (HC3 SEs)") |>
+  kable_styling(bootstrap_options = "striped", full_width = FALSE)
+```

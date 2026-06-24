@@ -1,0 +1,1601 @@
+model,family,tier,title,year,item,set,lambda,lambda_z,rank,matches
+Claude Haiku 4.5,Anthropic,Small,Spirited Away,2001,Spirited Away (2001),A,0.1878,1.8340578561179772,1,165
+Claude Haiku 4.5,Anthropic,Small,The Godfather,1972,The Godfather (1972),A,0.185,1.8067130833557623,2,163
+Claude Haiku 4.5,Anthropic,Small,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.179,1.7481171417224446,3,276
+Claude Haiku 4.5,Anthropic,Small,The Dark Knight,2008,The Dark Knight (2008),A,0.1699,1.6592466302452464,4,274
+Claude Haiku 4.5,Anthropic,Small,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.1698,1.6582700312180245,5,274
+Claude Haiku 4.5,Anthropic,Small,Yojimbo,1961,Yojimbo (1961),B,0.1696,1.6563168331635805,6,269
+Claude Haiku 4.5,Anthropic,Small,Pather Panchali,1955,Pather Panchali (1955),B,0.1652,1.6133464759658145,7,243
+Claude Haiku 4.5,Anthropic,Small,Withnail & I,1987,Withnail & I (1987),B,0.1632,1.593814495421375,8,315
+Claude Haiku 4.5,Anthropic,Small,Jaws,1975,Jaws (1975),A,0.1564,1.5274057615702819,9,326
+Claude Haiku 4.5,Anthropic,Small,Back to the Future,1985,Back to the Future (1985),A,0.1545,1.5088503800530646,10,244
+Claude Haiku 4.5,Anthropic,Small,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.153,1.494201394644735,11,268
+Claude Haiku 4.5,Anthropic,Small,Se7en,1995,Se7en (1995),A,0.144,1.4063074821947585,12,265
+Claude Haiku 4.5,Anthropic,Small,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.1435,1.4014244870586487,13,243
+Claude Haiku 4.5,Anthropic,Small,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.1392,1.3594307288881045,14,284
+Claude Haiku 4.5,Anthropic,Small,Schindler's List,1993,Schindler's List (1993),A,0.1385,1.352594535697551,15,350
+Claude Haiku 4.5,Anthropic,Small,Parasite,2019,Parasite (2019),A,0.1363,1.3311093570986678,16,252
+Claude Haiku 4.5,Anthropic,Small,High and Low,1963,High and Low (1963),B,0.1317,1.2861858018464576,17,238
+Claude Haiku 4.5,Anthropic,Small,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.1315,1.2842326037920138,18,254
+Claude Haiku 4.5,Anthropic,Small,WALL-E,2008,WALL-E (2008),A,0.1298,1.2676304203292403,19,254
+Claude Haiku 4.5,Anthropic,Small,Amadeus,1984,Amadeus (1984),B,0.1284,1.2539580339481327,20,234
+Claude Haiku 4.5,Anthropic,Small,La Belle et la Bête,1946,La Belle et la Bête (1946),B,0.127,1.2402856475670254,21,317
+Claude Haiku 4.5,Anthropic,Small,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.1243,1.2139174738320326,22,298
+Claude Haiku 4.5,Anthropic,Small,Persona,1966,Persona (1966),B,0.1238,1.2090344786959228,23,278
+Claude Haiku 4.5,Anthropic,Small,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.1219,1.1904790971787056,24,326
+Claude Haiku 4.5,Anthropic,Small,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.1208,1.179736507879264,25,225
+Claude Haiku 4.5,Anthropic,Small,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.1203,1.1748535127431543,26,269
+Claude Haiku 4.5,Anthropic,Small,Solaris,1972,Solaris (1972),B,0.1169,1.1416491458176077,27,230
+Claude Haiku 4.5,Anthropic,Small,Ran,1985,Ran (1985),B,0.1165,1.1377427497087198,28,269
+Claude Haiku 4.5,Anthropic,Small,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.1144,1.1172341701370587,29,290
+Claude Haiku 4.5,Anthropic,Small,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.1106,1.0801234071026242,30,282
+Claude Haiku 4.5,Anthropic,Small,The Seventh Seal,1957,The Seventh Seal (1957),B,0.1098,1.0723106148848485,31,240
+Claude Haiku 4.5,Anthropic,Small,Pyaasa,1957,Pyaasa (1957),B,0.1088,1.0625446246126287,32,224
+Claude Haiku 4.5,Anthropic,Small,Videodrome,1983,Videodrome (1983),B,0.108,1.0547318323948531,33,303
+Claude Haiku 4.5,Anthropic,Small,Toy Story,1995,Toy Story (1995),A,0.1059,1.0342232528231918,34,278
+Claude Haiku 4.5,Anthropic,Small,Jurassic Park,1993,Jurassic Park (1993),A,0.1055,1.0303168567143042,35,247
+Claude Haiku 4.5,Anthropic,Small,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.1049,1.0244572625509722,36,225
+Claude Haiku 4.5,Anthropic,Small,Ratatouille,2007,Ratatouille (2007),C,0.1042,1.0176210693604186,37,285
+Claude Haiku 4.5,Anthropic,Small,Day for Night,1973,Day for Night (1973),B,0.104,1.0156678713059748,38,285
+Claude Haiku 4.5,Anthropic,Small,Your Name.,2016,Your Name. (2016),C,0.1014,0.9902762965982038,39,289
+Claude Haiku 4.5,Anthropic,Small,Inside Out,2015,Inside Out (2015),C,0.1009,0.985393301462094,40,320
+Claude Haiku 4.5,Anthropic,Small,The Matrix,1999,The Matrix (1999),A,0.0991,0.9678145189720986,41,297
+Claude Haiku 4.5,Anthropic,Small,Vivre sa vie,1962,Vivre sa vie (1962),B,0.0976,0.9531655335637693,42,292
+Claude Haiku 4.5,Anthropic,Small,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.0948,0.9258207608015544,43,278
+Claude Haiku 4.5,Anthropic,Small,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.0931,0.9092185773387811,44,257
+Claude Haiku 4.5,Anthropic,Small,Pulp Fiction,1994,Pulp Fiction (1994),A,0.0878,0.8574588288960172,45,217
+Claude Haiku 4.5,Anthropic,Small,Saving Private Ryan,1998,Saving Private Ryan (1998),A,0.0876,0.8555056308415733,46,241
+Claude Haiku 4.5,Anthropic,Small,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0875,0.8545290318143512,47,277
+Claude Haiku 4.5,Anthropic,Small,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.0866,0.8457396405693536,48,277
+Claude Haiku 4.5,Anthropic,Small,Ghostbusters,1984,Ghostbusters (1984),A,0.0866,0.8457396405693536,49,226
+Claude Haiku 4.5,Anthropic,Small,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.0861,0.8408566454332438,50,243
+Claude Haiku 4.5,Anthropic,Small,Get Out,2017,Get Out (2017),A,0.0836,0.8164416697526948,51,214
+Claude Haiku 4.5,Anthropic,Small,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.0826,0.8066756794804754,52,219
+Claude Haiku 4.5,Anthropic,Small,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,0.0817,0.7978862882354776,53,327
+Claude Haiku 4.5,Anthropic,Small,Forrest Gump,1994,Forrest Gump (1994),A,0.0765,0.7471031388199356,54,268
+Claude Haiku 4.5,Anthropic,Small,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.0761,0.7431967427110479,55,267
+Claude Haiku 4.5,Anthropic,Small,All About My Mother,1999,All About My Mother (1999),B,0.0759,0.7412435446566039,56,243
+Claude Haiku 4.5,Anthropic,Small,M,1931,M (1931),B,0.0748,0.7305009553571624,57,284
+Claude Haiku 4.5,Anthropic,Small,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0737,0.7197583660577208,58,273
+Claude Haiku 4.5,Anthropic,Small,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0731,0.713898771894389,59,263
+Claude Haiku 4.5,Anthropic,Small,Los Olvidados,1950,Los Olvidados (1950),B,0.073,0.7129221728671671,60,197
+Claude Haiku 4.5,Anthropic,Small,Home Alone,1990,Home Alone (1990),C,0.0729,0.7119455738399452,61,261
+Claude Haiku 4.5,Anthropic,Small,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.0724,0.7070625787038354,62,244
+Claude Haiku 4.5,Anthropic,Small,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.0687,0.6709284146966228,63,227
+Claude Haiku 4.5,Anthropic,Small,Apollo 13,1995,Apollo 13 (1995),C,0.0674,0.6582326273427374,64,237
+Claude Haiku 4.5,Anthropic,Small,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.0628,0.6133090720905271,65,252
+Claude Haiku 4.5,Anthropic,Small,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.0627,0.6123324730633052,66,212
+Claude Haiku 4.5,Anthropic,Small,Oppenheimer,2023,Oppenheimer (2023),C,0.0604,0.5898706954372,67,230
+Claude Haiku 4.5,Anthropic,Small,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0552,0.5390875460216581,68,203
+Claude Haiku 4.5,Anthropic,Small,True Lies,1994,True Lies (1994),C,0.055,0.5371343479672143,69,187
+Claude Haiku 4.5,Anthropic,Small,Oldboy,2003,Oldboy (2003),B,0.054,0.5273683576949946,70,215
+Claude Haiku 4.5,Anthropic,Small,The Conformist,1970,The Conformist (1970),B,0.0539,0.5263917586677727,71,190
+Claude Haiku 4.5,Anthropic,Small,Coco,2017,Coco (2017),C,0.053,0.517602367422775,72,269
+Claude Haiku 4.5,Anthropic,Small,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0525,0.5127193722866652,73,178
+Claude Haiku 4.5,Anthropic,Small,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.0514,0.5019767829872237,74,238
+Claude Haiku 4.5,Anthropic,Small,The Gold Rush,1925,The Gold Rush (1925),B,0.0484,0.47267881217056484,75,185
+Claude Haiku 4.5,Anthropic,Small,Days of Being Wild,1990,Days of Being Wild (1990),B,0.0456,0.44533403940835,76,214
+Claude Haiku 4.5,Anthropic,Small,Blade Runner,1982,Blade Runner (1982),B,0.0437,0.42677865789113273,77,193
+Claude Haiku 4.5,Anthropic,Small,Caché,2005,Caché (2005),B,0.0399,0.3896678948566982,78,163
+Claude Haiku 4.5,Anthropic,Small,Beau Travail,1999,Beau Travail (1999),B,0.0386,0.3769721075028128,79,308
+Claude Haiku 4.5,Anthropic,Small,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0371,0.36232312209448336,80,202
+Claude Haiku 4.5,Anthropic,Small,The Mummy,1999,The Mummy (1999),C,0.0369,0.3603699240400395,81,218
+Claude Haiku 4.5,Anthropic,Small,Logan,2017,Logan (2017),C,0.0364,0.35548692890392963,82,274
+Claude Haiku 4.5,Anthropic,Small,A Bug's Life,1998,A Bug's Life (1998),C,0.0362,0.35353373084948575,83,248
+Claude Haiku 4.5,Anthropic,Small,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0345,0.33693154738671244,84,203
+Claude Haiku 4.5,Anthropic,Small,Star Wars,1977,Star Wars (1977),A,0.0336,0.3281421561417147,85,254
+Claude Haiku 4.5,Anthropic,Small,A Clockwork Orange,1971,A Clockwork Orange (1971),B,0.0294,0.2871249969983924,86,178
+Claude Haiku 4.5,Anthropic,Small,Breathless,1960,Breathless (1960),B,0.0278,0.27149941256284105,87,208
+Claude Haiku 4.5,Anthropic,Small,The Revenant,2015,The Revenant (2015),C,0.0252,0.2461078378550701,88,164
+Claude Haiku 4.5,Anthropic,Small,Dances with Wolves,1990,Dances with Wolves (1990),C,0.025,0.24415463980062618,89,185
+Claude Haiku 4.5,Anthropic,Small,Batman,1989,Batman (1989),C,0.0234,0.2285290553650748,90,269
+Claude Haiku 4.5,Anthropic,Small,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.0227,0.2216928621745211,91,188
+Claude Haiku 4.5,Anthropic,Small,Gravity,2013,Gravity (2013),C,0.0224,0.2187630650928552,92,258
+Claude Haiku 4.5,Anthropic,Small,Sans Soleil,1983,Sans Soleil (1983),B,0.0207,0.20216088163008186,93,150
+Claude Haiku 4.5,Anthropic,Small,If….,1968,If…. (1968),B,0.0188,0.18360550011286464,94,140
+Claude Haiku 4.5,Anthropic,Small,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0182,0.17774590594953288,95,164
+Claude Haiku 4.5,Anthropic,Small,Speed,1994,Speed (1994),C,0.0181,0.17676930692231094,96,155
+Claude Haiku 4.5,Anthropic,Small,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.0176,0.17188631178620112,97,150
+Claude Haiku 4.5,Anthropic,Small,The Exorcist,1973,The Exorcist (1973),A,0.0172,0.16797991567731327,98,169
+Claude Haiku 4.5,Anthropic,Small,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,0.0165,0.16114372248675957,99,208
+Claude Haiku 4.5,Anthropic,Small,Nostalghia,1983,Nostalghia (1983),B,0.0147,0.14356493999676426,100,161
+Claude Haiku 4.5,Anthropic,Small,Tarzan,1999,Tarzan (1999),C,0.0136,0.13282235069732268,101,168
+Claude Haiku 4.5,Anthropic,Small,Terra em Transe,1967,Terra em Transe (1967),B,0.0094,0.09180519155400037,102,193
+Claude Haiku 4.5,Anthropic,Small,The Crowd,1928,The Crowd (1928),B,0.0092,0.08985199349955644,103,174
+Claude Haiku 4.5,Anthropic,Small,Senso,1954,Senso (1954),B,0.0072,0.07032001295511724,104,144
+Claude Haiku 4.5,Anthropic,Small,Taste of Cherry,1997,Taste of Cherry (1997),B,0.0067,0.06543701781900743,105,174
+Claude Haiku 4.5,Anthropic,Small,The Fugitive,1993,The Fugitive (1993),C,0.006,0.05860082462845371,106,224
+Claude Haiku 4.5,Anthropic,Small,Kes,1969,Kes (1969),B,0.0053,0.05176463143789999,107,192
+Claude Haiku 4.5,Anthropic,Small,Brave,2012,Brave (2012),C,0.0053,0.05176463143789999,108,134
+Claude Haiku 4.5,Anthropic,Small,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,0.0047,0.04590503727456823,109,177
+Claude Haiku 4.5,Anthropic,Small,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,0.002,0.019536863539575303,110,171
+Claude Haiku 4.5,Anthropic,Small,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.0011,0.01074747229457766,111,143
+Claude Haiku 4.5,Anthropic,Small,Happy Together,1997,Happy Together (1997),B,-0.0028,-0.02733988976707879,112,138
+Claude Haiku 4.5,Anthropic,Small,Europa '51,1952,Europa '51 (1952),B,-0.004,-0.03905907809374231,113,181
+Claude Haiku 4.5,Anthropic,Small,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.0044,-0.04296547420263015,114,145
+Claude Haiku 4.5,Anthropic,Small,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.0055,-0.05370806350207171,115,136
+Claude Haiku 4.5,Anthropic,Small,The Social Network,2010,The Social Network (2010),A,-0.0074,-0.07226344501928895,116,154
+Claude Haiku 4.5,Anthropic,Small,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,-0.0107,-0.10449121291761364,117,182
+Claude Haiku 4.5,Anthropic,Small,Star Trek,2009,Star Trek (2009),C,-0.0114,-0.11132740610816737,118,174
+Claude Haiku 4.5,Anthropic,Small,Pickpocket,1959,Pickpocket (1959),B,-0.0133,-0.1298827876253846,119,144
+Claude Haiku 4.5,Anthropic,Small,The Croods,2013,The Croods (2013),C,-0.0143,-0.13964877789760421,120,143
+Claude Haiku 4.5,Anthropic,Small,Shoah,1985,Shoah (1985),B,-0.0194,-0.18945532828592418,121,184
+Claude Haiku 4.5,Anthropic,Small,National Treasure,2004,National Treasure (2004),C,-0.0209,-0.20410431369425355,122,139
+Claude Haiku 4.5,Anthropic,Small,The Gleaners & I,2000,The Gleaners & I (2000),B,-0.0223,-0.217776700075361,123,171
+Claude Haiku 4.5,Anthropic,Small,Rain Man,1988,Rain Man (1988),C,-0.0235,-0.22949588840202453,124,151
+Claude Haiku 4.5,Anthropic,Small,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.0235,-0.22949588840202453,125,136
+Claude Haiku 4.5,Anthropic,Small,Independence Day,1996,Independence Day (1996),C,-0.0262,-0.25586406213701746,126,157
+Claude Haiku 4.5,Anthropic,Small,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.0264,-0.2578172601914614,127,168
+Claude Haiku 4.5,Anthropic,Small,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.0291,-0.2841854339264543,128,148
+Claude Haiku 4.5,Anthropic,Small,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0305,-0.29785782030756175,129,168
+Claude Haiku 4.5,Anthropic,Small,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.0332,-0.3242259940425547,130,159
+Claude Haiku 4.5,Anthropic,Small,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.035,-0.34180477653255,131,156
+Claude Haiku 4.5,Anthropic,Small,Joker,2019,Joker (2019),C,-0.0369,-0.36036015804976723,132,153
+Claude Haiku 4.5,Anthropic,Small,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,-0.0382,-0.37305594540365267,133,151
+Claude Haiku 4.5,Anthropic,Small,Twister,1996,Twister (1996),C,-0.0445,-0.4345816841186362,134,150
+Claude Haiku 4.5,Anthropic,Small,Zama,2017,Zama (2017),B,-0.0465,-0.4541136646630754,135,152
+Claude Haiku 4.5,Anthropic,Small,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.0475,-0.463879654935295,136,163
+Claude Haiku 4.5,Anthropic,Small,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,-0.051,-0.4980606208880636,137,173
+Claude Haiku 4.5,Anthropic,Small,American Beauty,1999,American Beauty (1999),A,-0.052,-0.5078266111602832,138,156
+Claude Haiku 4.5,Anthropic,Small,Top Gun,1986,Top Gun (1986),C,-0.0545,-0.5322415868408322,139,158
+Claude Haiku 4.5,Anthropic,Small,La Région centrale,1971,La Région centrale (1971),B,-0.058,-0.5664225527936009,140,157
+Claude Haiku 4.5,Anthropic,Small,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.0628,-0.6132993061002548,141,174
+Claude Haiku 4.5,Anthropic,Small,The Wind,1928,The Wind (1928),B,-0.0685,-0.6689654506519067,142,152
+Claude Haiku 4.5,Anthropic,Small,Bambi,1942,Bambi (1942),A,-0.0725,-0.708029411740785,143,155
+Claude Haiku 4.5,Anthropic,Small,Limite,1931,Limite (1931),B,-0.0807,-0.7881105319729858,144,167
+Claude Haiku 4.5,Anthropic,Small,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0838,-0.8183851018168665,145,165
+Claude Haiku 4.5,Anthropic,Small,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.0864,-0.8437766765246375,146,165
+Claude Haiku 4.5,Anthropic,Small,The Green Ray,1986,The Green Ray (1986),B,-0.0887,-0.8662384541507426,147,172
+Claude Haiku 4.5,Anthropic,Small,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.0901,-0.87991084053185,148,149
+Claude Haiku 4.5,Anthropic,Small,Sing,2016,Sing (2016),C,-0.0904,-0.8828406376135158,149,154
+Claude Haiku 4.5,Anthropic,Small,The Bodyguard,1992,The Bodyguard (1992),C,-0.0904,-0.8828406376135158,150,166
+Claude Haiku 4.5,Anthropic,Small,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.0905,-0.8838172366407379,151,172
+Claude Haiku 4.5,Anthropic,Small,Out 1,1971,Out 1 (1971),B,-0.0939,-0.9170216035662845,152,165
+Claude Haiku 4.5,Anthropic,Small,The Ascent,1977,The Ascent (1977),B,-0.0945,-0.9228811977296163,153,166
+Claude Haiku 4.5,Anthropic,Small,Death in Venice,1971,Death in Venice (1971),B,-0.0964,-0.9414365792468335,154,198
+Claude Haiku 4.5,Anthropic,Small,Intolerance,1916,Intolerance (1916),B,-0.107,-1.0449560761323613,155,186
+Claude Haiku 4.5,Anthropic,Small,The Wolverine,2013,The Wolverine (2013),C,-0.1111,-1.0849966362484618,156,158
+Claude Haiku 4.5,Anthropic,Small,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.1114,-1.0879264333301275,157,170
+Claude Haiku 4.5,Anthropic,Small,Armageddon,1998,Armageddon (1998),C,-0.1131,-1.104528616792901,158,175
+Claude Haiku 4.5,Anthropic,Small,The Golden Compass,2007,The Golden Compass (2007),C,-0.1152,-1.125037196364562,159,165
+Claude Haiku 4.5,Anthropic,Small,Titanic,1997,Titanic (1997),A,-0.1181,-1.1533585681539988,160,168
+Claude Haiku 4.5,Anthropic,Small,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,-0.1182,-1.1543351671812208,161,166
+Claude Haiku 4.5,Anthropic,Small,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.1231,-1.202188519515097,162,193
+Claude Haiku 4.5,Anthropic,Small,Stromboli,1950,Stromboli (1950),B,-0.129,-1.2598078621211928,163,173
+Claude Haiku 4.5,Anthropic,Small,Superman Returns,2006,Superman Returns (2006),C,-0.1299,-1.2685972533661902,164,158
+Claude Haiku 4.5,Anthropic,Small,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.1306,-1.275433446556744,165,175
+Claude Haiku 4.5,Anthropic,Small,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.131,-1.279339842665632,166,165
+Claude Haiku 4.5,Anthropic,Small,Avatar,2009,Avatar (2009),A,-0.1313,-1.2822696397472977,167,186
+Claude Haiku 4.5,Anthropic,Small,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1313,-1.2822696397472977,168,159
+Claude Haiku 4.5,Anthropic,Small,Lucy,2014,Lucy (2014),C,-0.1324,-1.2930122290467392,169,149
+Claude Haiku 4.5,Anthropic,Small,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1326,-1.2949654271011832,170,156
+Claude Haiku 4.5,Anthropic,Small,Underground,1995,Underground (1995),B,-0.1333,-1.301801620291737,171,144
+Claude Haiku 4.5,Anthropic,Small,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1336,-1.3047314173734028,172,141
+Claude Haiku 4.5,Anthropic,Small,JFK,1991,JFK (1991),A,-0.1339,-1.3076612144550686,173,188
+Claude Haiku 4.5,Anthropic,Small,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.134,-1.3086378134822907,174,186
+Claude Haiku 4.5,Anthropic,Small,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.1343,-1.3115676105639567,175,173
+Claude Haiku 4.5,Anthropic,Small,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.1357,-1.325239996945064,176,163
+Claude Haiku 4.5,Anthropic,Small,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1367,-1.3350059872172835,177,144
+Claude Haiku 4.5,Anthropic,Small,Full River Red,2023,Full River Red (2023),C,-0.1403,-1.3701635521972744,178,148
+Claude Haiku 4.5,Anthropic,Small,The Meg,2018,The Meg (2018),C,-0.1413,-1.379929542469494,179,139
+Claude Haiku 4.5,Anthropic,Small,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1432,-1.398484923986711,180,156
+Claude Haiku 4.5,Anthropic,Small,2012,2009,2012 (2009),C,-0.1442,-1.4082509142589306,181,136
+Claude Haiku 4.5,Anthropic,Small,Die Another Day,2002,Die Another Day (2002),C,-0.1445,-1.4111807113405965,182,139
+Claude Haiku 4.5,Anthropic,Small,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.1466,-1.4316892909122578,183,156
+Claude Haiku 4.5,Anthropic,Small,Cars 2,2011,Cars 2 (2011),C,-0.1473,-1.4385254841028112,184,134
+Claude Haiku 4.5,Anthropic,Small,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1494,-1.4590340636744725,185,150
+Claude Haiku 4.5,Anthropic,Small,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1513,-1.4775894451916898,186,144
+Claude Haiku 4.5,Anthropic,Small,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.1534,-1.498098024763351,187,152
+Claude Haiku 4.5,Anthropic,Small,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.1541,-1.5049342179539047,188,141
+Claude Haiku 4.5,Anthropic,Small,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1573,-1.5361853868250075,189,131
+Claude Haiku 4.5,Anthropic,Small,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.1585,-1.547904575151671,190,146
+Claude Haiku 4.5,Anthropic,Small,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1609,-1.571342951804998,191,149
+Claude Haiku 4.5,Anthropic,Small,The Grinch,2018,The Grinch (2018),C,-0.1629,-1.590874932349437,192,144
+Claude Haiku 4.5,Anthropic,Small,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.1655,-1.6162665070572082,193,136
+Claude Haiku 4.5,Anthropic,Small,Uncharted,2022,Uncharted (2022),C,-0.1665,-1.6260324973294278,194,140
+Claude Haiku 4.5,Anthropic,Small,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1772,-1.7305285932421774,195,137
+Claude Haiku 4.5,Anthropic,Small,Monster Hunt,2015,Monster Hunt (2015),C,-0.1785,-1.743224380596063,196,132
+Claude Haiku 4.5,Anthropic,Small,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1869,-1.8252586988827078,197,128
+Claude Haiku 4.5,Anthropic,Small,Noah,2014,Noah (2014),C,-0.209,-2.041087083898761,198,131
+Claude Haiku 4.5,Anthropic,Small,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.2116,-2.066478658606532,199,123
+Claude Haiku 4.5,Anthropic,Small,Pegasus 2,2024,Pegasus 2 (2024),C,-0.2258,-2.20515572047205,200,123
+Claude Sonnet 4.6,Anthropic,Large,The Godfather,1972,The Godfather (1972),A,0.247,1.9493549381598925,1,148
+Claude Sonnet 4.6,Anthropic,Large,Spirited Away,2001,Spirited Away (2001),A,0.2427,1.9154187308635717,2,179
+Claude Sonnet 4.6,Anthropic,Large,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.2427,1.9154187308635717,3,211
+Claude Sonnet 4.6,Anthropic,Large,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.2405,1.8980560201538264,4,217
+Claude Sonnet 4.6,Anthropic,Large,Schindler's List,1993,Schindler's List (1993),A,0.2402,1.8956883777843156,5,248
+Claude Sonnet 4.6,Anthropic,Large,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.2397,1.8917423071684645,6,257
+Claude Sonnet 4.6,Anthropic,Large,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.2384,1.8814825235672512,7,184
+Claude Sonnet 4.6,Anthropic,Large,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.2379,1.8775364529514,8,197
+Claude Sonnet 4.6,Anthropic,Large,High and Low,1963,High and Low (1963),B,0.2367,1.868065883473357,9,209
+Claude Sonnet 4.6,Anthropic,Large,Amadeus,1984,Amadeus (1984),B,0.2366,1.8672766693501868,10,257
+Claude Sonnet 4.6,Anthropic,Large,Back to the Future,1985,Back to the Future (1985),A,0.2364,1.8656982411038463,11,240
+Claude Sonnet 4.6,Anthropic,Large,Ran,1985,Ran (1985),B,0.2357,1.8601737422416544,12,275
+Claude Sonnet 4.6,Anthropic,Large,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.2335,1.8428110315319093,13,272
+Claude Sonnet 4.6,Anthropic,Large,Blade Runner,1982,Blade Runner (1982),B,0.2324,1.8341296761770365,14,347
+Claude Sonnet 4.6,Anthropic,Large,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.2321,1.8317620338075258,15,318
+Claude Sonnet 4.6,Anthropic,Large,Pather Panchali,1955,Pather Panchali (1955),B,0.2286,1.8041395394965671,16,364
+Claude Sonnet 4.6,Anthropic,Large,WALL-E,2008,WALL-E (2008),A,0.2278,1.7978258265112053,17,320
+Claude Sonnet 4.6,Anthropic,Large,The Seventh Seal,1957,The Seventh Seal (1957),B,0.2277,1.797036612388035,18,328
+Claude Sonnet 4.6,Anthropic,Large,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.2209,1.7433700520124582,19,286
+Claude Sonnet 4.6,Anthropic,Large,Pulp Fiction,1994,Pulp Fiction (1994),A,0.2203,1.7386347672734366,20,266
+Claude Sonnet 4.6,Anthropic,Large,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.2196,1.733110268411245,21,289
+Claude Sonnet 4.6,Anthropic,Large,Yojimbo,1961,Yojimbo (1961),B,0.2188,1.7267965554258828,22,279
+Claude Sonnet 4.6,Anthropic,Large,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.2186,1.7252181271795424,23,328
+Claude Sonnet 4.6,Anthropic,Large,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.2182,1.7220612706868614,24,306
+Claude Sonnet 4.6,Anthropic,Large,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.2104,1.6605025690795823,25,349
+Claude Sonnet 4.6,Anthropic,Large,Forrest Gump,1994,Forrest Gump (1994),A,0.2034,1.605257580457665,26,340
+Claude Sonnet 4.6,Anthropic,Large,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,0.195,1.5389635941113644,27,321
+Claude Sonnet 4.6,Anthropic,Large,M,1931,M (1931),B,0.1803,1.4229491180053382,28,323
+Claude Sonnet 4.6,Anthropic,Large,The Matrix,1999,The Matrix (1999),A,0.1691,1.3345571362102706,29,344
+Claude Sonnet 4.6,Anthropic,Large,Persona,1966,Persona (1966),B,0.1578,1.2453759402920328,30,277
+Claude Sonnet 4.6,Anthropic,Large,Parasite,2019,Parasite (2019),A,0.1569,1.2382730131835007,31,359
+Claude Sonnet 4.6,Anthropic,Large,The Dark Knight,2008,The Dark Knight (2008),A,0.1558,1.229591657828628,32,340
+Claude Sonnet 4.6,Anthropic,Large,Coco,2017,Coco (2017),C,0.1521,1.2003907352713288,33,360
+Claude Sonnet 4.6,Anthropic,Large,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.1498,1.182238810438413,34,291
+Claude Sonnet 4.6,Anthropic,Large,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.1435,1.1325183206786875,35,345
+Claude Sonnet 4.6,Anthropic,Large,The Ascent,1977,The Ascent (1977),B,0.1369,1.0804301885494514,36,269
+Claude Sonnet 4.6,Anthropic,Large,Beau Travail,1999,Beau Travail (1999),B,0.1258,0.9928274208775539,37,268
+Claude Sonnet 4.6,Anthropic,Large,Ratatouille,2007,Ratatouille (2007),C,0.1239,0.9778323525373191,38,319
+Claude Sonnet 4.6,Anthropic,Large,Star Wars,1977,Star Wars (1977),A,0.1218,0.9612588559507441,39,300
+Claude Sonnet 4.6,Anthropic,Large,Vivre sa vie,1962,Vivre sa vie (1962),B,0.121,0.954945142965382,40,316
+Claude Sonnet 4.6,Anthropic,Large,The Conformist,1970,The Conformist (1970),B,0.1071,0.8452443798447179,41,256
+Claude Sonnet 4.6,Anthropic,Large,Withnail & I,1987,Withnail & I (1987),B,0.1023,0.8073621019325461,42,324
+Claude Sonnet 4.6,Anthropic,Large,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.0978,0.7718474663898849,43,322
+Claude Sonnet 4.6,Anthropic,Large,Nostalghia,1983,Nostalghia (1983),B,0.0942,0.7434357579557561,44,336
+Claude Sonnet 4.6,Anthropic,Large,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.0917,0.7237054048764999,45,264
+Claude Sonnet 4.6,Anthropic,Large,Se7en,1995,Se7en (1995),A,0.089,0.7023966235509033,46,328
+Claude Sonnet 4.6,Anthropic,Large,Sans Soleil,1983,Sans Soleil (1983),B,0.0817,0.6447839925594753,47,266
+Claude Sonnet 4.6,Anthropic,Large,Day for Night,1973,Day for Night (1973),B,0.0772,0.6092693570168143,48,318
+Claude Sonnet 4.6,Anthropic,Large,Inside Out,2015,Inside Out (2015),C,0.0735,0.5800684344595151,49,334
+Claude Sonnet 4.6,Anthropic,Large,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.072,0.5682302226119614,50,303
+Claude Sonnet 4.6,Anthropic,Large,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0689,0.5437645847936838,51,242
+Claude Sonnet 4.6,Anthropic,Large,Solaris,1972,Solaris (1972),B,0.0652,0.5145636622363846,52,200
+Claude Sonnet 4.6,Anthropic,Large,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0649,0.5121960198668739,53,278
+Claude Sonnet 4.6,Anthropic,Large,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.0646,0.5098283774973632,54,284
+Claude Sonnet 4.6,Anthropic,Large,All About My Mother,1999,All About My Mother (1999),B,0.0582,0.45931867361446743,55,305
+Claude Sonnet 4.6,Anthropic,Large,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.0569,0.4490588900132542,56,196
+Claude Sonnet 4.6,Anthropic,Large,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.0547,0.43169617930350884,57,334
+Claude Sonnet 4.6,Anthropic,Large,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.0523,0.4127550403474229,58,246
+Claude Sonnet 4.6,Anthropic,Large,La Belle et la Bête,1946,La Belle et la Bête (1946),B,0.0483,0.38118647542061307,59,240
+Claude Sonnet 4.6,Anthropic,Large,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0465,0.36698062120354863,60,235
+Claude Sonnet 4.6,Anthropic,Large,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0394,0.31094641845846116,61,221
+Claude Sonnet 4.6,Anthropic,Large,Jurassic Park,1993,Jurassic Park (1993),A,0.0387,0.3054219195962694,62,247
+Claude Sonnet 4.6,Anthropic,Large,Kes,1969,Kes (1969),B,0.0353,0.27858863940848105,63,180
+Claude Sonnet 4.6,Anthropic,Large,Pyaasa,1957,Pyaasa (1957),B,0.0343,0.2706964981767786,64,285
+Claude Sonnet 4.6,Anthropic,Large,Your Name.,2016,Your Name. (2016),C,0.0283,0.22334365078656382,65,261
+Claude Sonnet 4.6,Anthropic,Large,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.0282,0.22255443666339358,66,276
+Claude Sonnet 4.6,Anthropic,Large,Toy Story,1995,Toy Story (1995),A,0.0279,0.22018679429388285,67,250
+Claude Sonnet 4.6,Anthropic,Large,The Gold Rush,1925,The Gold Rush (1925),B,0.0249,0.19651037059877544,68,188
+Claude Sonnet 4.6,Anthropic,Large,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.0238,0.18782901524390275,69,281
+Claude Sonnet 4.6,Anthropic,Large,Apollo 13,1995,Apollo 13 (1995),C,0.0224,0.1767800175195193,70,209
+Claude Sonnet 4.6,Anthropic,Large,Saving Private Ryan,1998,Saving Private Ryan (1998),A,0.0222,0.1752015892731788,71,210
+Claude Sonnet 4.6,Anthropic,Large,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0206,0.16257416330245486,72,233
+Claude Sonnet 4.6,Anthropic,Large,Oldboy,2003,Oldboy (2003),B,0.0201,0.15862809268660363,73,242
+Claude Sonnet 4.6,Anthropic,Large,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0194,0.1531035938244119,74,196
+Claude Sonnet 4.6,Anthropic,Large,Breathless,1960,Breathless (1960),B,0.0168,0.1325840266219855,75,190
+Claude Sonnet 4.6,Anthropic,Large,Ghostbusters,1984,Ghostbusters (1984),A,0.0164,0.12942717012930455,76,157
+Claude Sonnet 4.6,Anthropic,Large,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0163,0.12863795600613426,77,180
+Claude Sonnet 4.6,Anthropic,Large,Dances with Wolves,1990,Dances with Wolves (1990),C,0.0161,0.1270595277597938,78,165
+Claude Sonnet 4.6,Anthropic,Large,A Clockwork Orange,1971,A Clockwork Orange (1971),B,0.0159,0.1254810995134533,79,167
+Claude Sonnet 4.6,Anthropic,Large,Jaws,1975,Jaws (1975),A,0.0158,0.12469188539028306,80,188
+Claude Sonnet 4.6,Anthropic,Large,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0154,0.12153502889760208,81,210
+Claude Sonnet 4.6,Anthropic,Large,Oppenheimer,2023,Oppenheimer (2023),C,0.0143,0.11285367354272936,82,167
+Claude Sonnet 4.6,Anthropic,Large,Star Trek,2009,Star Trek (2009),C,0.0141,0.11127524529638887,83,147
+Claude Sonnet 4.6,Anthropic,Large,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.011,0.08680960747811124,84,172
+Claude Sonnet 4.6,Anthropic,Large,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,0.0102,0.08049589449274928,85,169
+Claude Sonnet 4.6,Anthropic,Large,Days of Being Wild,1990,Days of Being Wild (1990),B,0.01,0.07891746624640879,86,168
+Claude Sonnet 4.6,Anthropic,Large,The Fugitive,1993,The Fugitive (1993),C,0.0098,0.07733903800006829,87,212
+Claude Sonnet 4.6,Anthropic,Large,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.0088,0.06944689676836582,88,158
+Claude Sonnet 4.6,Anthropic,Large,Rain Man,1988,Rain Man (1988),C,0.0076,0.05997632729032287,89,167
+Claude Sonnet 4.6,Anthropic,Large,Logan,2017,Logan (2017),C,0.006,0.04734890131959893,90,154
+Claude Sonnet 4.6,Anthropic,Large,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,0.0047,0.03708911771838573,91,143
+Claude Sonnet 4.6,Anthropic,Large,Terra em Transe,1967,Terra em Transe (1967),B,0.0038,0.029986190609853514,92,206
+Claude Sonnet 4.6,Anthropic,Large,Batman,1989,Batman (1989),C,0.0022,0.017358764639129578,93,161
+Claude Sonnet 4.6,Anthropic,Large,Caché,2005,Caché (2005),B,0.0015,0.011834265776937853,94,132
+Claude Sonnet 4.6,Anthropic,Large,Los Olvidados,1950,Los Olvidados (1950),B,0.0,-3.946070615842034e-06,95,151
+Claude Sonnet 4.6,Anthropic,Large,If….,1968,If…. (1968),B,-0.0009,-0.007106873179148058,96,158
+Claude Sonnet 4.6,Anthropic,Large,The Green Ray,1986,The Green Ray (1986),B,-0.0023,-0.018155870903531504,97,190
+Claude Sonnet 4.6,Anthropic,Large,The Social Network,2010,The Social Network (2010),A,-0.0024,-0.01894508502670175,98,170
+Claude Sonnet 4.6,Anthropic,Large,The Wind,1928,The Wind (1928),B,-0.0037,-0.029204868627914955,99,143
+Claude Sonnet 4.6,Anthropic,Large,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,-0.0041,-0.03236172512059594,100,142
+Claude Sonnet 4.6,Anthropic,Large,Senso,1954,Senso (1954),B,-0.0044,-0.034729367490106675,101,144
+Claude Sonnet 4.6,Anthropic,Large,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.0046,-0.036307795736447164,102,152
+Claude Sonnet 4.6,Anthropic,Large,Pickpocket,1959,Pickpocket (1959),B,-0.0059,-0.04656757933766037,103,147
+Claude Sonnet 4.6,Anthropic,Large,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.0074,-0.058405791185214065,104,148
+Claude Sonnet 4.6,Anthropic,Large,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,-0.0087,-0.06866557478642726,105,137
+Claude Sonnet 4.6,Anthropic,Large,Happy Together,1997,Happy Together (1997),B,-0.0101,-0.07971457251081071,106,150
+Claude Sonnet 4.6,Anthropic,Large,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,-0.0105,-0.0828714290034917,107,170
+Claude Sonnet 4.6,Anthropic,Large,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.0113,-0.08918514198885366,108,132
+Claude Sonnet 4.6,Anthropic,Large,Videodrome,1983,Videodrome (1983),B,-0.0117,-0.09234199848153465,109,143
+Claude Sonnet 4.6,Anthropic,Large,The Mummy,1999,The Mummy (1999),C,-0.0129,-0.1018125679595776,110,141
+Claude Sonnet 4.6,Anthropic,Large,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,-0.0138,-0.10891549506810982,111,146
+Claude Sonnet 4.6,Anthropic,Large,Gravity,2013,Gravity (2013),C,-0.0161,-0.1270674199010255,112,146
+Claude Sonnet 4.6,Anthropic,Large,True Lies,1994,True Lies (1994),C,-0.0161,-0.1270674199010255,113,149
+Claude Sonnet 4.6,Anthropic,Large,Home Alone,1990,Home Alone (1990),C,-0.0177,-0.13969484587174943,114,152
+Claude Sonnet 4.6,Anthropic,Large,Get Out,2017,Get Out (2017),A,-0.0202,-0.1594251989510056,115,160
+Claude Sonnet 4.6,Anthropic,Large,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.0225,-0.17757712378392124,116,146
+Claude Sonnet 4.6,Anthropic,Large,A Bug's Life,1998,A Bug's Life (1998),C,-0.0233,-0.18389083676928322,117,145
+Claude Sonnet 4.6,Anthropic,Large,Brave,2012,Brave (2012),C,-0.025,-0.19730747686317743,118,143
+Claude Sonnet 4.6,Anthropic,Large,Taste of Cherry,1997,Taste of Cherry (1997),B,-0.0256,-0.2020427616021989,119,147
+Claude Sonnet 4.6,Anthropic,Large,Death in Venice,1971,Death in Venice (1971),B,-0.0275,-0.21703782994243356,120,153
+Claude Sonnet 4.6,Anthropic,Large,Speed,1994,Speed (1994),C,-0.0279,-0.22019468643511456,121,133
+Claude Sonnet 4.6,Anthropic,Large,The Revenant,2015,The Revenant (2015),C,-0.0314,-0.24781718074607315,122,142
+Claude Sonnet 4.6,Anthropic,Large,Europa '51,1952,Europa '51 (1952),B,-0.0419,-0.330684663678949,123,131
+Claude Sonnet 4.6,Anthropic,Large,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,-0.0456,-0.35988558623624817,124,171
+Claude Sonnet 4.6,Anthropic,Large,Joker,2019,Joker (2019),C,-0.0501,-0.3954002217789092,125,146
+Claude Sonnet 4.6,Anthropic,Large,The Gleaners & I,2000,The Gleaners & I (2000),B,-0.0502,-0.39618943590207945,126,140
+Claude Sonnet 4.6,Anthropic,Large,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.0509,-0.4017139347642712,127,151
+Claude Sonnet 4.6,Anthropic,Large,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.0514,-0.4056600053801224,128,151
+Claude Sonnet 4.6,Anthropic,Large,Underground,1995,Underground (1995),B,-0.0515,-0.40644921950329266,129,157
+Claude Sonnet 4.6,Anthropic,Large,Top Gun,1986,Top Gun (1986),C,-0.0541,-0.4269687867057191,130,134
+Claude Sonnet 4.6,Anthropic,Large,Titanic,1997,Titanic (1997),A,-0.0609,-0.48063534708129585,131,147
+Claude Sonnet 4.6,Anthropic,Large,The Bodyguard,1992,The Bodyguard (1992),C,-0.0647,-0.5106254837617651,132,142
+Claude Sonnet 4.6,Anthropic,Large,Tarzan,1999,Tarzan (1999),C,-0.0658,-0.5193068391166379,133,146
+Claude Sonnet 4.6,Anthropic,Large,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0668,-0.5271989803483403,134,169
+Claude Sonnet 4.6,Anthropic,Large,The Croods,2013,The Croods (2013),C,-0.0744,-0.587179253709279,135,146
+Claude Sonnet 4.6,Anthropic,Large,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.08,-0.6313752446068128,136,155
+Claude Sonnet 4.6,Anthropic,Large,Shoah,1985,Shoah (1985),B,-0.0802,-0.6329536728531533,137,168
+Claude Sonnet 4.6,Anthropic,Large,Twister,1996,Twister (1996),C,-0.0804,-0.6345321010994938,138,153
+Claude Sonnet 4.6,Anthropic,Large,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,-0.0843,-0.6653114519031335,139,161
+Claude Sonnet 4.6,Anthropic,Large,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0857,-0.6763604496275168,140,149
+Claude Sonnet 4.6,Anthropic,Large,Independence Day,1996,Independence Day (1996),C,-0.088,-0.6945123744604325,141,158
+Claude Sonnet 4.6,Anthropic,Large,National Treasure,2004,National Treasure (2004),C,-0.0931,-0.7347622947421151,142,145
+Claude Sonnet 4.6,Anthropic,Large,The Crowd,1928,The Crowd (1928),B,-0.1037,-0.8184189917981612,143,168
+Claude Sonnet 4.6,Anthropic,Large,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.1037,-0.8184189917981612,144,161
+Claude Sonnet 4.6,Anthropic,Large,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.1039,-0.8199974200445017,145,168
+Claude Sonnet 4.6,Anthropic,Large,American Beauty,1999,American Beauty (1999),A,-0.1049,-0.8278895612762041,146,163
+Claude Sonnet 4.6,Anthropic,Large,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1053,-0.8310464177688852,147,148
+Claude Sonnet 4.6,Anthropic,Large,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1113,-0.8783992651590998,148,156
+Claude Sonnet 4.6,Anthropic,Large,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.1113,-0.8783992651590998,149,155
+Claude Sonnet 4.6,Anthropic,Large,The Exorcist,1973,The Exorcist (1973),A,-0.1205,-0.9510069644907625,150,166
+Claude Sonnet 4.6,Anthropic,Large,Stromboli,1950,Stromboli (1950),B,-0.1215,-0.958899105722465,151,156
+Claude Sonnet 4.6,Anthropic,Large,Bambi,1942,Bambi (1942),A,-0.1224,-0.9660020328309972,152,173
+Claude Sonnet 4.6,Anthropic,Large,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.1256,-0.9912568847724449,153,166
+Claude Sonnet 4.6,Anthropic,Large,Lucy,2014,Lucy (2014),C,-0.1263,-0.9967813836346366,154,162
+Claude Sonnet 4.6,Anthropic,Large,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.1264,-0.9975705977578071,155,170
+Claude Sonnet 4.6,Anthropic,Large,Out 1,1971,Out 1 (1971),B,-0.1301,-1.026771520315106,156,172
+Claude Sonnet 4.6,Anthropic,Large,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.1311,-1.0346636615468086,157,179
+Claude Sonnet 4.6,Anthropic,Large,The Wolverine,2013,The Wolverine (2013),C,-0.1326,-1.0465018733943623,158,167
+Claude Sonnet 4.6,Anthropic,Large,JFK,1991,JFK (1991),A,-0.1389,-1.0962223631540877,159,187
+Claude Sonnet 4.6,Anthropic,Large,Die Another Day,2002,Die Another Day (2002),C,-0.1423,-1.1230556433418761,160,154
+Claude Sonnet 4.6,Anthropic,Large,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1439,-1.1356830693126,161,145
+Claude Sonnet 4.6,Anthropic,Large,Full River Red,2023,Full River Red (2023),C,-0.1444,-1.1396291399284513,162,146
+Claude Sonnet 4.6,Anthropic,Large,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.1448,-1.1427859964211324,163,145
+Claude Sonnet 4.6,Anthropic,Large,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.1449,-1.1435752105443024,164,169
+Claude Sonnet 4.6,Anthropic,Large,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.1454,-1.1475212811601538,165,164
+Claude Sonnet 4.6,Anthropic,Large,Zama,2017,Zama (2017),B,-0.1455,-1.1483104952833239,166,164
+Claude Sonnet 4.6,Anthropic,Large,Sing,2016,Sing (2016),C,-0.1457,-1.1498889235296645,167,159
+Claude Sonnet 4.6,Anthropic,Large,Superman Returns,2006,Superman Returns (2006),C,-0.146,-1.1522565658991752,168,148
+Claude Sonnet 4.6,Anthropic,Large,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.1464,-1.1554134223918562,169,189
+Claude Sonnet 4.6,Anthropic,Large,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1468,-1.1585702788845373,170,166
+Claude Sonnet 4.6,Anthropic,Large,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.1472,-1.161727135377218,171,155
+Claude Sonnet 4.6,Anthropic,Large,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1473,-1.1625163495003883,172,153
+Claude Sonnet 4.6,Anthropic,Large,Intolerance,1916,Intolerance (1916),B,-0.1478,-1.1664624201162395,173,173
+Claude Sonnet 4.6,Anthropic,Large,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.148,-1.1680408483625802,174,148
+Claude Sonnet 4.6,Anthropic,Large,La Région centrale,1971,La Région centrale (1971),B,-0.1482,-1.1696192766089206,175,160
+Claude Sonnet 4.6,Anthropic,Large,Avatar,2009,Avatar (2009),A,-0.1484,-1.171197704855261,176,172
+Claude Sonnet 4.6,Anthropic,Large,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.1488,-1.174354561347942,177,173
+Claude Sonnet 4.6,Anthropic,Large,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.1492,-1.1775114178406232,178,162
+Claude Sonnet 4.6,Anthropic,Large,The Golden Compass,2007,The Golden Compass (2007),C,-0.1494,-1.1790898460869637,179,148
+Claude Sonnet 4.6,Anthropic,Large,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1502,-1.1854035590723255,180,152
+Claude Sonnet 4.6,Anthropic,Large,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1506,-1.1885604155650067,181,162
+Claude Sonnet 4.6,Anthropic,Large,The Grinch,2018,The Grinch (2018),C,-0.151,-1.1917172720576874,182,168
+Claude Sonnet 4.6,Anthropic,Large,Noah,2014,Noah (2014),C,-0.151,-1.1917172720576874,183,145
+Claude Sonnet 4.6,Anthropic,Large,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1514,-1.1948741285503686,184,136
+Claude Sonnet 4.6,Anthropic,Large,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.1514,-1.1948741285503686,185,157
+Claude Sonnet 4.6,Anthropic,Large,Armageddon,1998,Armageddon (1998),C,-0.1516,-1.196452556796709,186,177
+Claude Sonnet 4.6,Anthropic,Large,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.1517,-1.1972417709198793,187,140
+Claude Sonnet 4.6,Anthropic,Large,Limite,1931,Limite (1931),B,-0.152,-1.19960941328939,188,150
+Claude Sonnet 4.6,Anthropic,Large,The Meg,2018,The Meg (2018),C,-0.1533,-1.2098691968906032,189,137
+Claude Sonnet 4.6,Anthropic,Large,2012,2009,2012 (2009),C,-0.1537,-1.2130260533832842,190,149
+Claude Sonnet 4.6,Anthropic,Large,Cars 2,2011,Cars 2 (2011),C,-0.1588,-1.2532759736649668,191,142
+Claude Sonnet 4.6,Anthropic,Large,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1617,-1.276163183236904,192,138
+Claude Sonnet 4.6,Anthropic,Large,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1671,-1.3187807458880971,193,130
+Claude Sonnet 4.6,Anthropic,Large,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1696,-1.3385110989673534,194,146
+Claude Sonnet 4.6,Anthropic,Large,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1767,-1.3945453017124407,195,141
+Claude Sonnet 4.6,Anthropic,Large,Uncharted,2022,Uncharted (2022),C,-0.1826,-1.4411089349794854,196,144
+Claude Sonnet 4.6,Anthropic,Large,Pegasus 2,2024,Pegasus 2 (2024),C,-0.187,-1.4758343563989762,197,136
+Claude Sonnet 4.6,Anthropic,Large,Monster Hunt,2015,Monster Hunt (2015),C,-0.2017,-1.5918488325050022,198,131
+Claude Sonnet 4.6,Anthropic,Large,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.2058,-1.6242066115549825,199,129
+Claude Sonnet 4.6,Anthropic,Large,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.2288,-1.805725859884139,200,131
+GPT-5.4,OpenAI,Large,The Matrix,1999,The Matrix (1999),A,0.2738,1.9975307687658106,1,238
+GPT-5.4,OpenAI,Large,Spirited Away,2001,Spirited Away (2001),A,0.2725,1.9880464062658727,2,151
+GPT-5.4,OpenAI,Large,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.2697,1.9676185485736983,3,273
+GPT-5.4,OpenAI,Large,High and Low,1963,High and Low (1963),B,0.2687,1.9603228851122074,4,166
+GPT-5.4,OpenAI,Large,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.2686,1.9595933187660584,5,268
+GPT-5.4,OpenAI,Large,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.2685,1.9588637524199093,6,222
+GPT-5.4,OpenAI,Large,Amadeus,1984,Amadeus (1984),B,0.2667,1.9457315581892256,7,227
+GPT-5.4,OpenAI,Large,Back to the Future,1985,Back to the Future (1985),A,0.2661,1.9413541601123312,8,231
+GPT-5.4,OpenAI,Large,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.2648,1.9318697976123929,9,191
+GPT-5.4,OpenAI,Large,The Godfather,1972,The Godfather (1972),A,0.2642,1.9274923995354984,10,260
+GPT-5.4,OpenAI,Large,Ratatouille,2007,Ratatouille (2007),C,0.2637,1.923844567804753,11,269
+GPT-5.4,OpenAI,Large,Blade Runner,1982,Blade Runner (1982),B,0.2617,1.9092532408817713,12,213
+GPT-5.4,OpenAI,Large,Ran,1985,Ran (1985),B,0.261,1.904146276458728,13,283
+GPT-5.4,OpenAI,Large,Parasite,2019,Parasite (2019),A,0.2607,1.9019575774202806,14,199
+GPT-5.4,OpenAI,Large,Solaris,1972,Solaris (1972),B,0.2598,1.8953914803049388,15,239
+GPT-5.4,OpenAI,Large,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.2591,1.8902845158818953,16,257
+GPT-5.4,OpenAI,Large,WALL-E,2008,WALL-E (2008),A,0.2569,1.8742340562666155,17,291
+GPT-5.4,OpenAI,Large,Pather Panchali,1955,Pather Panchali (1955),B,0.2544,1.8559948976128884,18,309
+GPT-5.4,OpenAI,Large,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.2538,1.851617499535994,19,308
+GPT-5.4,OpenAI,Large,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.2461,1.7954408908825141,20,384
+GPT-5.4,OpenAI,Large,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.2417,1.7633399716519542,21,401
+GPT-5.4,OpenAI,Large,Persona,1966,Persona (1966),B,0.2387,1.7414529812674817,22,317
+GPT-5.4,OpenAI,Large,Star Wars,1977,Star Wars (1977),A,0.2321,1.693301602421642,23,328
+GPT-5.4,OpenAI,Large,Yojimbo,1961,Yojimbo (1961),B,0.2319,1.691842469729344,24,306
+GPT-5.4,OpenAI,Large,M,1931,M (1931),B,0.231,1.6852763726140023,25,290
+GPT-5.4,OpenAI,Large,Jurassic Park,1993,Jurassic Park (1993),A,0.2285,1.6670372139602752,26,261
+GPT-5.4,OpenAI,Large,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.2285,1.6670372139602752,27,337
+GPT-5.4,OpenAI,Large,Pulp Fiction,1994,Pulp Fiction (1994),A,0.2214,1.61523800338369,28,364
+GPT-5.4,OpenAI,Large,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.2006,1.4634882033846803,29,329
+GPT-5.4,OpenAI,Large,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.1609,1.1738503639634934,30,383
+GPT-5.4,OpenAI,Large,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.1572,1.1468564091559774,31,346
+GPT-5.4,OpenAI,Large,The Gleaners & I,2000,The Gleaners & I (2000),B,0.1571,1.1461268428098281,32,345
+GPT-5.4,OpenAI,Large,Happy Together,1997,Happy Together (1997),B,0.1511,1.1023528620408831,33,241
+GPT-5.4,OpenAI,Large,The Ascent,1977,The Ascent (1977),B,0.1461,1.065874544733429,34,381
+GPT-5.4,OpenAI,Large,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,0.1459,1.0644154120411307,35,317
+GPT-5.4,OpenAI,Large,Jaws,1975,Jaws (1975),A,0.1412,1.0301257937721235,36,308
+GPT-5.4,OpenAI,Large,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.1351,0.9856222466570295,37,334
+GPT-5.4,OpenAI,Large,All About My Mother,1999,All About My Mother (1999),B,0.1225,0.8936968870422448,38,346
+GPT-5.4,OpenAI,Large,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.1192,0.869621197619325,39,330
+GPT-5.4,OpenAI,Large,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.1135,0.8280359158888272,40,252
+GPT-5.4,OpenAI,Large,Your Name.,2016,Your Name. (2016),C,0.1128,0.8229289514657835,41,366
+GPT-5.4,OpenAI,Large,The Social Network,2010,The Social Network (2010),A,0.1112,0.811255889927398,42,300
+GPT-5.4,OpenAI,Large,Days of Being Wild,1990,Days of Being Wild (1990),B,0.1056,0.7704001745430494,43,350
+GPT-5.4,OpenAI,Large,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.1009,0.7361105562740424,44,310
+GPT-5.4,OpenAI,Large,Pyaasa,1957,Pyaasa (1957),B,0.1005,0.733192290889446,45,312
+GPT-5.4,OpenAI,Large,Get Out,2017,Get Out (2017),A,0.0931,0.6792043812744137,46,345
+GPT-5.4,OpenAI,Large,Nostalghia,1983,Nostalghia (1983),B,0.0919,0.6704495851206247,47,281
+GPT-5.4,OpenAI,Large,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.0857,0.6252164716593814,48,353
+GPT-5.4,OpenAI,Large,Shoah,1985,Shoah (1985),B,0.0845,0.6164616755055925,49,232
+GPT-5.4,OpenAI,Large,Toy Story,1995,Toy Story (1995),A,0.0774,0.5646624649290074,50,356
+GPT-5.4,OpenAI,Large,Schindler's List,1993,Schindler's List (1993),A,0.0773,0.5639328985828582,51,285
+GPT-5.4,OpenAI,Large,Sans Soleil,1983,Sans Soleil (1983),B,0.0701,0.5114041216601242,52,263
+GPT-5.4,OpenAI,Large,Coco,2017,Coco (2017),C,0.0691,0.5041084581986333,53,332
+GPT-5.4,OpenAI,Large,The Dark Knight,2008,The Dark Knight (2008),A,0.0662,0.4829510341603098,54,235
+GPT-5.4,OpenAI,Large,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0625,0.4559570793527937,55,267
+GPT-5.4,OpenAI,Large,The Conformist,1970,The Conformist (1970),B,0.0531,0.3873778428147797,56,308
+GPT-5.4,OpenAI,Large,Beau Travail,1999,Beau Travail (1999),B,0.0476,0.34725169377658005,57,227
+GPT-5.4,OpenAI,Large,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0464,0.338496897622791,58,345
+GPT-5.4,OpenAI,Large,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0384,0.2801315899308642,59,273
+GPT-5.4,OpenAI,Large,Caché,2005,Caché (2005),B,0.0331,0.24146457358496265,60,213
+GPT-5.4,OpenAI,Large,Taste of Cherry,1997,Taste of Cherry (1997),B,0.0304,0.22176628223893738,61,289
+GPT-5.4,OpenAI,Large,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.028,0.20425668993135934,62,200
+GPT-5.4,OpenAI,Large,The Thin Red Line,1998,The Thin Red Line (1998),B,0.0252,0.18382883223918495,63,252
+GPT-5.4,OpenAI,Large,Oldboy,2003,Oldboy (2003),B,0.0247,0.18018100050843952,64,264
+GPT-5.4,OpenAI,Large,Videodrome,1983,Videodrome (1983),B,0.0236,0.1721557707007996,65,276
+GPT-5.4,OpenAI,Large,Zama,2017,Zama (2017),B,0.0226,0.16486010723930875,66,156
+GPT-5.4,OpenAI,Large,Withnail & I,1987,Withnail & I (1987),B,0.0217,0.158294010123967,67,196
+GPT-5.4,OpenAI,Large,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.021,0.1531870457009234,68,166
+GPT-5.4,OpenAI,Large,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.0198,0.14443224954713438,69,187
+GPT-5.4,OpenAI,Large,Inside Out,2015,Inside Out (2015),C,0.0161,0.11743829473961821,70,204
+GPT-5.4,OpenAI,Large,Pickpocket,1959,Pickpocket (1959),B,0.0156,0.11379046300887279,71,163
+GPT-5.4,OpenAI,Large,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.0153,0.11160176397042554,72,137
+GPT-5.4,OpenAI,Large,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.0152,0.11087219762427646,73,168
+GPT-5.4,OpenAI,Large,Se7en,1995,Se7en (1995),A,0.0149,0.10868349858582921,74,221
+GPT-5.4,OpenAI,Large,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.0148,0.10795393223968013,75,193
+GPT-5.4,OpenAI,Large,The Seventh Seal,1957,The Seventh Seal (1957),B,0.0147,0.10722436589353103,76,203
+GPT-5.4,OpenAI,Large,The Mummy,1999,The Mummy (1999),C,0.0146,0.10649479954738195,77,211
+GPT-5.4,OpenAI,Large,Day for Night,1973,Day for Night (1973),B,0.0143,0.10430610050893468,78,207
+GPT-5.4,OpenAI,Large,Los Olvidados,1950,Los Olvidados (1950),B,0.0142,0.10357653416278562,79,213
+GPT-5.4,OpenAI,Large,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.0141,0.10284696781663652,80,174
+GPT-5.4,OpenAI,Large,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0125,0.09117390627825116,81,182
+GPT-5.4,OpenAI,Large,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.0117,0.08533737550905848,82,182
+GPT-5.4,OpenAI,Large,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,0.0112,0.08168954377831306,83,170
+GPT-5.4,OpenAI,Large,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.0106,0.07731214570141855,84,151
+GPT-5.4,OpenAI,Large,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.0106,0.07731214570141855,85,142
+GPT-5.4,OpenAI,Large,The Fugitive,1993,The Fugitive (1993),C,0.0106,0.07731214570141855,86,176
+GPT-5.4,OpenAI,Large,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0086,0.06272081877843684,87,134
+GPT-5.4,OpenAI,Large,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0085,0.06199125243228776,88,187
+GPT-5.4,OpenAI,Large,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0069,0.05031819089390238,89,153
+GPT-5.4,OpenAI,Large,Apollo 13,1995,Apollo 13 (1995),C,0.0043,0.03134946589402617,90,145
+GPT-5.4,OpenAI,Large,The Crowd,1928,The Crowd (1928),B,0.0024,0.017487705317193555,91,140
+GPT-5.4,OpenAI,Large,Vivre sa vie,1962,Vivre sa vie (1962),B,0.0017,0.01238074089414996,92,191
+GPT-5.4,OpenAI,Large,The Wind,1928,The Wind (1928),B,0.0006,0.004355511086510023,93,144
+GPT-5.4,OpenAI,Large,Oppenheimer,2023,Oppenheimer (2023),C,0.0006,0.004355511086510023,94,150
+GPT-5.4,OpenAI,Large,Home Alone,1990,Home Alone (1990),C,-0.0008,-0.005858417759577168,95,142
+GPT-5.4,OpenAI,Large,Logan,2017,Logan (2017),C,-0.0028,-0.02044974468255887,96,143
+GPT-5.4,OpenAI,Large,Kes,1969,Kes (1969),B,-0.003,-0.021908877374857038,97,133
+GPT-5.4,OpenAI,Large,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,-0.0047,-0.034311505259391493,98,143
+GPT-5.4,OpenAI,Large,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,-0.0055,-0.04014803602858417,99,142
+GPT-5.4,OpenAI,Large,Breathless,1960,Breathless (1960),B,-0.0064,-0.04671413314392594,100,157
+GPT-5.4,OpenAI,Large,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,-0.0074,-0.05400979660541679,101,192
+GPT-5.4,OpenAI,Large,Batman,1989,Batman (1989),C,-0.0077,-0.056198495643864047,102,132
+GPT-5.4,OpenAI,Large,If….,1968,If…. (1968),B,-0.0095,-0.06933068987454756,103,141
+GPT-5.4,OpenAI,Large,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,-0.0111,-0.08100375141293294,104,139
+GPT-5.4,OpenAI,Large,Senso,1954,Senso (1954),B,-0.0146,-0.10653857352815091,105,145
+GPT-5.4,OpenAI,Large,Tarzan,1999,Tarzan (1999),C,-0.0178,-0.12988469660492163,106,142
+GPT-5.4,OpenAI,Large,The Gold Rush,1925,The Gold Rush (1925),B,-0.0201,-0.1466647225663506,107,154
+GPT-5.4,OpenAI,Large,La Belle et la Bête,1946,La Belle et la Bête (1946),B,-0.0204,-0.14885342160479786,108,135
+GPT-5.4,OpenAI,Large,Ghostbusters,1984,Ghostbusters (1984),A,-0.0233,-0.17001084564312133,109,131
+GPT-5.4,OpenAI,Large,Europa '51,1952,Europa '51 (1952),B,-0.0234,-0.17074041198927042,110,131
+GPT-5.4,OpenAI,Large,Speed,1994,Speed (1994),C,-0.0257,-0.18752043795069936,111,139
+GPT-5.4,OpenAI,Large,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,-0.0262,-0.1911682696814448,112,146
+GPT-5.4,OpenAI,Large,Star Trek,2009,Star Trek (2009),C,-0.0284,-0.2072187292967247,113,140
+GPT-5.4,OpenAI,Large,The Revenant,2015,The Revenant (2015),C,-0.0301,-0.2196213571812591,114,134
+GPT-5.4,OpenAI,Large,Saving Private Ryan,1998,Saving Private Ryan (1998),A,-0.0305,-0.22253962256585544,115,148
+GPT-5.4,OpenAI,Large,A Clockwork Orange,1971,A Clockwork Orange (1971),B,-0.0308,-0.22472832160430273,116,140
+GPT-5.4,OpenAI,Large,Dances with Wolves,1990,Dances with Wolves (1990),C,-0.0317,-0.23129441871964446,117,149
+GPT-5.4,OpenAI,Large,True Lies,1994,True Lies (1994),C,-0.034,-0.24807444468107345,118,153
+GPT-5.4,OpenAI,Large,The Green Ray,1986,The Green Ray (1986),B,-0.036,-0.26266577160405513,119,150
+GPT-5.4,OpenAI,Large,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.0385,-0.28090493025778224,120,137
+GPT-5.4,OpenAI,Large,The Exorcist,1973,The Exorcist (1973),A,-0.04,-0.29184842545001854,121,155
+GPT-5.4,OpenAI,Large,Twister,1996,Twister (1996),C,-0.0402,-0.2933075581423167,122,132
+GPT-5.4,OpenAI,Large,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0408,-0.29768495621921126,123,153
+GPT-5.4,OpenAI,Large,Underground,1995,Underground (1995),B,-0.0417,-0.304251053334553,124,145
+GPT-5.4,OpenAI,Large,Gravity,2013,Gravity (2013),C,-0.0429,-0.31300584948834204,125,145
+GPT-5.4,OpenAI,Large,Terra em Transe,1967,Terra em Transe (1967),B,-0.0464,-0.33854067160355994,126,158
+GPT-5.4,OpenAI,Large,A Bug's Life,1998,A Bug's Life (1998),C,-0.0504,-0.3677233254495234,127,142
+GPT-5.4,OpenAI,Large,Rain Man,1988,Rain Man (1988),C,-0.0538,-0.3925285812185923,128,155
+GPT-5.4,OpenAI,Large,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.0555,-0.40493120910312674,129,165
+GPT-5.4,OpenAI,Large,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.058,-0.4231703677568539,130,151
+GPT-5.4,OpenAI,Large,Out 1,1971,Out 1 (1971),B,-0.0635,-0.46329651679505357,131,149
+GPT-5.4,OpenAI,Large,Top Gun,1986,Top Gun (1986),C,-0.0644,-0.4698626139103953,132,146
+GPT-5.4,OpenAI,Large,The Wolverine,2013,The Wolverine (2013),C,-0.0653,-0.47642871102573703,133,143
+GPT-5.4,OpenAI,Large,Stromboli,1950,Stromboli (1950),B,-0.0674,-0.49174960429486786,134,156
+GPT-5.4,OpenAI,Large,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.0681,-0.4968565687179114,135,145
+GPT-5.4,OpenAI,Large,Dead Poets Society,1989,Dead Poets Society (1989),A,-0.0749,-0.5464670802560492,136,157
+GPT-5.4,OpenAI,Large,La Région centrale,1971,La Région centrale (1971),B,-0.0754,-0.5501149119867946,137,156
+GPT-5.4,OpenAI,Large,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.0824,-0.6011845562172307,138,155
+GPT-5.4,OpenAI,Large,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.0861,-0.6281785110247468,139,151
+GPT-5.4,OpenAI,Large,Brave,2012,Brave (2012),C,-0.0984,-0.7179151716010843,140,155
+GPT-5.4,OpenAI,Large,Bambi,1942,Bambi (1942),A,-0.1092,-0.7967083369851855,141,174
+GPT-5.4,OpenAI,Large,Independence Day,1996,Independence Day (1996),C,-0.1098,-0.8010857350620799,142,157
+GPT-5.4,OpenAI,Large,The Croods,2013,The Croods (2013),C,-0.1132,-0.8258909908311488,143,152
+GPT-5.4,OpenAI,Large,Forrest Gump,1994,Forrest Gump (1994),A,-0.1144,-0.8346457869849379,144,177
+GPT-5.4,OpenAI,Large,National Treasure,2004,National Treasure (2004),C,-0.1144,-0.8346457869849379,145,173
+GPT-5.4,OpenAI,Large,The Bodyguard,1992,The Bodyguard (1992),C,-0.1199,-0.8747719360231376,146,168
+GPT-5.4,OpenAI,Large,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.1243,-0.9068728552536972,147,174
+GPT-5.4,OpenAI,Large,Limite,1931,Limite (1931),B,-0.125,-0.9119798196767409,148,182
+GPT-5.4,OpenAI,Large,Intolerance,1916,Intolerance (1916),B,-0.1322,-0.9645085965994751,149,183
+GPT-5.4,OpenAI,Large,Titanic,1997,Titanic (1997),A,-0.1325,-0.9666972956379223,150,165
+GPT-5.4,OpenAI,Large,Full River Red,2023,Full River Red (2023),C,-0.1327,-0.9681564283302205,151,163
+GPT-5.4,OpenAI,Large,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.1341,-0.9783703571763076,152,167
+GPT-5.4,OpenAI,Large,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.1349,-0.9842068879455003,153,159
+GPT-5.4,OpenAI,Large,JFK,1991,JFK (1991),A,-0.1362,-0.9936912504454384,154,158
+GPT-5.4,OpenAI,Large,Death in Venice,1971,Death in Venice (1971),B,-0.1368,-0.998068648522333,155,181
+GPT-5.4,OpenAI,Large,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1384,-1.0097417100607182,156,180
+GPT-5.4,OpenAI,Large,Armageddon,1998,Armageddon (1998),C,-0.1384,-1.0097417100607182,157,153
+GPT-5.4,OpenAI,Large,Incredibles 2,2018,Incredibles 2 (2018),C,-0.1389,-1.0133895417914638,158,169
+GPT-5.4,OpenAI,Large,American Beauty,1999,American Beauty (1999),A,-0.1395,-1.0177669398683584,159,157
+GPT-5.4,OpenAI,Large,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.1404,-1.0243330369837,160,156
+GPT-5.4,OpenAI,Large,Joker,2019,Joker (2019),C,-0.1425,-1.0396539302528307,161,177
+GPT-5.4,OpenAI,Large,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.1427,-1.0411130629451288,162,160
+GPT-5.4,OpenAI,Large,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.1433,-1.0454904610220235,163,170
+GPT-5.4,OpenAI,Large,Avatar,2009,Avatar (2009),A,-0.147,-1.0724844158295395,164,154
+GPT-5.4,OpenAI,Large,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.1528,-1.1147992639061866,165,164
+GPT-5.4,OpenAI,Large,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.1532,-1.1177175292907828,166,150
+GPT-5.4,OpenAI,Large,Lucy,2014,Lucy (2014),C,-0.1537,-1.1213653610215284,167,177
+GPT-5.4,OpenAI,Large,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1538,-1.1220949273676772,168,152
+GPT-5.4,OpenAI,Large,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1539,-1.1228244937138265,169,167
+GPT-5.4,OpenAI,Large,Monster Hunt,2015,Monster Hunt (2015),C,-0.1544,-1.126472325444572,170,174
+GPT-5.4,OpenAI,Large,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.1549,-1.1301201571753174,171,189
+GPT-5.4,OpenAI,Large,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1549,-1.1301201571753174,172,146
+GPT-5.4,OpenAI,Large,The Golden Compass,2007,The Golden Compass (2007),C,-0.1555,-1.1344975552522119,173,152
+GPT-5.4,OpenAI,Large,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.1557,-1.13595668794451,174,171
+GPT-5.4,OpenAI,Large,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.1563,-1.1403340860214044,175,188
+GPT-5.4,OpenAI,Large,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.157,-1.145441050444448,176,159
+GPT-5.4,OpenAI,Large,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1578,-1.1512775812136409,177,152
+GPT-5.4,OpenAI,Large,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1581,-1.153466280252088,178,148
+GPT-5.4,OpenAI,Large,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.1597,-1.1651393417904734,179,139
+GPT-5.4,OpenAI,Large,Sing,2016,Sing (2016),C,-0.1597,-1.1651393417904734,180,174
+GPT-5.4,OpenAI,Large,The Grinch,2018,The Grinch (2018),C,-0.1598,-1.1658689081366225,181,137
+GPT-5.4,OpenAI,Large,Uncharted,2022,Uncharted (2022),C,-0.1598,-1.1658689081366225,182,153
+GPT-5.4,OpenAI,Large,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1604,-1.1702463062135169,183,154
+GPT-5.4,OpenAI,Large,The Meg,2018,The Meg (2018),C,-0.1612,-1.1760828369827099,184,142
+GPT-5.4,OpenAI,Large,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1616,-1.179001102367306,185,162
+GPT-5.4,OpenAI,Large,2012,2009,2012 (2009),C,-0.1629,-1.188485464867244,186,146
+GPT-5.4,OpenAI,Large,Superman Returns,2006,Superman Returns (2006),C,-0.1629,-1.188485464867244,187,149
+GPT-5.4,OpenAI,Large,Noah,2014,Noah (2014),C,-0.1629,-1.188485464867244,188,153
+GPT-5.4,OpenAI,Large,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1644,-1.1994289600594803,189,150
+GPT-5.4,OpenAI,Large,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.1701,-1.2410142417899783,190,126
+GPT-5.4,OpenAI,Large,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1701,-1.2410142417899783,191,134
+GPT-5.4,OpenAI,Large,Cars 2,2011,Cars 2 (2011),C,-0.1775,-1.2950021514050105,192,144
+GPT-5.4,OpenAI,Large,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.1779,-1.297920416789607,193,137
+GPT-5.4,OpenAI,Large,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.178,-1.2986499831357559,194,134
+GPT-5.4,OpenAI,Large,Die Another Day,2002,Die Another Day (2002),C,-0.1792,-1.307404779289545,195,147
+GPT-5.4,OpenAI,Large,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1892,-1.3803614139044535,196,134
+GPT-5.4,OpenAI,Large,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1897,-1.3840092456351991,197,149
+GPT-5.4,OpenAI,Large,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.2072,-1.5116833562112888,198,138
+GPT-5.4,OpenAI,Large,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.2158,-1.57442606198011,199,135
+GPT-5.4,OpenAI,Large,Pegasus 2,2024,Pegasus 2 (2024),C,-0.2247,-1.639357466787379,200,138
+GPT-5.4 Nano,OpenAI,Small,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.2785,2.0363305664431204,1,204
+GPT-5.4 Nano,OpenAI,Small,The Dark Knight,2008,The Dark Knight (2008),A,0.2679,1.9588255655210467,2,273
+GPT-5.4 Nano,OpenAI,Small,Parasite,2019,Parasite (2019),A,0.2665,1.948589055965301,3,172
+GPT-5.4 Nano,OpenAI,Small,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.2658,1.943470801187428,4,235
+GPT-5.4 Nano,OpenAI,Small,Spirited Away,2001,Spirited Away (2001),A,0.2638,1.9288472161077914,5,201
+GPT-5.4 Nano,OpenAI,Small,Shoah,1985,Shoah (1985),B,0.2635,1.926653678345846,6,205
+GPT-5.4 Nano,OpenAI,Small,Schindler's List,1993,Schindler's List (1993),A,0.2633,1.9251913198378823,7,178
+GPT-5.4 Nano,OpenAI,Small,Toy Story,1995,Toy Story (1995),A,0.2627,1.9208042443139914,8,258
+GPT-5.4 Nano,OpenAI,Small,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.2625,1.9193418858060278,9,226
+GPT-5.4 Nano,OpenAI,Small,Beau Travail,1999,Beau Travail (1999),B,0.2621,1.9164171687901004,10,308
+GPT-5.4 Nano,OpenAI,Small,The Godfather,1972,The Godfather (1972),A,0.2587,1.8915570741547183,11,205
+GPT-5.4 Nano,OpenAI,Small,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.2573,1.8813205645989726,12,256
+GPT-5.4 Nano,OpenAI,Small,Sans Soleil,1983,Sans Soleil (1983),B,0.2567,1.8769334890750817,13,262
+GPT-5.4 Nano,OpenAI,Small,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.2566,1.8762023098210998,14,182
+GPT-5.4 Nano,OpenAI,Small,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.2564,1.8747399513131364,15,293
+GPT-5.4 Nano,OpenAI,Small,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.2543,1.8593851869795182,16,241
+GPT-5.4 Nano,OpenAI,Small,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.2526,1.8469551396618267,17,334
+GPT-5.4 Nano,OpenAI,Small,Amadeus,1984,Amadeus (1984),B,0.245,1.791385516359208,18,344
+GPT-5.4 Nano,OpenAI,Small,WALL-E,2008,WALL-E (2008),A,0.2433,1.778955469041517,19,337
+GPT-5.4 Nano,OpenAI,Small,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.2362,1.7270417420088073,20,363
+GPT-5.4 Nano,OpenAI,Small,Pather Panchali,1955,Pather Panchali (1955),B,0.2356,1.7226546664849163,21,227
+GPT-5.4 Nano,OpenAI,Small,Get Out,2017,Get Out (2017),A,0.2325,1.6999881096114797,22,306
+GPT-5.4 Nano,OpenAI,Small,Persona,1966,Persona (1966),B,0.227,1.6597732506424792,23,328
+GPT-5.4 Nano,OpenAI,Small,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.2245,1.6414937692929334,24,347
+GPT-5.4 Nano,OpenAI,Small,Pulp Fiction,1994,Pulp Fiction (1994),A,0.2218,1.6217519294354241,25,268
+GPT-5.4 Nano,OpenAI,Small,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.2211,1.6166336746575511,26,357
+GPT-5.4 Nano,OpenAI,Small,American Beauty,1999,American Beauty (1999),A,0.2177,1.5917735800221693,27,332
+GPT-5.4 Nano,OpenAI,Small,Saving Private Ryan,1998,Saving Private Ryan (1998),A,0.1878,1.3731509830816027,28,301
+GPT-5.4 Nano,OpenAI,Small,Yojimbo,1961,Yojimbo (1961),B,0.1872,1.3687639075577118,29,338
+GPT-5.4 Nano,OpenAI,Small,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.1847,1.3504844262081661,30,320
+GPT-5.4 Nano,OpenAI,Small,Oldboy,2003,Oldboy (2003),B,0.1811,1.3241619730648202,31,337
+GPT-5.4 Nano,OpenAI,Small,Ratatouille,2007,Ratatouille (2007),C,0.1795,1.3124631050011109,32,306
+GPT-5.4 Nano,OpenAI,Small,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.1764,1.2897965481276743,33,427
+GPT-5.4 Nano,OpenAI,Small,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.1696,1.24007635885691,34,308
+GPT-5.4 Nano,OpenAI,Small,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.1653,1.2086356509356915,35,348
+GPT-5.4 Nano,OpenAI,Small,Back to the Future,1985,Back to the Future (1985),A,0.154,1.1260123952357448,36,293
+GPT-5.4 Nano,OpenAI,Small,High and Low,1963,High and Low (1963),B,0.1531,1.1194317819499084,37,298
+GPT-5.4 Nano,OpenAI,Small,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.1444,1.0558191868534894,38,344
+GPT-5.4 Nano,OpenAI,Small,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.1368,1.0002495635508706,39,325
+GPT-5.4 Nano,OpenAI,Small,A Clockwork Orange,1971,A Clockwork Orange (1971),B,0.1296,0.9476046572641789,40,281
+GPT-5.4 Nano,OpenAI,Small,Se7en,1995,Se7en (1995),A,0.1274,0.9315187136765788,41,305
+GPT-5.4 Nano,OpenAI,Small,Your Name.,2016,Your Name. (2016),C,0.1222,0.8934973924695236,42,292
+GPT-5.4 Nano,OpenAI,Small,Inside Out,2015,Inside Out (2015),C,0.1118,0.8174547500554135,43,301
+GPT-5.4 Nano,OpenAI,Small,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.1094,0.7999064479598496,44,286
+GPT-5.4 Nano,OpenAI,Small,Blade Runner,1982,Blade Runner (1982),B,0.1047,0.7655410230227038,45,261
+GPT-5.4 Nano,OpenAI,Small,Pyaasa,1957,Pyaasa (1957),B,0.1003,0.7333691358475033,46,338
+GPT-5.4 Nano,OpenAI,Small,Jurassic Park,1993,Jurassic Park (1993),A,0.0891,0.6514770594015385,47,356
+GPT-5.4 Nano,OpenAI,Small,Oppenheimer,2023,Oppenheimer (2023),C,0.0832,0.6083374834166108,48,355
+GPT-5.4 Nano,OpenAI,Small,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.0731,0.5344883787644461,49,318
+GPT-5.4 Nano,OpenAI,Small,The Social Network,2010,The Social Network (2010),A,0.0643,0.47014460441404526,50,213
+GPT-5.4 Nano,OpenAI,Small,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0608,0.4445533305246813,51,295
+GPT-5.4 Nano,OpenAI,Small,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.0593,0.4335856417149539,52,319
+GPT-5.4 Nano,OpenAI,Small,Europa '51,1952,Europa '51 (1952),B,0.0591,0.4321232832069903,53,330
+GPT-5.4 Nano,OpenAI,Small,The Seventh Seal,1957,The Seventh Seal (1957),B,0.0566,0.41384380185744457,54,263
+GPT-5.4 Nano,OpenAI,Small,Ran,1985,Ran (1985),B,0.0533,0.38971488647604424,55,305
+GPT-5.4 Nano,OpenAI,Small,Logan,2017,Logan (2017),C,0.0501,0.3663171503486258,56,317
+GPT-5.4 Nano,OpenAI,Small,The Matrix,1999,The Matrix (1999),A,0.0486,0.35534946153889835,57,321
+GPT-5.4 Nano,OpenAI,Small,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,0.0485,0.35461828228491654,58,223
+GPT-5.4 Nano,OpenAI,Small,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0385,0.28150035688673375,59,343
+GPT-5.4 Nano,OpenAI,Small,Rain Man,1988,Rain Man (1988),C,0.03,0.21935012029827838,60,241
+GPT-5.4 Nano,OpenAI,Small,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.0278,0.20326417671067817,61,221
+GPT-5.4 Nano,OpenAI,Small,Coco,2017,Coco (2017),C,0.0263,0.19229648790095077,62,238
+GPT-5.4 Nano,OpenAI,Small,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0242,0.1769417235673324,63,188
+GPT-5.4 Nano,OpenAI,Small,Taste of Cherry,1997,Taste of Cherry (1997),B,0.0236,0.17255464804344142,64,283
+GPT-5.4 Nano,OpenAI,Small,M,1931,M (1931),B,0.0202,0.1476945534080593,65,212
+GPT-5.4 Nano,OpenAI,Small,Caché,2005,Caché (2005),B,0.0191,0.13965158161425917,66,231
+GPT-5.4 Nano,OpenAI,Small,Jaws,1975,Jaws (1975),A,0.0181,0.1323397890744409,67,266
+GPT-5.4 Nano,OpenAI,Small,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.0174,0.1272215342965681,68,162
+GPT-5.4 Nano,OpenAI,Small,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0167,0.12210327951869532,69,177
+GPT-5.4 Nano,OpenAI,Small,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0162,0.11844738324878618,70,156
+GPT-5.4 Nano,OpenAI,Small,Dances with Wolves,1990,Dances with Wolves (1990),C,0.0162,0.11844738324878618,71,167
+GPT-5.4 Nano,OpenAI,Small,Kes,1969,Kes (1969),B,0.0156,0.11406030772489523,72,285
+GPT-5.4 Nano,OpenAI,Small,Nostalghia,1983,Nostalghia (1983),B,0.0147,0.10747969443905878,73,211
+GPT-5.4 Nano,OpenAI,Small,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,0.0132,0.09651200562933136,74,177
+GPT-5.4 Nano,OpenAI,Small,All About My Mother,1999,All About My Mother (1999),B,0.0122,0.08920021308951309,75,223
+GPT-5.4 Nano,OpenAI,Small,The Revenant,2015,The Revenant (2015),C,0.0122,0.08920021308951309,76,136
+GPT-5.4 Nano,OpenAI,Small,Home Alone,1990,Home Alone (1990),C,0.0121,0.08846903383553126,77,156
+GPT-5.4 Nano,OpenAI,Small,True Lies,1994,True Lies (1994),C,0.0102,0.07457662800987654,78,159
+GPT-5.4 Nano,OpenAI,Small,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0094,0.0687271939780219,79,157
+GPT-5.4 Nano,OpenAI,Small,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.0089,0.06507129770811276,80,184
+GPT-5.4 Nano,OpenAI,Small,The Thin Red Line,1998,The Thin Red Line (1998),B,0.0087,0.06360893920014911,81,184
+GPT-5.4 Nano,OpenAI,Small,Pickpocket,1959,Pickpocket (1959),B,0.0085,0.06214658069218546,82,181
+GPT-5.4 Nano,OpenAI,Small,Gravity,2013,Gravity (2013),C,0.0076,0.055565967406349004,83,173
+GPT-5.4 Nano,OpenAI,Small,Batman,1989,Batman (1989),C,0.0071,0.05191007113643987,84,146
+GPT-5.4 Nano,OpenAI,Small,The Fugitive,1993,The Fugitive (1993),C,0.0066,0.04825417486653073,85,179
+GPT-5.4 Nano,OpenAI,Small,Death in Venice,1971,Death in Venice (1971),B,0.0052,0.03801766531078514,86,174
+GPT-5.4 Nano,OpenAI,Small,Withnail & I,1987,Withnail & I (1987),B,0.0046,0.03363058978689418,87,167
+GPT-5.4 Nano,OpenAI,Small,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,0.0036,0.026318797247075896,88,143
+GPT-5.4 Nano,OpenAI,Small,Star Wars,1977,Star Wars (1977),A,0.0027,0.01973818396123945,89,159
+GPT-5.4 Nano,OpenAI,Small,Solaris,1972,Solaris (1972),B,0.0027,0.01973818396123945,90,178
+GPT-5.4 Nano,OpenAI,Small,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.0021,0.01535110843734848,91,174
+GPT-5.4 Nano,OpenAI,Small,Day for Night,1973,Day for Night (1973),B,0.0017,0.01242639142142117,92,152
+GPT-5.4 Nano,OpenAI,Small,La Belle et la Bête,1946,La Belle et la Bête (1946),B,0.0008,0.005845778135584721,93,150
+GPT-5.4 Nano,OpenAI,Small,Apollo 13,1995,Apollo 13 (1995),C,0.0007,0.005114598881602893,94,136
+GPT-5.4 Nano,OpenAI,Small,The Conformist,1970,The Conformist (1970),B,-0.0006,-0.004390731420160867,95,143
+GPT-5.4 Nano,OpenAI,Small,Happy Together,1997,Happy Together (1997),B,-0.0015,-0.010971344705997317,96,142
+GPT-5.4 Nano,OpenAI,Small,A Bug's Life,1998,A Bug's Life (1998),C,-0.0016,-0.011702523959979144,97,141
+GPT-5.4 Nano,OpenAI,Small,Twister,1996,Twister (1996),C,-0.0028,-0.020476675007761076,98,138
+GPT-5.4 Nano,OpenAI,Small,Forrest Gump,1994,Forrest Gump (1994),A,-0.005,-0.036562618595361286,99,153
+GPT-5.4 Nano,OpenAI,Small,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0062,-0.04533676964314322,100,144
+GPT-5.4 Nano,OpenAI,Small,Videodrome,1983,Videodrome (1983),B,-0.0065,-0.0475303074050887,101,158
+GPT-5.4 Nano,OpenAI,Small,Days of Being Wild,1990,Days of Being Wild (1990),B,-0.0075,-0.05484209994490698,102,149
+GPT-5.4 Nano,OpenAI,Small,Joker,2019,Joker (2019),C,-0.0076,-0.055573279198888804,103,153
+GPT-5.4 Nano,OpenAI,Small,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.0079,-0.05776681696083429,104,148
+GPT-5.4 Nano,OpenAI,Small,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,-0.0084,-0.06142271323074343,105,140
+GPT-5.4 Nano,OpenAI,Small,Senso,1954,Senso (1954),B,-0.0107,-0.07823983607232546,106,142
+GPT-5.4 Nano,OpenAI,Small,Top Gun,1986,Top Gun (1986),C,-0.0114,-0.08335809085019827,107,138
+GPT-5.4 Nano,OpenAI,Small,Titanic,1997,Titanic (1997),A,-0.0153,-0.11187408175548953,108,147
+GPT-5.4 Nano,OpenAI,Small,Stromboli,1950,Stromboli (1950),B,-0.0155,-0.1133364402634532,109,139
+GPT-5.4 Nano,OpenAI,Small,Beauty and the Beast,1991,Beauty and the Beast (1991),C,-0.0156,-0.11406761951743502,110,138
+GPT-5.4 Nano,OpenAI,Small,Vivre sa vie,1962,Vivre sa vie (1962),B,-0.0175,-0.12796002534308978,111,134
+GPT-5.4 Nano,OpenAI,Small,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.0225,-0.16451898804218115,112,149
+GPT-5.4 Nano,OpenAI,Small,Out 1,1971,Out 1 (1971),B,-0.0244,-0.1784113938678359,113,137
+GPT-5.4 Nano,OpenAI,Small,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.0249,-0.182067290137745,114,136
+GPT-5.4 Nano,OpenAI,Small,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,-0.0263,-0.1923037996934906,115,134
+GPT-5.4 Nano,OpenAI,Small,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,-0.0271,-0.1981532337253452,116,143
+GPT-5.4 Nano,OpenAI,Small,Star Trek,2009,Star Trek (2009),C,-0.0283,-0.20692738477312714,117,146
+GPT-5.4 Nano,OpenAI,Small,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,-0.0291,-0.21277681880498178,118,135
+GPT-5.4 Nano,OpenAI,Small,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,-0.03,-0.21935743209081823,119,136
+GPT-5.4 Nano,OpenAI,Small,The Exorcist,1973,The Exorcist (1973),A,-0.0308,-0.22520686612267285,120,144
+GPT-5.4 Nano,OpenAI,Small,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.0415,-0.3034430462987284,121,136
+GPT-5.4 Nano,OpenAI,Small,National Treasure,2004,National Treasure (2004),C,-0.0418,-0.3056365840606739,122,139
+GPT-5.4 Nano,OpenAI,Small,Breathless,1960,Breathless (1960),B,-0.042,-0.30709894256863757,123,155
+GPT-5.4 Nano,OpenAI,Small,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.0422,-0.30856130107660124,124,147
+GPT-5.4 Nano,OpenAI,Small,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.0431,-0.31514191436243766,125,144
+GPT-5.4 Nano,OpenAI,Small,Speed,1994,Speed (1994),C,-0.0437,-0.31952898988632866,126,147
+GPT-5.4 Nano,OpenAI,Small,Zama,2017,Zama (2017),B,-0.0488,-0.3568191318394019,127,150
+GPT-5.4 Nano,OpenAI,Small,Los Olvidados,1950,Los Olvidados (1950),B,-0.0518,-0.3787545094588567,128,143
+GPT-5.4 Nano,OpenAI,Small,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.0532,-0.38899101901460226,129,142
+GPT-5.4 Nano,OpenAI,Small,The Croods,2013,The Croods (2013),C,-0.0554,-0.40507696260220244,130,143
+GPT-5.4 Nano,OpenAI,Small,Full River Red,2023,Full River Red (2023),C,-0.059,-0.43139941574554824,131,147
+GPT-5.4 Nano,OpenAI,Small,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.069,-0.504517341143731,132,147
+GPT-5.4 Nano,OpenAI,Small,The Bodyguard,1992,The Bodyguard (1992),C,-0.0693,-0.5067108789056766,133,141
+GPT-5.4 Nano,OpenAI,Small,La Région centrale,1971,La Région centrale (1971),B,-0.0744,-0.5440010208587497,134,147
+GPT-5.4 Nano,OpenAI,Small,Ghostbusters,1984,Ghostbusters (1984),A,-0.0828,-0.6054200781932233,135,145
+GPT-5.4 Nano,OpenAI,Small,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.0867,-0.6339360690985145,136,157
+GPT-5.4 Nano,OpenAI,Small,Independence Day,1996,Independence Day (1996),C,-0.0879,-0.6427102201462965,137,165
+GPT-5.4 Nano,OpenAI,Small,The Green Ray,1986,The Green Ray (1986),B,-0.09,-0.6580649844799148,138,166
+GPT-5.4 Nano,OpenAI,Small,The Gleaners & I,2000,The Gleaners & I (2000),B,-0.0935,-0.6836562583692788,139,159
+GPT-5.4 Nano,OpenAI,Small,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.0941,-0.6880433338931699,140,149
+GPT-5.4 Nano,OpenAI,Small,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.0952,-0.6960863056869699,141,153
+GPT-5.4 Nano,OpenAI,Small,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1012,-0.7399570609258795,142,163
+GPT-5.4 Nano,OpenAI,Small,Terra em Transe,1967,Terra em Transe (1967),B,-0.1035,-0.7567741837674615,143,159
+GPT-5.4 Nano,OpenAI,Small,Avatar,2009,Avatar (2009),A,-0.104,-0.7604300800373707,144,164
+GPT-5.4 Nano,OpenAI,Small,The Wolverine,2013,The Wolverine (2013),C,-0.1112,-0.8130749863240623,145,163
+GPT-5.4 Nano,OpenAI,Small,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1148,-0.8393974394674082,146,161
+GPT-5.4 Nano,OpenAI,Small,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1154,-0.8437845149912991,147,161
+GPT-5.4 Nano,OpenAI,Small,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1205,-0.8810746569443723,148,164
+GPT-5.4 Nano,OpenAI,Small,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,-0.1206,-0.8818058361983542,149,179
+GPT-5.4 Nano,OpenAI,Small,The Ascent,1977,The Ascent (1977),B,-0.1241,-0.9073971100877182,150,186
+GPT-5.4 Nano,OpenAI,Small,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.126,-0.9212895159133727,151,176
+GPT-5.4 Nano,OpenAI,Small,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.1281,-0.9366442802469911,152,176
+GPT-5.4 Nano,OpenAI,Small,Underground,1995,Underground (1995),B,-0.1321,-0.9658914504062642,153,167
+GPT-5.4 Nano,OpenAI,Small,The Mummy,1999,The Mummy (1999),C,-0.1355,-0.9907515450416464,154,174
+GPT-5.4 Nano,OpenAI,Small,JFK,1991,JFK (1991),A,-0.1356,-0.9914827242956282,155,178
+GPT-5.4 Nano,OpenAI,Small,The Wind,1928,The Wind (1928),B,-0.1484,-1.0850736688053022,156,155
+GPT-5.4 Nano,OpenAI,Small,Bambi,1942,Bambi (1942),A,-0.1486,-1.0865360273132658,157,172
+GPT-5.4 Nano,OpenAI,Small,The Crowd,1928,The Crowd (1928),B,-0.1494,-1.0923854613451205,158,178
+GPT-5.4 Nano,OpenAI,Small,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,-0.1506,-1.1011596123929024,159,186
+GPT-5.4 Nano,OpenAI,Small,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.151,-1.1040843294088296,160,151
+GPT-5.4 Nano,OpenAI,Small,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.1512,-1.1055466879167934,161,164
+GPT-5.4 Nano,OpenAI,Small,Intolerance,1916,Intolerance (1916),B,-0.1513,-1.1062778671707751,162,175
+GPT-5.4 Nano,OpenAI,Small,Brave,2012,Brave (2012),C,-0.1513,-1.1062778671707751,163,175
+GPT-5.4 Nano,OpenAI,Small,Armageddon,1998,Armageddon (1998),C,-0.152,-1.111396121948648,164,171
+GPT-5.4 Nano,OpenAI,Small,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1522,-1.1128584804566117,165,152
+GPT-5.4 Nano,OpenAI,Small,Uncharted,2022,Uncharted (2022),C,-0.1525,-1.115052018218557,166,149
+GPT-5.4 Nano,OpenAI,Small,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.1528,-1.1172455559805026,167,166
+GPT-5.4 Nano,OpenAI,Small,If….,1968,If…. (1968),B,-0.1529,-1.1179767352344845,168,193
+GPT-5.4 Nano,OpenAI,Small,Limite,1931,Limite (1931),B,-0.153,-1.1187079144884662,169,156
+GPT-5.4 Nano,OpenAI,Small,Sing,2016,Sing (2016),C,-0.1531,-1.119439093742448,170,181
+GPT-5.4 Nano,OpenAI,Small,Die Another Day,2002,Die Another Day (2002),C,-0.1532,-1.12017027299643,171,162
+GPT-5.4 Nano,OpenAI,Small,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,-0.1539,-1.1252885277743028,172,171
+GPT-5.4 Nano,OpenAI,Small,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1545,-1.1296756032981936,173,158
+GPT-5.4 Nano,OpenAI,Small,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.155,-1.1333314995681028,174,168
+GPT-5.4 Nano,OpenAI,Small,The Meg,2018,The Meg (2018),C,-0.155,-1.1333314995681028,175,160
+GPT-5.4 Nano,OpenAI,Small,The Gold Rush,1925,The Gold Rush (1925),B,-0.1553,-1.1355250373300483,176,178
+GPT-5.4 Nano,OpenAI,Small,Monster Hunt,2015,Monster Hunt (2015),C,-0.1554,-1.1362562165840302,177,169
+GPT-5.4 Nano,OpenAI,Small,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1557,-1.1384497543459757,178,152
+GPT-5.4 Nano,OpenAI,Small,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.1562,-1.1421056506158849,179,163
+GPT-5.4 Nano,OpenAI,Small,Lucy,2014,Lucy (2014),C,-0.1564,-1.1435680091238485,180,140
+GPT-5.4 Nano,OpenAI,Small,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1569,-1.1472239053937576,181,163
+GPT-5.4 Nano,OpenAI,Small,The Grinch,2018,The Grinch (2018),C,-0.157,-1.1479550846477393,182,158
+GPT-5.4 Nano,OpenAI,Small,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1574,-1.1508798016636668,183,166
+GPT-5.4 Nano,OpenAI,Small,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.1579,-1.154535697933576,184,151
+GPT-5.4 Nano,OpenAI,Small,Noah,2014,Noah (2014),C,-0.1582,-1.1567292356955212,185,144
+GPT-5.4 Nano,OpenAI,Small,The Golden Compass,2007,The Golden Compass (2007),C,-0.1587,-1.1603851319654304,186,158
+GPT-5.4 Nano,OpenAI,Small,Tarzan,1999,Tarzan (1999),C,-0.1608,-1.1757398962990488,187,151
+GPT-5.4 Nano,OpenAI,Small,Superman Returns,2006,Superman Returns (2006),C,-0.1625,-1.1881699436167399,188,146
+GPT-5.4 Nano,OpenAI,Small,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,-0.1626,-1.1889011228707216,189,145
+GPT-5.4 Nano,OpenAI,Small,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1631,-1.1925570191406307,190,152
+GPT-5.4 Nano,OpenAI,Small,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.1649,-1.2057182457123037,191,147
+GPT-5.4 Nano,OpenAI,Small,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1737,-1.2700620200627046,192,133
+GPT-5.4 Nano,OpenAI,Small,2012,2009,2012 (2009),C,-0.1742,-1.2737179163326138,193,142
+GPT-5.4 Nano,OpenAI,Small,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.1838,-1.3439111247148692,194,146
+GPT-5.4 Nano,OpenAI,Small,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1868,-1.365846502334324,195,144
+GPT-5.4 Nano,OpenAI,Small,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.1935,-1.4148355123511065,196,132
+GPT-5.4 Nano,OpenAI,Small,Cars 2,2011,Cars 2 (2011),C,-0.2057,-1.5040393813368893,197,138
+GPT-5.4 Nano,OpenAI,Small,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.216,-1.5793508444970177,198,140
+GPT-5.4 Nano,OpenAI,Small,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.2172,-1.5881249955447996,199,136
+GPT-5.4 Nano,OpenAI,Small,Pegasus 2,2024,Pegasus 2 (2024),C,-0.2357,-1.7233931575314376,200,128
+Mistral Large 3,Mistral,Large,Spirited Away,2001,Spirited Away (2001),A,0.2313,1.9486020009647016,1,134
+Mistral Large 3,Mistral,Large,Pather Panchali,1955,Pather Panchali (1955),B,0.2287,1.9266981306555435,2,179
+Mistral Large 3,Mistral,Large,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.2254,1.89889706449392,3,181
+Mistral Large 3,Mistral,Large,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.2242,1.8887875858896934,4,225
+Mistral Large 3,Mistral,Large,The Godfather,1972,The Godfather (1972),A,0.2234,1.8820479334868756,5,293
+Mistral Large 3,Mistral,Large,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.223,1.8786781072854668,6,250
+Mistral Large 3,Mistral,Large,Beau Travail,1999,Beau Travail (1999),B,0.2213,1.8643563459294787,7,167
+Mistral Large 3,Mistral,Large,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,0.2207,1.8593016066273655,8,229
+Mistral Large 3,Mistral,Large,Withnail & I,1987,Withnail & I (1987),B,0.2207,1.8593016066273655,9,189
+Mistral Large 3,Mistral,Large,Vivre sa vie,1962,Vivre sa vie (1962),B,0.2188,1.843294932170673,10,271
+Mistral Large 3,Mistral,Large,The Gleaners & I,2000,The Gleaners & I (2000),B,0.2183,1.8390826494189119,11,237
+Mistral Large 3,Mistral,Large,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.2178,1.8348703666671509,12,272
+Mistral Large 3,Mistral,Large,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.2174,1.831500540465742,13,224
+Mistral Large 3,Mistral,Large,Schindler's List,1993,Schindler's List (1993),A,0.2118,1.784322973646017,14,273
+Mistral Large 3,Mistral,Large,Yojimbo,1961,Yojimbo (1961),B,0.2079,1.7514671681822804,15,294
+Mistral Large 3,Mistral,Large,Persona,1966,Persona (1966),B,0.2065,1.7396727764773492,16,276
+Mistral Large 3,Mistral,Large,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.2063,1.7379878633766448,17,293
+Mistral Large 3,Mistral,Large,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.2044,1.7219811889199523,18,270
+Mistral Large 3,Mistral,Large,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.2023,1.7042896013625557,19,297
+Mistral Large 3,Mistral,Large,Nostalghia,1983,Nostalghia (1983),B,0.194,1.634365707683321,20,337
+Mistral Large 3,Mistral,Large,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.1939,1.6335232511329685,21,310
+Mistral Large 3,Mistral,Large,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.1915,1.6133042939245152,22,354
+Mistral Large 3,Mistral,Large,Pulp Fiction,1994,Pulp Fiction (1994),A,0.189,1.5922428801657094,23,343
+Mistral Large 3,Mistral,Large,Sans Soleil,1983,Sans Soleil (1983),B,0.1858,1.565284270554438,24,278
+Mistral Large 3,Mistral,Large,High and Low,1963,High and Low (1963),B,0.1783,1.502100029278021,25,280
+Mistral Large 3,Mistral,Large,All About My Mother,1999,All About My Mother (1999),B,0.1709,1.4397582445519563,26,374
+Mistral Large 3,Mistral,Large,Se7en,1995,Se7en (1995),A,0.1695,1.4279638528470253,27,382
+Mistral Large 3,Mistral,Large,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.1676,1.4119571783903329,28,334
+Mistral Large 3,Mistral,Large,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,0.163,1.3732041770741303,29,314
+Mistral Large 3,Mistral,Large,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.1549,1.3049651964956,30,318
+Mistral Large 3,Mistral,Large,Pyaasa,1957,Pyaasa (1957),B,0.152,1.2805339565353853,31,344
+Mistral Large 3,Mistral,Large,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.1355,1.1415286257272679,32,326
+Mistral Large 3,Mistral,Large,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.1342,1.130576690572689,33,326
+Mistral Large 3,Mistral,Large,Blade Runner,1982,Blade Runner (1982),B,0.1285,1.082556667202612,34,271
+Mistral Large 3,Mistral,Large,Parasite,2019,Parasite (2019),A,0.1186,0.9991534687177415,35,372
+Mistral Large 3,Mistral,Large,Taste of Cherry,1997,Taste of Cherry (1997),B,0.1181,0.9949411859659804,36,304
+Mistral Large 3,Mistral,Large,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.1176,0.9907289032142191,37,312
+Mistral Large 3,Mistral,Large,Happy Together,1997,Happy Together (1997),B,0.1137,0.9578730977504823,38,263
+Mistral Large 3,Mistral,Large,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.1059,0.8921614868230086,39,308
+Mistral Large 3,Mistral,Large,Ran,1985,Ran (1985),B,0.1043,0.878682182017373,40,349
+Mistral Large 3,Mistral,Large,Amadeus,1984,Amadeus (1984),B,0.1029,0.8668877903124419,41,287
+Mistral Large 3,Mistral,Large,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.0969,0.8163403972913081,42,316
+Mistral Large 3,Mistral,Large,Ratatouille,2007,Ratatouille (2007),C,0.0966,0.8138130276402515,43,331
+Mistral Large 3,Mistral,Large,Los Olvidados,1950,Los Olvidados (1950),B,0.096,0.8087582883381381,44,303
+Mistral Large 3,Mistral,Large,Oldboy,2003,Oldboy (2003),B,0.0879,0.7405193077596077,45,328
+Mistral Large 3,Mistral,Large,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.0838,0.7059785891951664,46,284
+Mistral Large 3,Mistral,Large,The Green Ray,1986,The Green Ray (1986),B,0.0836,0.7042936760944619,47,283
+Mistral Large 3,Mistral,Large,The Conformist,1970,The Conformist (1970),B,0.0833,0.7017663064434053,48,266
+Mistral Large 3,Mistral,Large,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.0793,0.6680680444293161,49,299
+Mistral Large 3,Mistral,Large,Jurassic Park,1993,Jurassic Park (1993),A,0.0779,0.656273652724385,50,244
+Mistral Large 3,Mistral,Large,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0759,0.6394245217173404,51,258
+Mistral Large 3,Mistral,Large,Back to the Future,1985,Back to the Future (1985),A,0.0755,0.6360546955159315,52,274
+Mistral Large 3,Mistral,Large,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0718,0.6048838031528991,53,281
+Mistral Large 3,Mistral,Large,WALL-E,2008,WALL-E (2008),A,0.0706,0.5947743245486724,54,255
+Mistral Large 3,Mistral,Large,Videodrome,1983,Videodrome (1983),B,0.0684,0.5762402804409235,55,281
+Mistral Large 3,Mistral,Large,Days of Being Wild,1990,Days of Being Wild (1990),B,0.0668,0.5627609756352878,56,267
+Mistral Large 3,Mistral,Large,M,1931,M (1931),B,0.062,0.5223230612183809,57,272
+Mistral Large 3,Mistral,Large,Inside Out,2015,Inside Out (2015),C,0.0587,0.49452199505675737,58,265
+Mistral Large 3,Mistral,Large,Solaris,1972,Solaris (1972),B,0.056,0.47177566819724726,59,318
+Mistral Large 3,Mistral,Large,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0541,0.45576899374055496,60,210
+Mistral Large 3,Mistral,Large,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.0501,0.4220707317264658,61,265
+Mistral Large 3,Mistral,Large,Pickpocket,1959,Pickpocket (1959),B,0.0493,0.415331079323648,62,195
+Mistral Large 3,Mistral,Large,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.0481,0.40522160071942126,63,221
+Mistral Large 3,Mistral,Large,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0426,0.3588864904500488,64,203
+Mistral Large 3,Mistral,Large,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,0.0337,0.28390785746870056,65,176
+Mistral Large 3,Mistral,Large,Your Name.,2016,Your Name. (2016),C,0.032,0.2695860961127127,66,283
+Mistral Large 3,Mistral,Large,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.0304,0.2561067913070771,67,245
+Mistral Large 3,Mistral,Large,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.0302,0.25442187820637263,68,165
+Mistral Large 3,Mistral,Large,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0302,0.25442187820637263,69,209
+Mistral Large 3,Mistral,Large,Ghostbusters,1984,Ghostbusters (1984),A,0.0285,0.24010011685038476,70,205
+Mistral Large 3,Mistral,Large,Caché,2005,Caché (2005),B,0.0281,0.23673029064897586,71,215
+Mistral Large 3,Mistral,Large,Terra em Transe,1967,Terra em Transe (1967),B,0.0248,0.20892922448735235,72,161
+Mistral Large 3,Mistral,Large,Star Wars,1977,Star Wars (1977),A,0.0244,0.20555939828594347,73,184
+Mistral Large 3,Mistral,Large,Coco,2017,Coco (2017),C,0.0237,0.19966220243347785,74,191
+Mistral Large 3,Mistral,Large,Toy Story,1995,Toy Story (1995),A,0.022,0.18534044107748998,75,211
+Mistral Large 3,Mistral,Large,Out 1,1971,Out 1 (1971),B,0.0211,0.17775833212431996,76,197
+Mistral Large 3,Mistral,Large,The Matrix,1999,The Matrix (1999),A,0.0203,0.17101867972150211,77,173
+Mistral Large 3,Mistral,Large,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0197,0.16596394041938875,78,230
+Mistral Large 3,Mistral,Large,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.0183,0.1541695487144576,79,184
+Mistral Large 3,Mistral,Large,Jaws,1975,Jaws (1975),A,0.018,0.15164217906340088,80,168
+Mistral Large 3,Mistral,Large,Oppenheimer,2023,Oppenheimer (2023),C,0.0179,0.15079972251304866,81,207
+Mistral Large 3,Mistral,Large,Day for Night,1973,Day for Night (1973),B,0.0168,0.14153270045917415,82,161
+Mistral Large 3,Mistral,Large,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.0167,0.14069024390882195,83,153
+Mistral Large 3,Mistral,Large,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0163,0.13732041770741302,84,159
+Mistral Large 3,Mistral,Large,The Seventh Seal,1957,The Seventh Seal (1957),B,0.014,0.11794391704931181,85,188
+Mistral Large 3,Mistral,Large,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.0138,0.11625900394860736,86,179
+Mistral Large 3,Mistral,Large,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.0135,0.11373163429755068,87,208
+Mistral Large 3,Mistral,Large,La Région centrale,1971,La Région centrale (1971),B,0.0122,0.10277969914297173,88,245
+Mistral Large 3,Mistral,Large,The Social Network,2010,The Social Network (2010),A,0.0119,0.10025232949191505,89,168
+Mistral Large 3,Mistral,Large,Get Out,2017,Get Out (2017),A,0.0114,0.0960400467401539,90,189
+Mistral Large 3,Mistral,Large,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,0.0103,0.0867730246862794,91,149
+Mistral Large 3,Mistral,Large,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.01,0.08424565503522273,92,181
+Mistral Large 3,Mistral,Large,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0097,0.08171828538416605,93,175
+Mistral Large 3,Mistral,Large,Kes,1969,Kes (1969),B,0.0097,0.08171828538416605,94,173
+Mistral Large 3,Mistral,Large,If….,1968,If…. (1968),B,0.0097,0.08171828538416605,95,144
+Mistral Large 3,Mistral,Large,Logan,2017,Logan (2017),C,0.0086,0.07245126333029155,96,155
+Mistral Large 3,Mistral,Large,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.0079,0.06655406747782595,97,164
+Mistral Large 3,Mistral,Large,Breathless,1960,Breathless (1960),B,0.0048,0.0404379144169069,98,212
+Mistral Large 3,Mistral,Large,Apollo 13,1995,Apollo 13 (1995),C,0.0045,0.03791054476585022,99,163
+Mistral Large 3,Mistral,Large,The Fugitive,1993,The Fugitive (1993),C,0.0023,0.019376500658101224,100,135
+Mistral Large 3,Mistral,Large,Full River Red,2023,Full River Red (2023),C,0.002,0.016849131007044545,101,136
+Mistral Large 3,Mistral,Large,Shoah,1985,Shoah (1985),B,0.0003,0.0025273696510566815,102,178
+Mistral Large 3,Mistral,Large,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.0001,-0.0008424565503522272,103,144
+Mistral Large 3,Mistral,Large,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.0008,-0.006739652402817818,104,143
+Mistral Large 3,Mistral,Large,Zama,2017,Zama (2017),B,-0.0018,-0.015164217906340089,105,159
+Mistral Large 3,Mistral,Large,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.004,-0.03369826201408909,106,144
+Mistral Large 3,Mistral,Large,A Clockwork Orange,1971,A Clockwork Orange (1971),B,-0.0052,-0.04380774061831581,107,131
+Mistral Large 3,Mistral,Large,The Dark Knight,2008,The Dark Knight (2008),A,-0.0063,-0.053074762672190315,108,154
+Mistral Large 3,Mistral,Large,Saving Private Ryan,1998,Saving Private Ryan (1998),A,-0.0074,-0.06234178472606482,109,148
+Mistral Large 3,Mistral,Large,Dances with Wolves,1990,Dances with Wolves (1990),C,-0.0076,-0.06402669782676927,110,152
+Mistral Large 3,Mistral,Large,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0099,-0.0834031984848705,111,141
+Mistral Large 3,Mistral,Large,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.0105,-0.08845793778698387,112,149
+Mistral Large 3,Mistral,Large,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.0141,-0.11878637359966404,113,133
+Mistral Large 3,Mistral,Large,Home Alone,1990,Home Alone (1990),C,-0.0146,-0.12299865635142518,114,136
+Mistral Large 3,Mistral,Large,Limite,1931,Limite (1931),B,-0.0163,-0.13732041770741302,115,148
+Mistral Large 3,Mistral,Large,Gravity,2013,Gravity (2013),C,-0.0191,-0.16090920111727539,116,159
+Mistral Large 3,Mistral,Large,Star Trek,2009,Star Trek (2009),C,-0.0191,-0.16090920111727539,117,137
+Mistral Large 3,Mistral,Large,La Belle et la Bête,1946,La Belle et la Bête (1946),B,-0.0255,-0.21482642033981791,118,155
+Mistral Large 3,Mistral,Large,Rain Man,1988,Rain Man (1988),C,-0.0277,-0.23336046444756692,119,135
+Mistral Large 3,Mistral,Large,The Mummy,1999,The Mummy (1999),C,-0.029,-0.2443123996021459,120,142
+Mistral Large 3,Mistral,Large,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.0298,-0.2510520520049637,121,139
+Mistral Large 3,Mistral,Large,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.0317,-0.267058726461656,122,143
+Mistral Large 3,Mistral,Large,Forrest Gump,1994,Forrest Gump (1994),A,-0.0329,-0.27716820506588274,123,148
+Mistral Large 3,Mistral,Large,The Wind,1928,The Wind (1928),B,-0.0353,-0.2973871622743362,124,133
+Mistral Large 3,Mistral,Large,Europa '51,1952,Europa '51 (1952),B,-0.0354,-0.29822961882468846,125,151
+Mistral Large 3,Mistral,Large,True Lies,1994,True Lies (1994),C,-0.0434,-0.3656261428528666,126,133
+Mistral Large 3,Mistral,Large,American Beauty,1999,American Beauty (1999),A,-0.0458,-0.38584510006132006,127,151
+Mistral Large 3,Mistral,Large,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.0516,-0.43470757998174925,128,160
+Mistral Large 3,Mistral,Large,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,-0.0537,-0.452399167539146,129,155
+Mistral Large 3,Mistral,Large,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0632,-0.5324325398226076,130,156
+Mistral Large 3,Mistral,Large,Twister,1996,Twister (1996),C,-0.0662,-0.5577062363331744,131,153
+Mistral Large 3,Mistral,Large,Joker,2019,Joker (2019),C,-0.067,-0.5644458887359922,132,162
+Mistral Large 3,Mistral,Large,National Treasure,2004,National Treasure (2004),C,-0.0688,-0.5796101066423324,133,139
+Mistral Large 3,Mistral,Large,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.074,-0.6234178472606481,134,157
+Mistral Large 3,Mistral,Large,Speed,1994,Speed (1994),C,-0.075,-0.6318424127641704,135,154
+Mistral Large 3,Mistral,Large,A Bug's Life,1998,A Bug's Life (1998),C,-0.0773,-0.6512189134222716,136,154
+Mistral Large 3,Mistral,Large,Top Gun,1986,Top Gun (1986),C,-0.0804,-0.6773350664831906,137,156
+Mistral Large 3,Mistral,Large,Sing,2016,Sing (2016),C,-0.0854,-0.7194578940008021,138,153
+Mistral Large 3,Mistral,Large,Batman,1989,Batman (1989),C,-0.0878,-0.7396768512092555,139,158
+Mistral Large 3,Mistral,Large,Underground,1995,Underground (1995),B,-0.0888,-0.7481014167127779,140,176
+Mistral Large 3,Mistral,Large,Death in Venice,1971,Death in Venice (1971),B,-0.0935,-0.7876968745793325,141,168
+Mistral Large 3,Mistral,Large,Senso,1954,Senso (1954),B,-0.094,-0.7919091573310936,142,177
+Mistral Large 3,Mistral,Large,The Exorcist,1973,The Exorcist (1973),A,-0.0945,-0.7961214400828547,143,185
+Mistral Large 3,Mistral,Large,Tarzan,1999,Tarzan (1999),C,-0.0973,-0.819710223492717,144,167
+Mistral Large 3,Mistral,Large,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.0993,-0.8365593544997616,145,159
+Mistral Large 3,Mistral,Large,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1007,-0.8483537462046928,146,167
+Mistral Large 3,Mistral,Large,The Ascent,1977,The Ascent (1977),B,-0.1043,-0.878682182017373,147,165
+Mistral Large 3,Mistral,Large,Brave,2012,Brave (2012),C,-0.1055,-0.8887916606215996,148,169
+Mistral Large 3,Mistral,Large,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.1069,-0.9005860523265309,149,165
+Mistral Large 3,Mistral,Large,Lucy,2014,Lucy (2014),C,-0.1107,-0.9325994012399156,150,162
+Mistral Large 3,Mistral,Large,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1156,-0.9738797722071746,151,168
+Mistral Large 3,Mistral,Large,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.1164,-0.9806194246099925,152,165
+Mistral Large 3,Mistral,Large,The Bodyguard,1992,The Bodyguard (1992),C,-0.1179,-0.993256272865276,153,172
+Mistral Large 3,Mistral,Large,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.118,-0.994098729415628,154,161
+Mistral Large 3,Mistral,Large,Independence Day,1996,Independence Day (1996),C,-0.1182,-0.9957836425163326,155,158
+Mistral Large 3,Mistral,Large,The Revenant,2015,The Revenant (2015),C,-0.1185,-0.9983110121673892,156,162
+Mistral Large 3,Mistral,Large,The Crowd,1928,The Crowd (1928),B,-0.1192,-1.0042082080198549,157,172
+Mistral Large 3,Mistral,Large,The Gold Rush,1925,The Gold Rush (1925),B,-0.122,-1.0277969914297171,158,179
+Mistral Large 3,Mistral,Large,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.124,-1.0446461224367618,159,159
+Mistral Large 3,Mistral,Large,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1241,-1.045488578987114,160,159
+Mistral Large 3,Mistral,Large,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1313,-1.1061454506124744,161,166
+Mistral Large 3,Mistral,Large,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.1362,-1.1474258215797333,162,169
+Mistral Large 3,Mistral,Large,Stromboli,1950,Stromboli (1950),B,-0.1385,-1.1668023222378348,163,177
+Mistral Large 3,Mistral,Large,Armageddon,1998,Armageddon (1998),C,-0.1399,-1.1785967139427658,164,178
+Mistral Large 3,Mistral,Large,JFK,1991,JFK (1991),A,-0.1405,-1.1836514532448794,165,174
+Mistral Large 3,Mistral,Large,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.1414,-1.1912335621980492,166,159
+Mistral Large 3,Mistral,Large,Monster Hunt,2015,Monster Hunt (2015),C,-0.1417,-1.1937609318491058,167,188
+Mistral Large 3,Mistral,Large,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1421,-1.1971307580505148,168,167
+Mistral Large 3,Mistral,Large,Bambi,1942,Bambi (1942),A,-0.1423,-1.1988156711512195,169,156
+Mistral Large 3,Mistral,Large,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1428,-1.2030279539029805,170,168
+Mistral Large 3,Mistral,Large,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.1431,-1.2055553235540373,171,154
+Mistral Large 3,Mistral,Large,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.1437,-1.2106100628561505,172,187
+Mistral Large 3,Mistral,Large,The Croods,2013,The Croods (2013),C,-0.1438,-1.211452519406503,173,170
+Mistral Large 3,Mistral,Large,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.144,-1.213137432507207,174,153
+Mistral Large 3,Mistral,Large,Titanic,1997,Titanic (1997),A,-0.1454,-1.2249318242121383,175,162
+Mistral Large 3,Mistral,Large,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1458,-1.2283016504135473,176,163
+Mistral Large 3,Mistral,Large,Intolerance,1916,Intolerance (1916),B,-0.1465,-1.2341988462660127,177,145
+Mistral Large 3,Mistral,Large,Noah,2014,Noah (2014),C,-0.1478,-1.2451507814205918,178,147
+Mistral Large 3,Mistral,Large,The Wolverine,2013,The Wolverine (2013),C,-0.1487,-1.2527328903737618,179,156
+Mistral Large 3,Mistral,Large,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1489,-1.2544178034744664,180,139
+Mistral Large 3,Mistral,Large,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.149,-1.2552602600248186,181,141
+Mistral Large 3,Mistral,Large,Uncharted,2022,Uncharted (2022),C,-0.1505,-1.2678971082801018,182,142
+Mistral Large 3,Mistral,Large,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1513,-1.2746367606829196,183,145
+Mistral Large 3,Mistral,Large,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.1514,-1.275479217233272,184,139
+Mistral Large 3,Mistral,Large,Superman Returns,2006,Superman Returns (2006),C,-0.1523,-1.283061326186442,185,141
+Mistral Large 3,Mistral,Large,Die Another Day,2002,Die Another Day (2002),C,-0.1527,-1.2864311523878509,186,158
+Mistral Large 3,Mistral,Large,Avatar,2009,Avatar (2009),A,-0.153,-1.2889585220389077,187,135
+Mistral Large 3,Mistral,Large,Pegasus 2,2024,Pegasus 2 (2024),C,-0.1548,-1.3041227399452477,188,149
+Mistral Large 3,Mistral,Large,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1551,-1.3066501095963043,189,144
+Mistral Large 3,Mistral,Large,The Meg,2018,The Meg (2018),C,-0.1555,-1.3100199357977134,190,152
+Mistral Large 3,Mistral,Large,The Grinch,2018,The Grinch (2018),C,-0.1575,-1.3268690668047578,191,136
+Mistral Large 3,Mistral,Large,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1597,-1.3454031109125069,192,139
+Mistral Large 3,Mistral,Large,2012,2009,2012 (2009),C,-0.161,-1.356355046067086,193,154
+Mistral Large 3,Mistral,Large,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1637,-1.379101372926596,194,143
+Mistral Large 3,Mistral,Large,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.166,-1.3984778735846972,195,141
+Mistral Large 3,Mistral,Large,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1673,-1.4094298087392763,196,138
+Mistral Large 3,Mistral,Large,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.1675,-1.4111147218399807,197,152
+Mistral Large 3,Mistral,Large,Cars 2,2011,Cars 2 (2011),C,-0.1766,-1.4877782679220333,198,136
+Mistral Large 3,Mistral,Large,The Golden Compass,2007,The Golden Compass (2007),C,-0.1787,-1.50546985547943,199,138
+Mistral Large 3,Mistral,Large,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1937,-1.6318383380322643,200,141
+Mistral Small 3.2,Mistral,Small,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.2626,1.9816513925581913,1,200
+Mistral Small 3.2,Mistral,Small,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.2604,1.9650497175380925,2,213
+Mistral Small 3.2,Mistral,Small,Yojimbo,1961,Yojimbo (1961),B,0.2601,1.9627858527626245,3,236
+Mistral Small 3.2,Mistral,Small,Spirited Away,2001,Spirited Away (2001),A,0.2594,1.9575035016198659,4,158
+Mistral Small 3.2,Mistral,Small,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.2585,1.9507119072934616,5,208
+Mistral Small 3.2,Mistral,Small,Parasite,2019,Parasite (2019),A,0.2539,1.9159993140696185,6,251
+Mistral Small 3.2,Mistral,Small,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.2522,1.9031707470086328,7,172
+Mistral Small 3.2,Mistral,Small,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.2521,1.9024161254168102,8,191
+Mistral Small 3.2,Mistral,Small,The Godfather,1972,The Godfather (1972),A,0.2519,1.900906882233165,9,159
+Mistral Small 3.2,Mistral,Small,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.2507,1.8918514231312924,10,181
+Mistral Small 3.2,Mistral,Small,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.2487,1.876758991294839,11,167
+Mistral Small 3.2,Mistral,Small,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.2486,1.8760043697030162,12,206
+Mistral Small 3.2,Mistral,Small,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.2481,1.872231261743903,13,220
+Mistral Small 3.2,Mistral,Small,Star Wars,1977,Star Wars (1977),A,0.2452,1.8503472355810453,14,275
+Mistral Small 3.2,Mistral,Small,Toy Story,1995,Toy Story (1995),A,0.2402,1.8126161559899112,15,333
+Mistral Small 3.2,Mistral,Small,Schindler's List,1993,Schindler's List (1993),A,0.2392,1.8050699400716845,16,236
+Mistral Small 3.2,Mistral,Small,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.2389,1.8028060752962165,17,309
+Mistral Small 3.2,Mistral,Small,Pyaasa,1957,Pyaasa (1957),B,0.2336,1.7628111309296146,18,303
+Mistral Small 3.2,Mistral,Small,Pulp Fiction,1994,Pulp Fiction (1994),A,0.2317,1.7484733206849836,19,336
+Mistral Small 3.2,Mistral,Small,Blade Runner,1982,Blade Runner (1982),B,0.2303,1.737908618399466,20,254
+Mistral Small 3.2,Mistral,Small,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.2301,1.7363993752158207,21,289
+Mistral Small 3.2,Mistral,Small,Amadeus,1984,Amadeus (1984),B,0.2249,1.6971590524410414,22,361
+Mistral Small 3.2,Mistral,Small,Beau Travail,1999,Beau Travail (1999),B,0.2067,1.5598179227293139,23,349
+Mistral Small 3.2,Mistral,Small,Persona,1966,Persona (1966),B,0.1921,1.4496431703232027,24,329
+Mistral Small 3.2,Mistral,Small,Your Name.,2016,Your Name. (2016),C,0.1894,1.4292683873439904,25,303
+Mistral Small 3.2,Mistral,Small,All About My Mother,1999,All About My Mother (1999),B,0.184,1.3885188213855657,26,348
+Mistral Small 3.2,Mistral,Small,WALL-E,2008,WALL-E (2008),A,0.1835,1.3847457134264523,27,277
+Mistral Small 3.2,Mistral,Small,Taste of Cherry,1997,Taste of Cherry (1997),B,0.1798,1.356824714529013,28,405
+Mistral Small 3.2,Mistral,Small,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.1723,1.3002280951423124,29,377
+Mistral Small 3.2,Mistral,Small,The Matrix,1999,The Matrix (1999),A,0.1679,1.2670247451021144,30,309
+Mistral Small 3.2,Mistral,Small,Jurassic Park,1993,Jurassic Park (1993),A,0.1644,1.2406129893883207,31,353
+Mistral Small 3.2,Mistral,Small,The Dark Knight,2008,The Dark Knight (2008),A,0.1636,1.2345760166537392,32,317
+Mistral Small 3.2,Mistral,Small,Get Out,2017,Get Out (2017),A,0.1581,1.1930718291034919,33,330
+Mistral Small 3.2,Mistral,Small,Oldboy,2003,Oldboy (2003),B,0.1501,1.1327021017576777,34,370
+Mistral Small 3.2,Mistral,Small,The Sixth Sense,1999,The Sixth Sense (1999),C,0.1435,1.0828970766973807,35,359
+Mistral Small 3.2,Mistral,Small,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.141,1.0640315369018136,36,375
+Mistral Small 3.2,Mistral,Small,Ran,1985,Ran (1985),B,0.1399,1.0557306993917643,37,335
+Mistral Small 3.2,Mistral,Small,Back to the Future,1985,Back to the Future (1985),A,0.1394,1.0519575914326509,38,316
+Mistral Small 3.2,Mistral,Small,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.1296,0.9780046754340284,39,393
+Mistral Small 3.2,Mistral,Small,Pather Panchali,1955,Pather Panchali (1955),B,0.1208,0.9115979753536327,40,282
+Mistral Small 3.2,Mistral,Small,Ghostbusters,1984,Ghostbusters (1984),A,0.1206,0.9100887321699873,41,294
+Mistral Small 3.2,Mistral,Small,Se7en,1995,Se7en (1995),A,0.1182,0.891977813966243,42,319
+Mistral Small 3.2,Mistral,Small,Withnail & I,1987,Withnail & I (1987),B,0.1128,0.8512282480078184,43,313
+Mistral Small 3.2,Mistral,Small,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.1105,0.8338719513958968,44,270
+Mistral Small 3.2,Mistral,Small,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.1084,0.8180248979676205,45,298
+Mistral Small 3.2,Mistral,Small,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.1065,0.8036870877229896,46,328
+Mistral Small 3.2,Mistral,Small,Shoah,1985,Shoah (1985),B,0.1049,0.7916131422538266,47,306
+Mistral Small 3.2,Mistral,Small,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.1044,0.7878400342947134,48,300
+Mistral Small 3.2,Mistral,Small,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.103,0.7772753320091957,49,355
+Mistral Small 3.2,Mistral,Small,The Fugitive,1993,The Fugitive (1993),C,0.0965,0.7282249285407217,50,374
+Mistral Small 3.2,Mistral,Small,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.0859,0.6482350398075177,51,277
+Mistral Small 3.2,Mistral,Small,Ratatouille,2007,Ratatouille (2007),C,0.0859,0.6482350398075177,52,288
+Mistral Small 3.2,Mistral,Small,High and Low,1963,High and Low (1963),B,0.0778,0.5871106908698807,53,277
+Mistral Small 3.2,Mistral,Small,Sans Soleil,1983,Sans Soleil (1983),B,0.068,0.5131577748712582,54,289
+Mistral Small 3.2,Mistral,Small,Saving Private Ryan,1998,Saving Private Ryan (1998),A,0.0669,0.5048569373612087,55,217
+Mistral Small 3.2,Mistral,Small,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.0528,0.3984552929142109,56,233
+Mistral Small 3.2,Mistral,Small,M,1931,M (1931),B,0.0492,0.37128891560859445,57,295
+Mistral Small 3.2,Mistral,Small,The Seventh Seal,1957,The Seventh Seal (1957),B,0.0473,0.3569511053639636,58,294
+Mistral Small 3.2,Mistral,Small,Happy Together,1997,Happy Together (1997),B,0.0473,0.3569511053639636,59,234
+Mistral Small 3.2,Mistral,Small,Videodrome,1983,Videodrome (1983),B,0.0448,0.3380855655683966,60,261
+Mistral Small 3.2,Mistral,Small,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0433,0.3267662416910564,61,218
+Mistral Small 3.2,Mistral,Small,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0387,0.29205364846721316,62,314
+Mistral Small 3.2,Mistral,Small,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0355,0.2679057575288874,63,285
+Mistral Small 3.2,Mistral,Small,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.0343,0.2588502984270153,64,219
+Mistral Small 3.2,Mistral,Small,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.0329,0.24828559614149778,65,201
+Mistral Small 3.2,Mistral,Small,Coco,2017,Coco (2017),C,0.0329,0.24828559614149778,66,231
+Mistral Small 3.2,Mistral,Small,Jaws,1975,Jaws (1975),A,0.0327,0.24677635295785244,67,210
+Mistral Small 3.2,Mistral,Small,Solaris,1972,Solaris (1972),B,0.032,0.2414940018150937,68,248
+Mistral Small 3.2,Mistral,Small,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,0.0248,0.1871612472038608,69,182
+Mistral Small 3.2,Mistral,Small,Forrest Gump,1994,Forrest Gump (1994),A,0.0246,0.18565200402021545,70,175
+Mistral Small 3.2,Mistral,Small,Logan,2017,Logan (2017),C,0.024,0.18112427446927937,71,208
+Mistral Small 3.2,Mistral,Small,Kes,1969,Kes (1969),B,0.0234,0.1765965449183433,72,224
+Mistral Small 3.2,Mistral,Small,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.022,0.16603184263282578,73,158
+Mistral Small 3.2,Mistral,Small,True Lies,1994,True Lies (1994),C,0.0217,0.16376797785735775,74,264
+Mistral Small 3.2,Mistral,Small,Inside Out,2015,Inside Out (2015),C,0.021,0.158485626714599,75,195
+Mistral Small 3.2,Mistral,Small,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0201,0.1516940323881949,76,172
+Mistral Small 3.2,Mistral,Small,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,0.0183,0.13811084373538668,77,168
+Mistral Small 3.2,Mistral,Small,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,0.0182,0.137356222143564,78,218
+Mistral Small 3.2,Mistral,Small,La Belle et la Bête,1946,La Belle et la Bête (1946),B,0.0181,0.1366016005517413,79,166
+Mistral Small 3.2,Mistral,Small,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.0179,0.13509235736809594,80,131
+Mistral Small 3.2,Mistral,Small,The Gold Rush,1925,The Gold Rush (1925),B,0.0153,0.1154721959807063,81,194
+Mistral Small 3.2,Mistral,Small,Home Alone,1990,Home Alone (1990),C,0.0123,0.09283354822602594,82,142
+Mistral Small 3.2,Mistral,Small,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0116,0.08755119708326717,83,150
+Mistral Small 3.2,Mistral,Small,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0101,0.07623187320592699,84,141
+Mistral Small 3.2,Mistral,Small,Oppenheimer,2023,Oppenheimer (2023),C,0.0101,0.07623187320592699,85,174
+Mistral Small 3.2,Mistral,Small,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0097,0.07321338683863628,86,164
+Mistral Small 3.2,Mistral,Small,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.009,0.06793103569587752,87,150
+Mistral Small 3.2,Mistral,Small,If….,1968,If…. (1968),B,0.0089,0.06717641410405484,88,153
+Mistral Small 3.2,Mistral,Small,Star Trek,2009,Star Trek (2009),C,0.0084,0.06340330614494144,89,153
+Mistral Small 3.2,Mistral,Small,Dances with Wolves,1990,Dances with Wolves (1990),C,0.0078,0.05887557659400537,90,170
+Mistral Small 3.2,Mistral,Small,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.0075,0.05661171181853734,91,180
+Mistral Small 3.2,Mistral,Small,Apollo 13,1995,Apollo 13 (1995),C,0.0074,0.05585709022671466,92,141
+Mistral Small 3.2,Mistral,Small,The Exorcist,1973,The Exorcist (1973),A,0.0054,0.04076465839026108,93,210
+Mistral Small 3.2,Mistral,Small,The Green Ray,1986,The Green Ray (1986),B,0.0039,0.029445334512920897,94,150
+Mistral Small 3.2,Mistral,Small,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.0027,0.020389875411048752,95,152
+Mistral Small 3.2,Mistral,Small,Days of Being Wild,1990,Days of Being Wild (1990),B,0.0011,0.008315929941885887,96,179
+Mistral Small 3.2,Mistral,Small,Rain Man,1988,Rain Man (1988),C,-0.0006,-0.0045126371190996545,97,154
+Mistral Small 3.2,Mistral,Small,Nostalghia,1983,Nostalghia (1983),B,-0.0044,-0.03318825760836146,98,143
+Mistral Small 3.2,Mistral,Small,Vivre sa vie,1962,Vivre sa vie (1962),B,-0.0046,-0.034697500792006813,99,143
+Mistral Small 3.2,Mistral,Small,A Clockwork Orange,1971,A Clockwork Orange (1971),B,-0.0054,-0.04073447352658825,100,133
+Mistral Small 3.2,Mistral,Small,The Gleaners & I,2000,The Gleaners & I (2000),B,-0.0055,-0.041489095118410924,101,137
+Mistral Small 3.2,Mistral,Small,Caché,2005,Caché (2005),B,-0.0061,-0.046016824669347006,102,144
+Mistral Small 3.2,Mistral,Small,Gravity,2013,Gravity (2013),C,-0.008,-0.060354634913977905,103,139
+Mistral Small 3.2,Mistral,Small,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.0084,-0.06337312128126861,104,133
+Mistral Small 3.2,Mistral,Small,Speed,1994,Speed (1994),C,-0.0116,-0.08752101221959434,105,155
+Mistral Small 3.2,Mistral,Small,La Région centrale,1971,La Région centrale (1971),B,-0.0154,-0.11619663270885615,106,155
+Mistral Small 3.2,Mistral,Small,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,-0.0183,-0.13808065887171384,107,138
+Mistral Small 3.2,Mistral,Small,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.0199,-0.1501546043408767,108,145
+Mistral Small 3.2,Mistral,Small,Titanic,1997,Titanic (1997),A,-0.0214,-0.16147392821821688,109,137
+Mistral Small 3.2,Mistral,Small,Los Olvidados,1950,Los Olvidados (1950),B,-0.0233,-0.17581173846284778,110,144
+Mistral Small 3.2,Mistral,Small,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0255,-0.19241341348294672,111,136
+Mistral Small 3.2,Mistral,Small,Underground,1995,Underground (1995),B,-0.0267,-0.20146887258481888,112,138
+Mistral Small 3.2,Mistral,Small,Batman,1989,Batman (1989),C,-0.0276,-0.20826046691122296,113,148
+Mistral Small 3.2,Mistral,Small,Joker,2019,Joker (2019),C,-0.0294,-0.22184365556403118,114,139
+Mistral Small 3.2,Mistral,Small,The Crowd,1928,The Crowd (1928),B,-0.0325,-0.24523692491053425,115,141
+Mistral Small 3.2,Mistral,Small,Breathless,1960,Breathless (1960),B,-0.0327,-0.2467461680941796,116,154
+Mistral Small 3.2,Mistral,Small,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.0366,-0.27617641017526406,117,130
+Mistral Small 3.2,Mistral,Small,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.0407,-0.3071158954399939,118,141
+Mistral Small 3.2,Mistral,Small,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.0407,-0.3071158954399939,119,131
+Mistral Small 3.2,Mistral,Small,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,-0.0442,-0.3335276511537877,120,156
+Mistral Small 3.2,Mistral,Small,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,-0.0455,-0.3433377318474825,121,152
+Mistral Small 3.2,Mistral,Small,American Beauty,1999,American Beauty (1999),A,-0.0471,-0.3554116773166454,122,171
+Mistral Small 3.2,Mistral,Small,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.0489,-0.3689948659694536,123,142
+Mistral Small 3.2,Mistral,Small,Terra em Transe,1967,Terra em Transe (1967),B,-0.0501,-0.37805032507132574,124,142
+Mistral Small 3.2,Mistral,Small,Top Gun,1986,Top Gun (1986),C,-0.0515,-0.3886150273568432,125,150
+Mistral Small 3.2,Mistral,Small,The Mummy,1999,The Mummy (1999),C,-0.057,-0.4301192149070906,126,142
+Mistral Small 3.2,Mistral,Small,The Bodyguard,1992,The Bodyguard (1992),C,-0.0577,-0.43540156604984936,127,151
+Mistral Small 3.2,Mistral,Small,Independence Day,1996,Independence Day (1996),C,-0.0594,-0.4482301331108349,128,154
+Mistral Small 3.2,Mistral,Small,Senso,1954,Senso (1954),B,-0.0637,-0.4806788615592101,129,137
+Mistral Small 3.2,Mistral,Small,The Conformist,1970,The Conformist (1970),B,-0.0648,-0.4889796990692595,130,138
+Mistral Small 3.2,Mistral,Small,Zama,2017,Zama (2017),B,-0.0655,-0.4942620502120183,131,144
+Mistral Small 3.2,Mistral,Small,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0672,-0.5070906172730038,132,148
+Mistral Small 3.2,Mistral,Small,Day for Night,1973,Day for Night (1973),B,-0.0674,-0.5085998604566492,133,148
+Mistral Small 3.2,Mistral,Small,Full River Red,2023,Full River Red (2023),C,-0.0701,-0.5289746434358614,134,152
+Mistral Small 3.2,Mistral,Small,Out 1,1971,Out 1 (1971),B,-0.0708,-0.5342569945786203,135,144
+Mistral Small 3.2,Mistral,Small,The Revenant,2015,The Revenant (2015),C,-0.0719,-0.5425578320886697,136,155
+Mistral Small 3.2,Mistral,Small,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,-0.0767,-0.5787796684961584,137,182
+Mistral Small 3.2,Mistral,Small,A Bug's Life,1998,A Bug's Life (1998),C,-0.078,-0.5885897491898531,138,146
+Mistral Small 3.2,Mistral,Small,The Croods,2013,The Croods (2013),C,-0.082,-0.6187746128627604,139,161
+Mistral Small 3.2,Mistral,Small,Limite,1931,Limite (1931),B,-0.0826,-0.6233023424136964,140,153
+Mistral Small 3.2,Mistral,Small,JFK,1991,JFK (1991),A,-0.088,-0.664051908372121,141,162
+Mistral Small 3.2,Mistral,Small,Death in Venice,1971,Death in Venice (1971),B,-0.0975,-0.7357409595952755,142,165
+Mistral Small 3.2,Mistral,Small,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.0988,-0.7455510402889703,143,154
+Mistral Small 3.2,Mistral,Small,Tarzan,1999,Tarzan (1999),C,-0.1017,-0.767435066451828,144,147
+Mistral Small 3.2,Mistral,Small,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.1026,-0.7742266607782321,145,184
+Mistral Small 3.2,Mistral,Small,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.1029,-0.7764905255537002,146,158
+Mistral Small 3.2,Mistral,Small,Twister,1996,Twister (1996),C,-0.1052,-0.7938468221656219,147,165
+Mistral Small 3.2,Mistral,Small,The Ascent,1977,The Ascent (1977),B,-0.107,-0.80743001081843,148,168
+Mistral Small 3.2,Mistral,Small,Intolerance,1916,Intolerance (1916),B,-0.1126,-0.8496888199605,149,170
+Mistral Small 3.2,Mistral,Small,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1171,-0.8836467915925206,150,163
+Mistral Small 3.2,Mistral,Small,Brave,2012,Brave (2012),C,-0.1185,-0.8942114938780381,151,170
+Mistral Small 3.2,Mistral,Small,Die Another Day,2002,Die Another Day (2002),C,-0.1268,-0.9568450859993204,152,171
+Mistral Small 3.2,Mistral,Small,The Meg,2018,The Meg (2018),C,-0.1303,-0.9832568417131142,153,150
+Mistral Small 3.2,Mistral,Small,The Social Network,2010,The Social Network (2010),A,-0.1321,-0.9968400303659224,154,165
+Mistral Small 3.2,Mistral,Small,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.1327,-1.0013677599168587,155,170
+Mistral Small 3.2,Mistral,Small,Europa '51,1952,Europa '51 (1952),B,-0.1356,-1.0232517860797161,156,185
+Mistral Small 3.2,Mistral,Small,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1358,-1.0247610292633615,157,145
+Mistral Small 3.2,Mistral,Small,The Wind,1928,The Wind (1928),B,-0.1406,-1.0609828656708502,158,174
+Mistral Small 3.2,Mistral,Small,Pickpocket,1959,Pickpocket (1959),B,-0.1423,-1.0738114327318358,159,186
+Mistral Small 3.2,Mistral,Small,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,-0.1458,-1.1002231884456295,160,151
+Mistral Small 3.2,Mistral,Small,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.1458,-1.1002231884456295,161,154
+Mistral Small 3.2,Mistral,Small,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.1466,-1.106260161180211,162,179
+Mistral Small 3.2,Mistral,Small,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1476,-1.1138063770984377,163,160
+Mistral Small 3.2,Mistral,Small,Sing,2016,Sing (2016),C,-0.1479,-1.1160702418739057,164,162
+Mistral Small 3.2,Mistral,Small,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.1481,-1.1175794850575511,165,154
+Mistral Small 3.2,Mistral,Small,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.1483,-1.1190887282411963,166,165
+Mistral Small 3.2,Mistral,Small,National Treasure,2004,National Treasure (2004),C,-0.1483,-1.1190887282411963,167,175
+Mistral Small 3.2,Mistral,Small,Uncharted,2022,Uncharted (2022),C,-0.1487,-1.1221072146084872,168,156
+Mistral Small 3.2,Mistral,Small,Avatar,2009,Avatar (2009),A,-0.1493,-1.1266349441594232,169,184
+Mistral Small 3.2,Mistral,Small,Bambi,1942,Bambi (1942),A,-0.1504,-1.1349357816694727,170,185
+Mistral Small 3.2,Mistral,Small,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.1504,-1.1349357816694727,171,168
+Mistral Small 3.2,Mistral,Small,Superman Returns,2006,Superman Returns (2006),C,-0.1505,-1.1356904032612953,172,152
+Mistral Small 3.2,Mistral,Small,The Grinch,2018,The Grinch (2018),C,-0.1508,-1.1379542680367634,173,149
+Mistral Small 3.2,Mistral,Small,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.1509,-1.1387088896285862,174,159
+Mistral Small 3.2,Mistral,Small,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.151,-1.1394635112204088,175,161
+Mistral Small 3.2,Mistral,Small,Armageddon,1998,Armageddon (1998),C,-0.1519,-1.1462551055468129,176,179
+Mistral Small 3.2,Mistral,Small,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.1529,-1.1538013214650398,177,145
+Mistral Small 3.2,Mistral,Small,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1531,-1.1553105646486852,178,174
+Mistral Small 3.2,Mistral,Small,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.1531,-1.1553105646486852,179,165
+Mistral Small 3.2,Mistral,Small,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.1543,-1.164366023750557,180,168
+Mistral Small 3.2,Mistral,Small,Lucy,2014,Lucy (2014),C,-0.1548,-1.1681391317096705,181,158
+Mistral Small 3.2,Mistral,Small,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1556,-1.174176104444252,182,162
+Mistral Small 3.2,Mistral,Small,Stromboli,1950,Stromboli (1950),B,-0.1561,-1.1779492124033653,183,167
+Mistral Small 3.2,Mistral,Small,Monster Hunt,2015,Monster Hunt (2015),C,-0.1561,-1.1779492124033653,184,160
+Mistral Small 3.2,Mistral,Small,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.1563,-1.1794584555870107,185,161
+Mistral Small 3.2,Mistral,Small,The Wolverine,2013,The Wolverine (2013),C,-0.1564,-1.1802130771788335,186,153
+Mistral Small 3.2,Mistral,Small,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.157,-1.1847408067297696,187,158
+Mistral Small 3.2,Mistral,Small,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1572,-1.186250049913415,188,162
+Mistral Small 3.2,Mistral,Small,2012,2009,2012 (2009),C,-0.1628,-1.228508859055485,189,159
+Mistral Small 3.2,Mistral,Small,Noah,2014,Noah (2014),C,-0.1645,-1.2413374261164705,190,140
+Mistral Small 3.2,Mistral,Small,The Golden Compass,2007,The Golden Compass (2007),C,-0.168,-1.2677491818302642,191,146
+Mistral Small 3.2,Mistral,Small,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1746,-1.317554206890561,192,139
+Mistral Small 3.2,Mistral,Small,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1781,-1.3439659626043547,193,147
+Mistral Small 3.2,Mistral,Small,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1795,-1.3545306648898723,194,145
+Mistral Small 3.2,Mistral,Small,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.2005,-1.5130011991726349,195,141
+Mistral Small 3.2,Mistral,Small,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.2039,-1.538658333294606,196,132
+Mistral Small 3.2,Mistral,Small,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.2192,-1.6541154368434758,197,141
+Mistral Small 3.2,Mistral,Small,Cars 2,2011,Cars 2 (2011),C,-0.2226,-1.679772570965447,198,137
+Mistral Small 3.2,Mistral,Small,Pegasus 2,2024,Pegasus 2 (2024),C,-0.2273,-1.7152397857811128,199,139
+Mistral Small 3.2,Mistral,Small,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.2354,-1.7763641347187498,200,133
+Qwen2.5-Plus,Alibaba,Large,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.2427,1.9214637407479846,1,184
+Qwen2.5-Plus,Alibaba,Large,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,0.2412,1.909588021027585,2,182
+Qwen2.5-Plus,Alibaba,Large,Persona,1966,Persona (1966),B,0.239,1.8921702987709987,3,257
+Qwen2.5-Plus,Alibaba,Large,Spirited Away,2001,Spirited Away (2001),A,0.2386,1.8890034401788924,4,140
+Qwen2.5-Plus,Alibaba,Large,Pather Panchali,1955,Pather Panchali (1955),B,0.2374,1.8795028644025726,5,186
+Qwen2.5-Plus,Alibaba,Large,High and Low,1963,High and Low (1963),B,0.2355,1.8644602860900663,6,175
+Qwen2.5-Plus,Alibaba,Large,Parasite,2019,Parasite (2019),A,0.2347,1.858126568905853,7,269
+Qwen2.5-Plus,Alibaba,Large,Beau Travail,1999,Beau Travail (1999),B,0.232,1.8367502734091339,8,200
+Qwen2.5-Plus,Alibaba,Large,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.232,1.8367502734091339,9,238
+Qwen2.5-Plus,Alibaba,Large,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.2294,1.816165692560441,10,170
+Qwen2.5-Plus,Alibaba,Large,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.2241,1.7742048162150288,11,289
+Qwen2.5-Plus,Alibaba,Large,All About My Mother,1999,All About My Mother (1999),B,0.2217,1.7552036646623894,12,287
+Qwen2.5-Plus,Alibaba,Large,Ran,1985,Ran (1985),B,0.2212,1.7512450914222562,13,292
+Qwen2.5-Plus,Alibaba,Large,Schindler's List,1993,Schindler's List (1993),A,0.2205,1.7457030888860696,14,345
+Qwen2.5-Plus,Alibaba,Large,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.2201,1.742536230293963,15,312
+Qwen2.5-Plus,Alibaba,Large,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.2184,1.7290770812775103,16,283
+Qwen2.5-Plus,Alibaba,Large,Kes,1969,Kes (1969),B,0.2104,1.6657399094353786,17,387
+Qwen2.5-Plus,Alibaba,Large,Solaris,1972,Solaris (1972),B,0.208,1.646738757882739,18,256
+Qwen2.5-Plus,Alibaba,Large,The Godfather,1972,The Godfather (1972),A,0.2016,1.596069020409034,19,268
+Qwen2.5-Plus,Alibaba,Large,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.2002,1.584985015336661,20,331
+Qwen2.5-Plus,Alibaba,Large,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.1981,1.5683590077281013,21,301
+Qwen2.5-Plus,Alibaba,Large,Ratatouille,2007,Ratatouille (2007),C,0.196,1.551733000119542,22,262
+Qwen2.5-Plus,Alibaba,Large,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.1927,1.5256064167346626,23,375
+Qwen2.5-Plus,Alibaba,Large,WALL-E,2008,WALL-E (2008),A,0.1922,1.5216478434945295,24,295
+Qwen2.5-Plus,Alibaba,Large,Yojimbo,1961,Yojimbo (1961),B,0.1872,1.4820621110931973,25,373
+Qwen2.5-Plus,Alibaba,Large,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.1867,1.478103537853064,26,302
+Qwen2.5-Plus,Alibaba,Large,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.1846,1.4614775302445042,27,288
+Qwen2.5-Plus,Alibaba,Large,Coco,2017,Coco (2017),C,0.1819,1.440101234747785,28,325
+Qwen2.5-Plus,Alibaba,Large,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.1743,1.3799309214977602,29,339
+Qwen2.5-Plus,Alibaba,Large,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.1713,1.3561794820569608,30,343
+Qwen2.5-Plus,Alibaba,Large,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.1642,1.299967742047069,31,246
+Qwen2.5-Plus,Alibaba,Large,Withnail & I,1987,Withnail & I (1987),B,0.1555,1.2310885676687509,32,328
+Qwen2.5-Plus,Alibaba,Large,Sans Soleil,1983,Sans Soleil (1983),B,0.1547,1.2247548504845378,33,318
+Qwen2.5-Plus,Alibaba,Large,Amadeus,1984,Amadeus (1984),B,0.1481,1.1725016837147793,34,234
+Qwen2.5-Plus,Alibaba,Large,Back to the Future,1985,Back to the Future (1985),A,0.1446,1.1447916710338468,35,254
+Qwen2.5-Plus,Alibaba,Large,Pulp Fiction,1994,Pulp Fiction (1994),A,0.1342,1.0624533476390758,36,273
+Qwen2.5-Plus,Alibaba,Large,Inside Out,2015,Inside Out (2015),C,0.1337,1.0584947743989426,37,332
+Qwen2.5-Plus,Alibaba,Large,Taste of Cherry,1997,Taste of Cherry (1997),B,0.1326,1.0497859132706493,38,317
+Qwen2.5-Plus,Alibaba,Large,Days of Being Wild,1990,Days of Being Wild (1990),B,0.126,0.9975327465008909,39,327
+Qwen2.5-Plus,Alibaba,Large,Pyaasa,1957,Pyaasa (1957),B,0.1244,0.9848653121324645,40,319
+Qwen2.5-Plus,Alibaba,Large,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.1209,0.957155299451532,41,197
+Qwen2.5-Plus,Alibaba,Large,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.1168,0.9246949988824397,42,298
+Qwen2.5-Plus,Alibaba,Large,Vivre sa vie,1962,Vivre sa vie (1962),B,0.1128,0.8930264129613739,43,297
+Qwen2.5-Plus,Alibaba,Large,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.1102,0.8724418321126811,44,337
+Qwen2.5-Plus,Alibaba,Large,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.1087,0.8605661123922814,45,304
+Qwen2.5-Plus,Alibaba,Large,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.1015,0.8035626577343631,46,315
+Qwen2.5-Plus,Alibaba,Large,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,0.0973,0.770310642517244,47,335
+Qwen2.5-Plus,Alibaba,Large,Nostalghia,1983,Nostalghia (1983),B,0.0871,0.6895557484185263,48,364
+Qwen2.5-Plus,Alibaba,Large,Get Out,2017,Get Out (2017),A,0.085,0.6729297408099668,49,265
+Qwen2.5-Plus,Alibaba,Large,Pickpocket,1959,Pickpocket (1959),B,0.0814,0.6444280134810075,50,240
+Qwen2.5-Plus,Alibaba,Large,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,0.0775,0.6135511422079685,51,285
+Qwen2.5-Plus,Alibaba,Large,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.0751,0.594549990655329,52,255
+Qwen2.5-Plus,Alibaba,Large,Your Name.,2016,Your Name. (2016),C,0.0684,0.5415051092375438,53,356
+Qwen2.5-Plus,Alibaba,Large,Happy Together,1997,Happy Together (1997),B,0.067,0.5304211041651709,54,280
+Qwen2.5-Plus,Alibaba,Large,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.0658,0.5209205283888511,55,364
+Qwen2.5-Plus,Alibaba,Large,The Gleaners & I,2000,The Gleaners & I (2000),B,0.0543,0.42987334386578696,56,246
+Qwen2.5-Plus,Alibaba,Large,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.0537,0.42512305597762706,57,266
+Qwen2.5-Plus,Alibaba,Large,Caché,2005,Caché (2005),B,0.0526,0.416414194849334,58,201
+Qwen2.5-Plus,Alibaba,Large,The Dark Knight,2008,The Dark Knight (2008),A,0.0513,0.40612190442498763,59,275
+Qwen2.5-Plus,Alibaba,Large,The Seventh Seal,1957,The Seventh Seal (1957),B,0.0502,0.3974130432966946,60,254
+Qwen2.5-Plus,Alibaba,Large,Oldboy,2003,Oldboy (2003),B,0.0488,0.3863290382243216,61,215
+Qwen2.5-Plus,Alibaba,Large,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.0478,0.3784118917440551,62,219
+Qwen2.5-Plus,Alibaba,Large,Se7en,1995,Se7en (1995),A,0.047,0.37207817455984193,63,205
+Qwen2.5-Plus,Alibaba,Large,Toy Story,1995,Toy Story (1995),A,0.0459,0.3633693134315489,64,218
+Qwen2.5-Plus,Alibaba,Large,The Ascent,1977,The Ascent (1977),B,0.0457,0.36178588413549556,65,219
+Qwen2.5-Plus,Alibaba,Large,Shoah,1985,Shoah (1985),B,0.04,0.31665814919797686,66,208
+Qwen2.5-Plus,Alibaba,Large,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0363,0.287364707220991,67,179
+Qwen2.5-Plus,Alibaba,Large,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.0341,0.26994698496440483,68,221
+Qwen2.5-Plus,Alibaba,Large,Saving Private Ryan,1998,Saving Private Ryan (1998),A,0.034,0.2691552703163782,69,292
+Qwen2.5-Plus,Alibaba,Large,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0327,0.25886297989203183,70,263
+Qwen2.5-Plus,Alibaba,Large,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.0325,0.2572795505959785,71,209
+Qwen2.5-Plus,Alibaba,Large,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.0297,0.23511154045123248,72,232
+Qwen2.5-Plus,Alibaba,Large,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,0.0295,0.23352811115517916,73,215
+Qwen2.5-Plus,Alibaba,Large,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.027,0.21373524495451307,74,149
+Qwen2.5-Plus,Alibaba,Large,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.0257,0.2034429545301667,75,243
+Qwen2.5-Plus,Alibaba,Large,Los Olvidados,1950,Los Olvidados (1950),B,0.0232,0.18365008832950058,76,190
+Qwen2.5-Plus,Alibaba,Large,Apollo 13,1995,Apollo 13 (1995),C,0.0232,0.18365008832950058,77,216
+Qwen2.5-Plus,Alibaba,Large,Jaws,1975,Jaws (1975),A,0.0223,0.1765246564972608,78,209
+Qwen2.5-Plus,Alibaba,Large,The Conformist,1970,The Conformist (1970),B,0.019,0.15039807311238151,79,149
+Qwen2.5-Plus,Alibaba,Large,Day for Night,1973,Day for Night (1973),B,0.0187,0.1480229291683016,80,195
+Qwen2.5-Plus,Alibaba,Large,Logan,2017,Logan (2017),C,0.0177,0.14010578268803517,81,144
+Qwen2.5-Plus,Alibaba,Large,Ocean's Eleven,2001,Ocean's Eleven (2001),C,0.0154,0.12189634578342236,82,163
+Qwen2.5-Plus,Alibaba,Large,Home Alone,1990,Home Alone (1990),C,0.0145,0.11477091395118255,83,170
+Qwen2.5-Plus,Alibaba,Large,Dances with Wolves,1990,Dances with Wolves (1990),C,0.0127,0.10052005028670295,84,183
+Qwen2.5-Plus,Alibaba,Large,Rain Man,1988,Rain Man (1988),C,0.0112,0.08864433056630329,85,154
+Qwen2.5-Plus,Alibaba,Large,Gravity,2013,Gravity (2013),C,0.0103,0.0815188987340635,86,156
+Qwen2.5-Plus,Alibaba,Large,Star Wars,1977,Star Wars (1977),A,0.0101,0.0799354694380102,87,188
+Qwen2.5-Plus,Alibaba,Large,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0096,0.07597689619787698,88,143
+Qwen2.5-Plus,Alibaba,Large,True Lies,1994,True Lies (1994),C,0.0083,0.06568460577353061,89,144
+Qwen2.5-Plus,Alibaba,Large,The Fugitive,1993,The Fugitive (1993),C,0.0081,0.06410117647747732,90,189
+Qwen2.5-Plus,Alibaba,Large,Forrest Gump,1994,Forrest Gump (1994),A,0.0076,0.06014260323734409,91,151
+Qwen2.5-Plus,Alibaba,Large,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0068,0.05380888605313093,92,150
+Qwen2.5-Plus,Alibaba,Large,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,0.0055,0.04351659562878456,93,172
+Qwen2.5-Plus,Alibaba,Large,Videodrome,1983,Videodrome (1983),B,0.0002,0.0015557192833724205,94,134
+Qwen2.5-Plus,Alibaba,Large,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.0002,0.0015557192833724205,95,161
+Qwen2.5-Plus,Alibaba,Large,La Belle et la Bête,1946,La Belle et la Bête (1946),B,-0.0004,-0.003194568604787445,96,168
+Qwen2.5-Plus,Alibaba,Large,Breathless,1960,Breathless (1960),B,-0.0005,-0.003986283252814088,97,138
+Qwen2.5-Plus,Alibaba,Large,Ghostbusters,1984,Ghostbusters (1984),A,-0.0011,-0.008736571140973955,98,180
+Qwen2.5-Plus,Alibaba,Large,The Matrix,1999,The Matrix (1999),A,-0.002,-0.015862002973213753,99,155
+Qwen2.5-Plus,Alibaba,Large,Senso,1954,Senso (1954),B,-0.0023,-0.018237146917293685,100,147
+Qwen2.5-Plus,Alibaba,Large,Blade Runner,1982,Blade Runner (1982),B,-0.0033,-0.026154293397560126,101,145
+Qwen2.5-Plus,Alibaba,Large,A Bug's Life,1998,A Bug's Life (1998),C,-0.0033,-0.026154293397560126,102,150
+Qwen2.5-Plus,Alibaba,Large,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,-0.0034,-0.02694600804558677,103,179
+Qwen2.5-Plus,Alibaba,Large,M,1931,M (1931),B,-0.0035,-0.027737722693613416,104,151
+Qwen2.5-Plus,Alibaba,Large,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,-0.0036,-0.028529437341640058,105,138
+Qwen2.5-Plus,Alibaba,Large,Batman,1989,Batman (1989),C,-0.0041,-0.03248801058177329,106,154
+Qwen2.5-Plus,Alibaba,Large,Brave,2012,Brave (2012),C,-0.0044,-0.03486315452585322,107,151
+Qwen2.5-Plus,Alibaba,Large,American Beauty,1999,American Beauty (1999),A,-0.006,-0.047530588894279524,108,164
+Qwen2.5-Plus,Alibaba,Large,Jurassic Park,1993,Jurassic Park (1993),A,-0.0066,-0.05228087678243939,109,164
+Qwen2.5-Plus,Alibaba,Large,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.0112,-0.08869975059166502,110,149
+Qwen2.5-Plus,Alibaba,Large,Oppenheimer,2023,Oppenheimer (2023),C,-0.0119,-0.09424175312785153,111,148
+Qwen2.5-Plus,Alibaba,Large,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.0132,-0.1045340435521979,112,139
+Qwen2.5-Plus,Alibaba,Large,Incredibles 2,2018,Incredibles 2 (2018),C,-0.0138,-0.10928433144035776,113,159
+Qwen2.5-Plus,Alibaba,Large,The Green Ray,1986,The Green Ray (1986),B,-0.0139,-0.11007604608838441,114,145
+Qwen2.5-Plus,Alibaba,Large,Terra em Transe,1967,Terra em Transe (1967),B,-0.014,-0.11086776073641105,115,150
+Qwen2.5-Plus,Alibaba,Large,A Clockwork Orange,1971,A Clockwork Orange (1971),B,-0.0161,-0.1274937683449706,116,150
+Qwen2.5-Plus,Alibaba,Large,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.0192,-0.15203692243379655,117,143
+Qwen2.5-Plus,Alibaba,Large,Star Trek,2009,Star Trek (2009),C,-0.0196,-0.15520378102590315,118,145
+Qwen2.5-Plus,Alibaba,Large,Speed,1994,Speed (1994),C,-0.0246,-0.19478951342723536,119,137
+Qwen2.5-Plus,Alibaba,Large,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.0274,-0.2169575235719814,120,134
+Qwen2.5-Plus,Alibaba,Large,If….,1968,If…. (1968),B,-0.0276,-0.21854095286803468,121,151
+Qwen2.5-Plus,Alibaba,Large,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.0302,-0.23912553371672746,122,145
+Qwen2.5-Plus,Alibaba,Large,The Revenant,2015,The Revenant (2015),C,-0.034,-0.2692106903417399,123,143
+Qwen2.5-Plus,Alibaba,Large,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.04,-0.31671356922333854,124,126
+Qwen2.5-Plus,Alibaba,Large,The Gold Rush,1925,The Gold Rush (1925),B,-0.043,-0.34046500866413787,125,161
+Qwen2.5-Plus,Alibaba,Large,The Social Network,2010,The Social Network (2010),A,-0.0432,-0.3420484379601912,126,149
+Qwen2.5-Plus,Alibaba,Large,Top Gun,1986,Top Gun (1986),C,-0.0437,-0.3460070112003244,127,135
+Qwen2.5-Plus,Alibaba,Large,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.0466,-0.3689667359930971,128,162
+Qwen2.5-Plus,Alibaba,Large,La Région centrale,1971,La Région centrale (1971),B,-0.0565,-0.44734648614773487,129,141
+Qwen2.5-Plus,Alibaba,Large,The Mummy,1999,The Mummy (1999),C,-0.0647,-0.5122670872859196,130,148
+Qwen2.5-Plus,Alibaba,Large,Europa '51,1952,Europa '51 (1952),B,-0.0683,-0.5407688146148789,131,173
+Qwen2.5-Plus,Alibaba,Large,The Croods,2013,The Croods (2013),C,-0.0693,-0.5486859610951453,132,152
+Qwen2.5-Plus,Alibaba,Large,Joker,2019,Joker (2019),C,-0.0714,-0.5653119687037049,133,156
+Qwen2.5-Plus,Alibaba,Large,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.0721,-0.5708539712398913,134,144
+Qwen2.5-Plus,Alibaba,Large,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,-0.0734,-0.5811462616642378,135,165
+Qwen2.5-Plus,Alibaba,Large,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.0742,-0.5874799788484509,136,148
+Qwen2.5-Plus,Alibaba,Large,Zama,2017,Zama (2017),B,-0.0766,-0.6064811304010903,137,149
+Qwen2.5-Plus,Alibaba,Large,The Exorcist,1973,The Exorcist (1973),A,-0.081,-0.6413165749142627,138,174
+Qwen2.5-Plus,Alibaba,Large,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.0848,-0.6714017315392752,139,171
+Qwen2.5-Plus,Alibaba,Large,National Treasure,2004,National Treasure (2004),C,-0.0868,-0.687236024499808,140,162
+Qwen2.5-Plus,Alibaba,Large,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,-0.0882,-0.6983200295721811,141,162
+Qwen2.5-Plus,Alibaba,Large,Inglourious Basterds,2009,Inglourious Basterds (2009),A,-0.0887,-0.7022786028123142,142,169
+Qwen2.5-Plus,Alibaba,Large,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.0985,-0.7798666383189254,143,172
+Qwen2.5-Plus,Alibaba,Large,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.0999,-0.7909506433912985,144,162
+Qwen2.5-Plus,Alibaba,Large,Tarzan,1999,Tarzan (1999),C,-0.1009,-0.7988677898715649,145,170
+Qwen2.5-Plus,Alibaba,Large,"Hi, Mom",2021,"Hi, Mom (2021)",C,-0.1074,-0.8503292419932967,146,163
+Qwen2.5-Plus,Alibaba,Large,Sing,2016,Sing (2016),C,-0.111,-0.8788309693222559,147,162
+Qwen2.5-Plus,Alibaba,Large,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.111,-0.8788309693222559,148,161
+Qwen2.5-Plus,Alibaba,Large,Death in Venice,1971,Death in Venice (1971),B,-0.1121,-0.8875398304505491,149,173
+Qwen2.5-Plus,Alibaba,Large,The Wandering Earth,2019,The Wandering Earth (2019),C,-0.1126,-0.8914984036906823,150,174
+Qwen2.5-Plus,Alibaba,Large,The Wind,1928,The Wind (1928),B,-0.12,-0.9500852876446539,151,177
+Qwen2.5-Plus,Alibaba,Large,The Crowd,1928,The Crowd (1928),B,-0.1218,-0.9643361513091335,152,175
+Qwen2.5-Plus,Alibaba,Large,Limite,1931,Limite (1931),B,-0.1224,-0.9690864391972933,153,171
+Qwen2.5-Plus,Alibaba,Large,Bambi,1942,Bambi (1942),A,-0.123,-0.9738367270854532,154,167
+Qwen2.5-Plus,Alibaba,Large,The Bodyguard,1992,The Bodyguard (1992),C,-0.1275,-1.0094638862466523,155,169
+Qwen2.5-Plus,Alibaba,Large,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.1292,-1.0229230352631054,156,167
+Qwen2.5-Plus,Alibaba,Large,Twister,1996,Twister (1996),C,-0.1296,-1.0260898938552117,157,179
+Qwen2.5-Plus,Alibaba,Large,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.1299,-1.0284650377992917,158,165
+Qwen2.5-Plus,Alibaba,Large,Stromboli,1950,Stromboli (1950),B,-0.1365,-1.0807182045690502,159,159
+Qwen2.5-Plus,Alibaba,Large,Independence Day,1996,Independence Day (1996),C,-0.1399,-1.1076365026019561,160,166
+Qwen2.5-Plus,Alibaba,Large,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1437,-1.1377216592269686,161,168
+Qwen2.5-Plus,Alibaba,Large,Underground,1995,Underground (1995),B,-0.1449,-1.1472222350032883,162,214
+Qwen2.5-Plus,Alibaba,Large,JFK,1991,JFK (1991),A,-0.1451,-1.1488056642993416,163,175
+Qwen2.5-Plus,Alibaba,Large,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.146,-1.1559310961315814,164,152
+Qwen2.5-Plus,Alibaba,Large,The Grinch,2018,The Grinch (2018),C,-0.1461,-1.1567228107796081,165,164
+Qwen2.5-Plus,Alibaba,Large,Uncharted,2022,Uncharted (2022),C,-0.147,-1.1638482426118477,166,144
+Qwen2.5-Plus,Alibaba,Large,Superman Returns,2006,Superman Returns (2006),C,-0.1472,-1.1654316719079012,167,161
+Qwen2.5-Plus,Alibaba,Large,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.1478,-1.170181959796061,168,156
+Qwen2.5-Plus,Alibaba,Large,The Golden Compass,2007,The Golden Compass (2007),C,-0.1481,-1.172557103740141,169,151
+Qwen2.5-Plus,Alibaba,Large,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1483,-1.1741405330361943,170,163
+Qwen2.5-Plus,Alibaba,Large,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1483,-1.1741405330361943,171,173
+Qwen2.5-Plus,Alibaba,Large,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1485,-1.1757239623322475,172,156
+Qwen2.5-Plus,Alibaba,Large,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.1486,-1.1765156769802743,173,153
+Qwen2.5-Plus,Alibaba,Large,Full River Red,2023,Full River Red (2023),C,-0.1486,-1.1765156769802743,174,169
+Qwen2.5-Plus,Alibaba,Large,Intolerance,1916,Intolerance (1916),B,-0.1488,-1.1780991062763273,175,163
+Qwen2.5-Plus,Alibaba,Large,Out 1,1971,Out 1 (1971),B,-0.1489,-1.178890820924354,176,181
+Qwen2.5-Plus,Alibaba,Large,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1489,-1.178890820924354,177,150
+Qwen2.5-Plus,Alibaba,Large,Titanic,1997,Titanic (1997),A,-0.149,-1.1796825355723808,178,171
+Qwen2.5-Plus,Alibaba,Large,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.1496,-1.1844328234605408,179,174
+Qwen2.5-Plus,Alibaba,Large,The Wolverine,2013,The Wolverine (2013),C,-0.1498,-1.1860162527565938,180,157
+Qwen2.5-Plus,Alibaba,Large,Armageddon,1998,Armageddon (1998),C,-0.1499,-1.1868079674046206,181,151
+Qwen2.5-Plus,Alibaba,Large,Avatar,2009,Avatar (2009),A,-0.1508,-1.1939333992368604,182,172
+Qwen2.5-Plus,Alibaba,Large,Noah,2014,Noah (2014),C,-0.1514,-1.1986836871250204,183,134
+Qwen2.5-Plus,Alibaba,Large,Monster Hunt,2015,Monster Hunt (2015),C,-0.1521,-1.204225689661207,184,139
+Qwen2.5-Plus,Alibaba,Large,Lucy,2014,Lucy (2014),C,-0.1529,-1.21055940684542,185,148
+Qwen2.5-Plus,Alibaba,Large,Die Another Day,2002,Die Another Day (2002),C,-0.1535,-1.2153096947335797,186,164
+Qwen2.5-Plus,Alibaba,Large,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1543,-1.2216434119177928,187,135
+Qwen2.5-Plus,Alibaba,Large,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1594,-1.2620208589671515,188,152
+Qwen2.5-Plus,Alibaba,Large,The Meg,2018,The Meg (2018),C,-0.1615,-1.2786468665757114,189,144
+Qwen2.5-Plus,Alibaba,Large,2012,2009,2012 (2009),C,-0.1626,-1.2873557277040044,190,156
+Qwen2.5-Plus,Alibaba,Large,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.1719,-1.3609851899704823,191,145
+Qwen2.5-Plus,Alibaba,Large,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.1831,-1.4496572305494666,192,147
+Qwen2.5-Plus,Alibaba,Large,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.186,-1.472616955342239,193,151
+Qwen2.5-Plus,Alibaba,Large,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1915,-1.5161612609837045,194,145
+Qwen2.5-Plus,Alibaba,Large,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1924,-1.5232866928159443,195,131
+Qwen2.5-Plus,Alibaba,Large,Pegasus 2,2024,Pegasus 2 (2024),C,-0.1994,-1.5787067181778094,196,141
+Qwen2.5-Plus,Alibaba,Large,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.2009,-1.590582437898209,197,153
+Qwen2.5-Plus,Alibaba,Large,Cars 2,2011,Cars 2 (2011),C,-0.2083,-1.6491693218521808,198,138
+Qwen2.5-Plus,Alibaba,Large,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.2128,-1.6847964810133798,199,136
+Qwen2.5-Plus,Alibaba,Large,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.2551,-2.0196917771286502,200,138
+Qwen2.5-Turbo,Alibaba,Small,Spirited Away,2001,Spirited Away (2001),A,0.2153,1.9458123839916928,1,172
+Qwen2.5-Turbo,Alibaba,Small,Parasite,2019,Parasite (2019),A,0.2153,1.9458123839916928,2,136
+Qwen2.5-Turbo,Alibaba,Small,A Brighter Summer Day,1991,A Brighter Summer Day (1991),B,0.2152,1.9449086370355184,3,193
+Qwen2.5-Turbo,Alibaba,Small,Get Out,2017,Get Out (2017),A,0.2119,1.915084987481757,4,237
+Qwen2.5-Turbo,Alibaba,Small,"Aguirre, the Wrath of God",1972,"Aguirre, the Wrath of God (1972)",B,0.2114,1.910566252700884,5,231
+Qwen2.5-Turbo,Alibaba,Small,Mad Max: Fury Road,2015,Mad Max: Fury Road (2015),A,0.211,1.9069512648761857,6,174
+Qwen2.5-Turbo,Alibaba,Small,The Colour of Pomegranates,1969,The Colour of Pomegranates (1969),B,0.2108,1.9051437709638364,7,197
+Qwen2.5-Turbo,Alibaba,Small,Pather Panchali,1955,Pather Panchali (1955),B,0.2093,1.8915875666212179,8,203
+Qwen2.5-Turbo,Alibaba,Small,Portrait of a Lady on Fire,2019,Portrait of a Lady on Fire (2019),B,0.209,1.888876325752694,9,146
+Qwen2.5-Turbo,Alibaba,Small,Inside Out,2015,Inside Out (2015),C,0.2085,1.8843575909718209,10,289
+Qwen2.5-Turbo,Alibaba,Small,Pyaasa,1957,Pyaasa (1957),B,0.2076,1.8762238683662498,11,263
+Qwen2.5-Turbo,Alibaba,Small,Yojimbo,1961,Yojimbo (1961),B,0.2067,1.8680901457606784,12,224
+Qwen2.5-Turbo,Alibaba,Small,Oldboy,2003,Oldboy (2003),B,0.2058,1.8599564231551073,13,256
+Qwen2.5-Turbo,Alibaba,Small,The Lord of the Rings: The Return of the King,2003,The Lord of the Rings: The Return of the King (2003),A,0.2039,1.8427852309877901,14,290
+Qwen2.5-Turbo,Alibaba,Small,The Godfather,1972,The Godfather (1972),A,0.1966,1.7768117031870452,15,340
+Qwen2.5-Turbo,Alibaba,Small,Beau Travail,1999,Beau Travail (1999),B,0.1923,1.7379505840715381,16,312
+Qwen2.5-Turbo,Alibaba,Small,Shoah,1985,Shoah (1985),B,0.19,1.7171644040795226,17,274
+Qwen2.5-Turbo,Alibaba,Small,Raise the Red Lantern,1991,Raise the Red Lantern (1991),B,0.1886,1.7045119466930783,18,324
+Qwen2.5-Turbo,Alibaba,Small,Your Name.,2016,Your Name. (2016),C,0.1866,1.6864370075695865,19,266
+Qwen2.5-Turbo,Alibaba,Small,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train,2020,Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train (2020),C,0.186,1.681014525832539,20,246
+Qwen2.5-Turbo,Alibaba,Small,The Empire Strikes Back,1980,The Empire Strikes Back (1980),A,0.1704,1.5400300006693037,21,325
+Qwen2.5-Turbo,Alibaba,Small,Logan,2017,Logan (2017),C,0.1538,1.3900080059443223,22,311
+Qwen2.5-Turbo,Alibaba,Small,Persona,1966,Persona (1966),B,0.1501,1.3565693685658629,23,283
+Qwen2.5-Turbo,Alibaba,Small,Day for Night,1973,Day for Night (1973),B,0.1472,1.3303607068367997,24,338
+Qwen2.5-Turbo,Alibaba,Small,Ran,1985,Ran (1985),B,0.1459,1.3186119964065302,25,260
+Qwen2.5-Turbo,Alibaba,Small,WALL-E,2008,WALL-E (2008),A,0.1458,1.3177082494503556,26,423
+Qwen2.5-Turbo,Alibaba,Small,Cinema Paradiso,1988,Cinema Paradiso (1988),B,0.1407,1.2716171546854516,27,298
+Qwen2.5-Turbo,Alibaba,Small,Terminator 2: Judgment Day,1991,Terminator 2: Judgment Day (1991),A,0.1267,1.1450925808210095,28,318
+Qwen2.5-Turbo,Alibaba,Small,Ratatouille,2007,Ratatouille (2007),C,0.1264,1.1423813399524858,29,300
+Qwen2.5-Turbo,Alibaba,Small,Oppenheimer,2023,Oppenheimer (2023),C,0.1232,1.113461437354899,30,321
+Qwen2.5-Turbo,Alibaba,Small,Koyaanisqatsi,1982,Koyaanisqatsi (1982),B,0.1192,1.0773115591079154,31,325
+Qwen2.5-Turbo,Alibaba,Small,Joker,2019,Joker (2019),C,0.1138,1.0285092234744877,32,359
+Qwen2.5-Turbo,Alibaba,Small,Withnail & I,1987,Withnail & I (1987),B,0.113,1.0212792478250912,33,353
+Qwen2.5-Turbo,Alibaba,Small,High and Low,1963,High and Low (1963),B,0.1105,0.9986855739207264,34,289
+Qwen2.5-Turbo,Alibaba,Small,All About My Mother,1999,All About My Mother (1999),B,0.0965,0.8721610000562844,35,358
+Qwen2.5-Turbo,Alibaba,Small,Amadeus,1984,Amadeus (1984),B,0.0957,0.8649310244068876,36,314
+Qwen2.5-Turbo,Alibaba,Small,The Spirit of the Beehive,1973,The Spirit of the Beehive (1973),B,0.0927,0.8378186157216501,37,277
+Qwen2.5-Turbo,Alibaba,Small,The Wandering Earth,2019,The Wandering Earth (2019),C,0.0924,0.8351073748531262,38,359
+Qwen2.5-Turbo,Alibaba,Small,The Silence of the Lambs,1991,The Silence of the Lambs (1991),A,0.0893,0.8070912192117142,39,279
+Qwen2.5-Turbo,Alibaba,Small,Schindler's List,1993,Schindler's List (1993),A,0.0873,0.7890162800882224,40,268
+Qwen2.5-Turbo,Alibaba,Small,Woman in the Dunes,1964,Woman in the Dunes (1964),B,0.0867,0.7835937983511749,41,301
+Qwen2.5-Turbo,Alibaba,Small,Pulp Fiction,1994,Pulp Fiction (1994),A,0.0866,0.7826900513950003,42,318
+Qwen2.5-Turbo,Alibaba,Small,The Dark Knight,2008,The Dark Knight (2008),A,0.0796,0.7194277644627793,43,341
+Qwen2.5-Turbo,Alibaba,Small,Shadows of Forgotten Ancestors,1965,Shadows of Forgotten Ancestors (1965),B,0.0783,0.7076790540325096,44,303
+Qwen2.5-Turbo,Alibaba,Small,Happy Together,1997,Happy Together (1997),B,0.0769,0.6950265966460654,45,248
+Qwen2.5-Turbo,Alibaba,Small,Coco,2017,Coco (2017),C,0.076,0.6868928740404942,46,248
+Qwen2.5-Turbo,Alibaba,Small,The Death of Mr. Lazarescu,2005,The Death of Mr. Lazarescu (2005),B,0.0755,0.6823741392596212,47,323
+Qwen2.5-Turbo,Alibaba,Small,Sans Soleil,1983,Sans Soleil (1983),B,0.0731,0.6606842123114312,48,203
+Qwen2.5-Turbo,Alibaba,Small,Once Upon a Time in the West,1968,Once Upon a Time in the West (1968),B,0.0722,0.6525504897058599,49,236
+Qwen2.5-Turbo,Alibaba,Small,Pickpocket,1959,Pickpocket (1959),B,0.0722,0.6525504897058599,50,289
+Qwen2.5-Turbo,Alibaba,Small,Videodrome,1983,Videodrome (1983),B,0.0672,0.6073631418971306,51,276
+Qwen2.5-Turbo,Alibaba,Small,Nostalghia,1983,Nostalghia (1983),B,0.0638,0.5766357453871946,52,274
+Qwen2.5-Turbo,Alibaba,Small,Raiders of the Lost Ark,1981,Raiders of the Lost Ark (1981),A,0.0622,0.5621757940884013,53,225
+Qwen2.5-Turbo,Alibaba,Small,Los Olvidados,1950,Los Olvidados (1950),B,0.0618,0.558560806263703,54,229
+Qwen2.5-Turbo,Alibaba,Small,Sansho the Bailiff,1954,Sansho the Bailiff (1954),B,0.0606,0.5477158427896079,55,240
+Qwen2.5-Turbo,Alibaba,Small,Blade Runner,1982,Blade Runner (1982),B,0.0601,0.543197108008735,56,208
+Qwen2.5-Turbo,Alibaba,Small,"Hi, Mom",2021,"Hi, Mom (2021)",C,0.0601,0.543197108008735,57,226
+Qwen2.5-Turbo,Alibaba,Small,Vivre sa vie,1962,Vivre sa vie (1962),B,0.0569,0.5142772054111483,58,243
+Qwen2.5-Turbo,Alibaba,Small,Gravity,2013,Gravity (2013),C,0.0532,0.48083856803268854,59,237
+Qwen2.5-Turbo,Alibaba,Small,Beauty and the Beast,1991,Beauty and the Beast (1991),C,0.0507,0.4582448941283239,60,228
+Qwen2.5-Turbo,Alibaba,Small,The Gleaners & I,2000,The Gleaners & I (2000),B,0.0495,0.4473999306542289,61,293
+Qwen2.5-Turbo,Alibaba,Small,Cléo from 5 to 7,1962,Cléo from 5 to 7 (1962),B,0.0487,0.4401699550048322,62,211
+Qwen2.5-Turbo,Alibaba,Small,"Goodbye, Dragon Inn",2003,"Goodbye, Dragon Inn (2003)",B,0.0473,0.42751749761838803,63,221
+Qwen2.5-Turbo,Alibaba,Small,The Matrix,1999,The Matrix (1999),A,0.0458,0.4139612932757692,64,244
+Qwen2.5-Turbo,Alibaba,Small,La Belle et la Bête,1946,La Belle et la Bête (1946),B,0.043,0.38865637850288076,65,189
+Qwen2.5-Turbo,Alibaba,Small,Caché,2005,Caché (2005),B,0.0418,0.37781141502878574,66,218
+Qwen2.5-Turbo,Alibaba,Small,The Passion of Joan of Arc,1928,The Passion of Joan of Arc (1928),B,0.0401,0.36244771677381776,67,209
+Qwen2.5-Turbo,Alibaba,Small,The Revenant,2015,The Revenant (2015),C,0.0401,0.36244771677381776,68,205
+Qwen2.5-Turbo,Alibaba,Small,Kes,1969,Kes (1969),B,0.0369,0.33352781417623106,69,179
+Qwen2.5-Turbo,Alibaba,Small,American Beauty,1999,American Beauty (1999),A,0.0366,0.33081657330770725,70,235
+Qwen2.5-Turbo,Alibaba,Small,"Monsters, Inc.",2001,"Monsters, Inc. (2001)",C,0.0355,0.3208753567897868,71,227
+Qwen2.5-Turbo,Alibaba,Small,Reservoir Dogs,1992,Reservoir Dogs (1992),B,0.0341,0.3082228994033426,72,199
+Qwen2.5-Turbo,Alibaba,Small,The Lord of the Rings: The Fellowship of the Ring,2001,The Lord of the Rings: The Fellowship of the Ring (2001),A,0.03,0.27116927420018455,73,174
+Qwen2.5-Turbo,Alibaba,Small,Crimes and Misdemeanors,1989,Crimes and Misdemeanors (1989),B,0.0294,0.26574679246313704,74,236
+Qwen2.5-Turbo,Alibaba,Small,The Fugitive,1993,The Fugitive (1993),C,0.0285,0.25761306985756577,75,245
+Qwen2.5-Turbo,Alibaba,Small,Batman,1989,Batman (1989),C,0.0267,0.24134562464642326,76,217
+Qwen2.5-Turbo,Alibaba,Small,"Crouching Tiger, Hidden Dragon",2000,"Crouching Tiger, Hidden Dragon (2000)",A,0.0262,0.2368268898655503,77,188
+Qwen2.5-Turbo,Alibaba,Small,Taste of Cherry,1997,Taste of Cherry (1997),B,0.026,0.23501939595320112,78,214
+Qwen2.5-Turbo,Alibaba,Small,Apollo 13,1995,Apollo 13 (1995),C,0.0233,0.2106182281364873,79,224
+Qwen2.5-Turbo,Alibaba,Small,The Young Girls of Rochefort,1967,The Young Girls of Rochefort (1967),B,0.0219,0.1979657707500431,80,197
+Qwen2.5-Turbo,Alibaba,Small,Jaws,1975,Jaws (1975),A,0.0211,0.19073579510064642,81,176
+Qwen2.5-Turbo,Alibaba,Small,Se7en,1995,Se7en (1995),A,0.0204,0.1844095664074243,82,183
+Qwen2.5-Turbo,Alibaba,Small,Home Alone,1990,Home Alone (1990),C,0.0175,0.15820090467836131,83,157
+Qwen2.5-Turbo,Alibaba,Small,The Sixth Sense,1999,The Sixth Sense (1999),C,0.0173,0.15639341076601213,84,177
+Qwen2.5-Turbo,Alibaba,Small,The Seventh Seal,1957,The Seventh Seal (1957),B,0.0167,0.1509709290289646,85,174
+Qwen2.5-Turbo,Alibaba,Small,M,1931,M (1931),B,0.0164,0.14825968816044086,86,143
+Qwen2.5-Turbo,Alibaba,Small,My Big Fat Greek Wedding,2002,My Big Fat Greek Wedding (2002),C,0.0148,0.13379973686164748,87,226
+Qwen2.5-Turbo,Alibaba,Small,Beetlejuice Beetlejuice,2024,Beetlejuice Beetlejuice (2024),C,0.0133,0.12024353251902867,88,161
+Qwen2.5-Turbo,Alibaba,Small,The Gold Rush,1925,The Gold Rush (1925),B,0.0128,0.11572479773815575,89,183
+Qwen2.5-Turbo,Alibaba,Small,Scenes from a Marriage,1973,Scenes from a Marriage (1973),B,0.0123,0.11120606295728282,90,165
+Qwen2.5-Turbo,Alibaba,Small,Once Upon a Time... in Hollywood,2019,Once Upon a Time... in Hollywood (2019),A,0.0122,0.11030231600110824,91,208
+Qwen2.5-Turbo,Alibaba,Small,Incredibles 2,2018,Incredibles 2 (2018),C,0.01,0.09041988296526733,92,151
+Qwen2.5-Turbo,Alibaba,Small,Monster Hunt,2015,Monster Hunt (2015),C,0.0085,0.07686367862264855,93,144
+Qwen2.5-Turbo,Alibaba,Small,Toy Story,1995,Toy Story (1995),A,0.0071,0.06421122123620433,94,191
+Qwen2.5-Turbo,Alibaba,Small,Rain Man,1988,Rain Man (1988),C,0.0069,0.06240372732385515,95,179
+Qwen2.5-Turbo,Alibaba,Small,True Lies,1994,True Lies (1994),C,0.0063,0.05698124558680764,96,136
+Qwen2.5-Turbo,Alibaba,Small,Close Encounters of the Third Kind,1977,Close Encounters of the Third Kind (1977),A,0.0053,0.04794377602506177,97,188
+Qwen2.5-Turbo,Alibaba,Small,Zama,2017,Zama (2017),B,0.0046,0.04161754733183967,98,171
+Qwen2.5-Turbo,Alibaba,Small,Brave,2012,Brave (2012),C,0.0046,0.04161754733183967,99,158
+Qwen2.5-Turbo,Alibaba,Small,Solaris,1972,Solaris (1972),B,0.0044,0.0398100534194905,100,183
+Qwen2.5-Turbo,Alibaba,Small,Once Upon a Time in America,1984,Once Upon a Time in America (1984),B,0.0041,0.03709881255096674,101,183
+Qwen2.5-Turbo,Alibaba,Small,Dead Poets Society,1989,Dead Poets Society (1989),A,0.0037,0.033483824726268395,102,153
+Qwen2.5-Turbo,Alibaba,Small,Breathless,1960,Breathless (1960),B,0.0036,0.03258007777009381,103,154
+Qwen2.5-Turbo,Alibaba,Small,Inglourious Basterds,2009,Inglourious Basterds (2009),A,0.0033,0.02986883690157005,104,190
+Qwen2.5-Turbo,Alibaba,Small,Star Wars,1977,Star Wars (1977),A,0.0004,0.0036601751725070493,105,166
+Qwen2.5-Turbo,Alibaba,Small,A Bug's Life,1998,A Bug's Life (1998),C,0.0002,0.0018526812601578767,106,180
+Qwen2.5-Turbo,Alibaba,Small,Europa '51,1952,Europa '51 (1952),B,-0.0008,-0.0071847883015879865,107,206
+Qwen2.5-Turbo,Alibaba,Small,Star Trek,2009,Star Trek (2009),C,-0.0014,-0.012607270038635503,108,148
+Qwen2.5-Turbo,Alibaba,Small,Death in Venice,1971,Death in Venice (1971),B,-0.0015,-0.01351101699481009,109,162
+Qwen2.5-Turbo,Alibaba,Small,Saving Private Ryan,1998,Saving Private Ryan (1998),A,-0.0024,-0.021644739600381362,110,150
+Qwen2.5-Turbo,Alibaba,Small,Ocean's Eleven,2001,Ocean's Eleven (2001),C,-0.0028,-0.02525972742507971,111,182
+Qwen2.5-Turbo,Alibaba,Small,The Hour of the Furnaces,1968,The Hour of the Furnaces (1968),B,-0.0037,-0.03339345003065099,112,161
+Qwen2.5-Turbo,Alibaba,Small,E.T. The Extra-Terrestrial,1982,E.T. The Extra-Terrestrial (1982),A,-0.0051,-0.046045907417095196,113,173
+Qwen2.5-Turbo,Alibaba,Small,Forrest Gump,1994,Forrest Gump (1994),A,-0.0062,-0.05598712393501564,114,154
+Qwen2.5-Turbo,Alibaba,Small,Dances with Wolves,1990,Dances with Wolves (1990),C,-0.0072,-0.0650245934967615,115,151
+Qwen2.5-Turbo,Alibaba,Small,Back to the Future,1985,Back to the Future (1985),A,-0.008,-0.07225456914615819,116,142
+Qwen2.5-Turbo,Alibaba,Small,Jurassic Park,1993,Jurassic Park (1993),A,-0.0088,-0.07948454479555488,117,153
+Qwen2.5-Turbo,Alibaba,Small,Ghostbusters,1984,Ghostbusters (1984),A,-0.011,-0.09936697783139577,118,178
+Qwen2.5-Turbo,Alibaba,Small,"Ivan the Terrible, Part II",1946,"Ivan the Terrible, Part II (1946)",B,-0.0144,-0.1300943743413317,119,169
+Qwen2.5-Turbo,Alibaba,Small,The Conformist,1970,The Conformist (1970),B,-0.0164,-0.14816931346482343,120,172
+Qwen2.5-Turbo,Alibaba,Small,The Exorcist,1973,The Exorcist (1973),A,-0.019,-0.17166673432536267,121,185
+Qwen2.5-Turbo,Alibaba,Small,The Thin Red Line,1998,The Thin Red Line (1998),B,-0.0197,-0.17799296301858475,122,191
+Qwen2.5-Turbo,Alibaba,Small,Gone with the Wind,1939,Gone with the Wind (1939),A,-0.0211,-0.190645420405029,123,149
+Qwen2.5-Turbo,Alibaba,Small,The Croods,2013,The Croods (2013),C,-0.0234,-0.21143160039704448,124,139
+Qwen2.5-Turbo,Alibaba,Small,Live Free or Die Hard,2007,Live Free or Die Hard (2007),C,-0.0271,-0.24487023777550415,125,167
+Qwen2.5-Turbo,Alibaba,Small,The Green Ray,1986,The Green Ray (1986),B,-0.0347,-0.31355500644477274,126,140
+Qwen2.5-Turbo,Alibaba,Small,Titanic,1997,Titanic (1997),A,-0.0371,-0.3352449333929628,127,140
+Qwen2.5-Turbo,Alibaba,Small,Where is the Friend's House?,1987,Where is the Friend's House? (1987),B,-0.0382,-0.3451861499108832,128,147
+Qwen2.5-Turbo,Alibaba,Small,Terra em Transe,1967,Terra em Transe (1967),B,-0.0393,-0.35512736642880366,129,154
+Qwen2.5-Turbo,Alibaba,Small,A Clockwork Orange,1971,A Clockwork Orange (1971),B,-0.0408,-0.3686835707714225,130,167
+Qwen2.5-Turbo,Alibaba,Small,Underground,1995,Underground (1995),B,-0.0409,-0.36958731772759706,131,155
+Qwen2.5-Turbo,Alibaba,Small,Top Gun,1986,Top Gun (1986),C,-0.044,-0.3976034733690092,132,144
+Qwen2.5-Turbo,Alibaba,Small,The Simpsons Movie,2007,The Simpsons Movie (2007),C,-0.0467,-0.42200464118572306,133,141
+Qwen2.5-Turbo,Alibaba,Small,Mary Poppins Returns,2018,Mary Poppins Returns (2018),C,-0.0477,-0.4310421107474689,134,144
+Qwen2.5-Turbo,Alibaba,Small,La Région centrale,1971,La Région centrale (1971),B,-0.0505,-0.45634702552035733,135,182
+Qwen2.5-Turbo,Alibaba,Small,Days of Being Wild,1990,Days of Being Wild (1990),B,-0.0551,-0.4979193855043883,136,173
+Qwen2.5-Turbo,Alibaba,Small,The Ascent,1977,The Ascent (1977),B,-0.0573,-0.5178018185402291,137,161
+Qwen2.5-Turbo,Alibaba,Small,The Wolverine,2013,The Wolverine (2013),C,-0.0616,-0.5566629376557364,138,149
+Qwen2.5-Turbo,Alibaba,Small,The Social Network,2010,The Social Network (2010),A,-0.0622,-0.5620854193927839,139,175
+Qwen2.5-Turbo,Alibaba,Small,Speed,1994,Speed (1994),C,-0.0637,-0.5756416237354028,140,151
+Qwen2.5-Turbo,Alibaba,Small,JFK,1991,JFK (1991),A,-0.0646,-0.583775346340974,141,168
+Qwen2.5-Turbo,Alibaba,Small,Die Hard with a Vengeance,1995,Die Hard with a Vengeance (1995),C,-0.0657,-0.5937165628588944,142,160
+Qwen2.5-Turbo,Alibaba,Small,The Passion of the Christ,2004,The Passion of the Christ (2004),C,-0.0702,-0.6343851758867508,143,149
+Qwen2.5-Turbo,Alibaba,Small,"Black God, White Devil",1964,"Black God, White Devil (1964)",B,-0.074,-0.6687275602213851,144,174
+Qwen2.5-Turbo,Alibaba,Small,The Secret Life of Pets,2016,The Secret Life of Pets (2016),C,-0.0757,-0.6840912584763531,145,150
+Qwen2.5-Turbo,Alibaba,Small,Senso,1954,Senso (1954),B,-0.0759,-0.6858987523887022,146,154
+Qwen2.5-Turbo,Alibaba,Small,Full River Red,2023,Full River Red (2023),C,-0.0838,-0.7572947619264946,147,159
+Qwen2.5-Turbo,Alibaba,Small,The Mummy,1999,The Mummy (1999),C,-0.0934,-0.8440544697192548,148,153
+Qwen2.5-Turbo,Alibaba,Small,Stromboli,1950,Stromboli (1950),B,-0.0974,-0.8802043479662384,149,148
+Qwen2.5-Turbo,Alibaba,Small,"My People, My Homeland",2020,"My People, My Homeland (2020)",C,-0.0975,-0.8811080949224129,150,165
+Qwen2.5-Turbo,Alibaba,Small,Out 1,1971,Out 1 (1971),B,-0.102,-0.9217767079502692,151,189
+Qwen2.5-Turbo,Alibaba,Small,Bambi,1942,Bambi (1942),A,-0.1065,-0.9624453209781256,152,201
+Qwen2.5-Turbo,Alibaba,Small,Meet the Fockers,2004,Meet the Fockers (2004),C,-0.1102,-0.9958839583565854,153,166
+Qwen2.5-Turbo,Alibaba,Small,Snow White and the Huntsman,2012,Snow White and the Huntsman (2012),C,-0.1119,-1.0112476566115534,154,168
+Qwen2.5-Turbo,Alibaba,Small,The Eight Hundred,2020,The Eight Hundred (2020),C,-0.1128,-1.0193813792171247,155,159
+Qwen2.5-Turbo,Alibaba,Small,A.I. Artificial Intelligence,2001,A.I. Artificial Intelligence (2001),A,-0.1132,-1.022996367041823,156,162
+Qwen2.5-Turbo,Alibaba,Small,Intolerance,1916,Intolerance (1916),B,-0.1138,-1.0284188487788704,157,170
+Qwen2.5-Turbo,Alibaba,Small,Twister,1996,Twister (1996),C,-0.1153,-1.0419750531214893,158,176
+Qwen2.5-Turbo,Alibaba,Small,Tarzan,1999,Tarzan (1999),C,-0.1197,-1.0817399191931711,159,161
+Qwen2.5-Turbo,Alibaba,Small,Limite,1931,Limite (1931),B,-0.1251,-1.1305422548265984,160,208
+Qwen2.5-Turbo,Alibaba,Small,The Puppetmaster,1993,The Puppetmaster (1993),B,-0.1253,-1.1323497487389478,161,171
+Qwen2.5-Turbo,Alibaba,Small,Planet of the Apes,2001,Planet of the Apes (2001),C,-0.1264,-1.1422909652568682,162,161
+Qwen2.5-Turbo,Alibaba,Small,Alien: Romulus,2024,Alien: Romulus (2024),C,-0.1278,-1.1549434226433124,163,168
+Qwen2.5-Turbo,Alibaba,Small,The Matrix Reloaded,2003,The Matrix Reloaded (2003),C,-0.1292,-1.1675958800297568,164,158
+Qwen2.5-Turbo,Alibaba,Small,The Bodyguard,1992,The Bodyguard (1992),C,-0.1304,-1.1784408435038516,165,153
+Qwen2.5-Turbo,Alibaba,Small,The Wind,1928,The Wind (1928),B,-0.1307,-1.1811520843723755,166,151
+Qwen2.5-Turbo,Alibaba,Small,The Crowd,1928,The Crowd (1928),B,-0.1328,-1.2001307704520416,167,163
+Qwen2.5-Turbo,Alibaba,Small,Avatar,2009,Avatar (2009),A,-0.1329,-1.2010345174082162,168,167
+Qwen2.5-Turbo,Alibaba,Small,The Time to Live and the Time to Die,1985,The Time to Live and the Time to Die (1985),B,-0.1331,-1.2028420113205653,169,148
+Qwen2.5-Turbo,Alibaba,Small,Ocean's Twelve,2004,Ocean's Twelve (2004),C,-0.1333,-1.2046495052329147,170,174
+Qwen2.5-Turbo,Alibaba,Small,Independence Day,1996,Independence Day (1996),C,-0.1336,-1.2073607461014384,171,170
+Qwen2.5-Turbo,Alibaba,Small,The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),C,-0.1337,-1.2082644930576132,172,161
+Qwen2.5-Turbo,Alibaba,Small,If….,1968,If…. (1968),B,-0.134,-1.2109757339261369,173,183
+Qwen2.5-Turbo,Alibaba,Small,Armageddon,1998,Armageddon (1998),C,-0.1347,-1.2173019626193586,174,150
+Qwen2.5-Turbo,Alibaba,Small,Uncharted,2022,Uncharted (2022),C,-0.1353,-1.2227244443564065,175,152
+Qwen2.5-Turbo,Alibaba,Small,Peter Rabbit,2018,Peter Rabbit (2018),C,-0.1356,-1.2254356852249302,176,165
+Qwen2.5-Turbo,Alibaba,Small,In a Year with 13 Moons,1978,In a Year with 13 Moons (1978),B,-0.1364,-1.2326656608743267,177,149
+Qwen2.5-Turbo,Alibaba,Small,National Treasure,2004,National Treasure (2004),C,-0.1367,-1.2353769017428504,178,143
+Qwen2.5-Turbo,Alibaba,Small,Noah,2014,Noah (2014),C,-0.1388,-1.254355587822517,179,149
+Qwen2.5-Turbo,Alibaba,Small,Lucy,2014,Lucy (2014),C,-0.1389,-1.2552593347786913,180,170
+Qwen2.5-Turbo,Alibaba,Small,Sing,2016,Sing (2016),C,-0.1399,-1.2642968043404372,181,146
+Qwen2.5-Turbo,Alibaba,Small,The Meg,2018,The Meg (2018),C,-0.1399,-1.2642968043404372,182,151
+Qwen2.5-Turbo,Alibaba,Small,Ant-Man and the Wasp: Quantumania,2023,Ant-Man and the Wasp: Quantumania (2023),C,-0.1402,-1.267008045208961,183,156
+Qwen2.5-Turbo,Alibaba,Small,Penguins of Madagascar,2014,Penguins of Madagascar (2014),C,-0.1412,-1.2760455147707068,184,153
+Qwen2.5-Turbo,Alibaba,Small,The Grinch,2018,The Grinch (2018),C,-0.1418,-1.2814679965077547,185,147
+Qwen2.5-Turbo,Alibaba,Small,Superman Returns,2006,Superman Returns (2006),C,-0.1432,-1.2941204538941986,186,153
+Qwen2.5-Turbo,Alibaba,Small,X-Men Origins: Wolverine,2009,X-Men Origins: Wolverine (2009),C,-0.1452,-1.3121953930176904,187,144
+Qwen2.5-Turbo,Alibaba,Small,xXx: Return of Xander Cage,2017,xXx: Return of Xander Cage (2017),C,-0.1486,-1.3429227895276263,188,139
+Qwen2.5-Turbo,Alibaba,Small,The Golden Compass,2007,The Golden Compass (2007),C,-0.1554,-1.4043775825474982,189,146
+Qwen2.5-Turbo,Alibaba,Small,Die Another Day,2002,Die Another Day (2002),C,-0.1559,-1.4088963173283713,190,138
+Qwen2.5-Turbo,Alibaba,Small,The Angry Birds Movie,2016,The Angry Birds Movie (2016),C,-0.1614,-1.4586023999179734,191,137
+Qwen2.5-Turbo,Alibaba,Small,Thunderbolts*,2025,Thunderbolts* (2025),C,-0.1671,-1.5101159764199248,192,151
+Qwen2.5-Turbo,Alibaba,Small,The Hangover Part II,2011,The Hangover Part II (2011),C,-0.1673,-1.511923470332274,193,138
+Qwen2.5-Turbo,Alibaba,Small,The Amazing Spider-Man 2,2014,The Amazing Spider-Man 2 (2014),C,-0.1682,-1.520057192937845,194,145
+Qwen2.5-Turbo,Alibaba,Small,Hello Mr. Billionaire,2018,Hello Mr. Billionaire (2018),C,-0.1705,-1.5408433729298607,195,134
+Qwen2.5-Turbo,Alibaba,Small,2012,2009,2012 (2009),C,-0.1752,-1.5833194798700663,196,129
+Qwen2.5-Turbo,Alibaba,Small,Cars 2,2011,Cars 2 (2011),C,-0.1965,-1.7758175815352533,197,141
+Qwen2.5-Turbo,Alibaba,Small,Pegasus 2,2024,Pegasus 2 (2024),C,-0.2273,-2.0541716440370257,198,133
+Qwen2.5-Turbo,Alibaba,Small,The Fantastic Four: First Steps,2025,The Fantastic Four: First Steps (2025),C,-0.2307,-2.0848990405469614,199,146
+Qwen2.5-Turbo,Alibaba,Small,Twenty Years Later,1984,Twenty Years Later (1984),B,-0.2327,-2.102973979670453,200,140

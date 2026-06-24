@@ -1,0 +1,49 @@
+model,family,tier,set_winner,set_loser,wins,total,win_rate
+Claude Haiku 4.5,Anthropic,Small,A,B,1649,3260,0.5058
+Claude Haiku 4.5,Anthropic,Small,A,C,1915,2398,0.7986
+Claude Haiku 4.5,Anthropic,Small,B,A,1611,3260,0.4942
+Claude Haiku 4.5,Anthropic,Small,B,C,2489,3794,0.656
+Claude Haiku 4.5,Anthropic,Small,C,A,483,2398,0.2014
+Claude Haiku 4.5,Anthropic,Small,C,B,1305,3794,0.344
+Claude Sonnet 4.6,Anthropic,Large,A,B,1687,3497,0.4824
+Claude Sonnet 4.6,Anthropic,Large,A,C,1903,2083,0.9136
+Claude Sonnet 4.6,Anthropic,Large,B,A,1810,3497,0.5176
+Claude Sonnet 4.6,Anthropic,Large,B,C,2780,3577,0.7772
+Claude Sonnet 4.6,Anthropic,Large,C,A,180,2083,0.0864
+Claude Sonnet 4.6,Anthropic,Large,C,B,797,3577,0.2228
+GPT-5.4,OpenAI,Large,A,B,1931,3661,0.5275
+GPT-5.4,OpenAI,Large,A,C,1850,2051,0.902
+GPT-5.4,OpenAI,Large,B,A,1730,3661,0.4725
+GPT-5.4,OpenAI,Large,B,C,2914,3319,0.878
+GPT-5.4,OpenAI,Large,C,A,201,2051,0.098
+GPT-5.4,OpenAI,Large,C,B,405,3319,0.122
+GPT-5.4 Nano,OpenAI,Small,A,B,2090,3438,0.6079
+GPT-5.4 Nano,OpenAI,Small,A,C,2000,2235,0.8949
+GPT-5.4 Nano,OpenAI,Small,B,A,1348,3438,0.3921
+GPT-5.4 Nano,OpenAI,Small,B,C,2582,3672,0.7032
+GPT-5.4 Nano,OpenAI,Small,C,A,235,2235,0.1051
+GPT-5.4 Nano,OpenAI,Small,C,B,1090,3672,0.2968
+Mistral Large 3,Mistral,Large,A,B,1390,3370,0.4125
+Mistral Large 3,Mistral,Large,A,C,1630,1831,0.8902
+Mistral Large 3,Mistral,Large,B,A,1980,3370,0.5875
+Mistral Large 3,Mistral,Large,B,C,2976,3538,0.8412
+Mistral Large 3,Mistral,Large,C,A,201,1831,0.1098
+Mistral Large 3,Mistral,Large,C,B,562,3538,0.1588
+Mistral Small 3.2,Mistral,Small,A,B,2011,3433,0.5858
+Mistral Small 3.2,Mistral,Small,A,C,2023,2255,0.8971
+Mistral Small 3.2,Mistral,Small,B,A,1422,3433,0.4142
+Mistral Small 3.2,Mistral,Small,B,C,2755,3575,0.7706
+Mistral Small 3.2,Mistral,Small,C,A,232,2255,0.1029
+Mistral Small 3.2,Mistral,Small,C,B,820,3575,0.2294
+Qwen2.5-Plus,Alibaba,Large,A,B,1432,3421,0.4186
+Qwen2.5-Plus,Alibaba,Large,A,C,1784,2095,0.8516
+Qwen2.5-Plus,Alibaba,Large,B,A,1989,3421,0.5814
+Qwen2.5-Plus,Alibaba,Large,B,C,2790,3502,0.7967
+Qwen2.5-Plus,Alibaba,Large,C,A,311,2095,0.1484
+Qwen2.5-Plus,Alibaba,Large,C,B,712,3502,0.2033
+Qwen2.5-Turbo,Alibaba,Small,A,B,1398,3020,0.4629
+Qwen2.5-Turbo,Alibaba,Small,A,C,1659,2165,0.7663
+Qwen2.5-Turbo,Alibaba,Small,B,A,1622,3020,0.5371
+Qwen2.5-Turbo,Alibaba,Small,B,C,2666,4023,0.6627
+Qwen2.5-Turbo,Alibaba,Small,C,A,506,2165,0.2337
+Qwen2.5-Turbo,Alibaba,Small,C,B,1357,4023,0.3373
