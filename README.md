@@ -99,26 +99,32 @@ Key R packages: `tidyverse`, `broom`, `sandwich`, `lmtest`, `car`, `knitr`, `kab
 
 ## Data
 
-`data/film_sample_200.csv` contains the 200-film benchmark with the following columns:
+`data/film_sample_200.json` contains the 200-film benchmark. Each
+film entry has the following fields:
 
-| Column | Description |
+| Field | Description |
 |---|---|
-| `title` | Film title (Anglophone convention) |
-| `year` | Release year |
-| `set` | Corpus set: A (dual-legitimacy), B (critical-only), C (commercial-only) |
-| `era_f` | Era category: pre-1960, 1960s_70s, 1980s_90s, 2000s_plus |
-| `language_group` | Primary language group |
-| `region` | Production region |
-| `imdb_id` | IMDb title identifier |
-| `imdb_rating` | IMDb user rating (scale 1–10) |
-| `imdb_votes` | IMDb vote count |
-| `log_imdb_votes` | log(1 + imdb_votes) |
-| `wiki_revisions` | Wikipedia revision count |
-| `log_wiki_revisions` | log(1 + wiki_revisions) |
-| `lam_z_[model]` | Standardized BT log-strength for each of the 8 models |
-| `ensemble_lam_z` | Mean λ_z across all 8 models |
+| `Title` | Film title (Anglophone critical discourse convention) |
+| `Year` | Release year |
+| `set_label` | Corpus set: A (dual-legitimacy), B (critical-only), C (commercial-only) |
+| `sample_set` | Full set label string (e.g. "A: Critical + Popular") |
+| `Era` | Era category: pre-1960, 1960s-70s, 1980s-90s, 2000s+ |
+| `Decade` | Decade of release (e.g. "1970s") |
+| `Director` | Director name |
+| `Country` | Primary production country |
+| `Region` | Production region (e.g. "North America", "Europe", "East Asia") |
+| `Language` | Primary spoken language |
+| `LanguageGroup` | Grouped language category used for stratified sampling |
+| `Genre` | Genre tags from TSPDT/BOM (hyphen-delimited) |
+| `tspdt_pos` | TSPDT Top 1000 rank (null for Set C films) |
+| `mojo_rank` | Box Office Mojo all-time rank (null for Set B films) |
+| `wikidata_qid` | Wikidata entity identifier |
+| `imdb_id` | IMDb title identifier (tt-prefixed) |
+| `wikipedia_en` | English Wikipedia URL |
 
-See `data/codebook.md` for full variable definitions.
+IMDb ratings, vote counts, Wikipedia revision counts, and
+Bradley-Terry λ_z scores are stored separately in
+`analysis/regression_data.csv` (joined via `imdb_id`).
 
 ---
 
