@@ -10,12 +10,7 @@ Reproduction package for:
 
 ## Overview
 
-This repository contains the code and data needed to reproduce the
-statistical results reported in the paper. The study uses pairwise
-forced-choice comparisons to elicit film preferences from eight large
-language models across four families (Anthropic, OpenAI, Alibaba,
-Mistral), then estimates Bradley-Terry preference scores and regresses
-them on film-level covariates.
+This repository contains the code and data needed to reproduce the statistical results reported in the paper. The study uses pairwise forced-choice comparisons to elicit film preferences from eight large language models of four families (Anthropic, OpenAI, Alibaba, Mistral), then estimates Bradley-Terry preference scores and regresses them on film-level covariates.
 
 ---
 
@@ -120,15 +115,13 @@ install.packages("renv")
 renv::restore()
 ```
 
-Key R packages: `tidyverse`, `broom`, `sandwich`, `lmtest`, `car`,
-`knitr`, `kableExtra`, `patchwork`.
+Key R packages: `tidyverse`, `broom`, `sandwich`, `lmtest`, `car`, `knitr`, `kableExtra`, `patchwork`.
 
 ---
 
 ## Data
 
-`data/film_sample_200.csv` contains the 200-film benchmark with the
-following columns:
+`data/film_sample_200.csv` contains the 200-film benchmark with the following columns:
 
 | Column | Description |
 |---|---|
@@ -189,6 +182,4 @@ Data (`data/film_sample_200.csv`): [CC BY 4.0](https://creativecommons.org/licen
 
 ## Acknowledgments
 
-The authors thank OpenAI for providing API credits through their
-research access program, which supported a portion of the model
-evaluations reported in this study.
+The authors thank OpenAI for providing API credits through their research access program, which supported a portion of the model evaluations reported in this study.
