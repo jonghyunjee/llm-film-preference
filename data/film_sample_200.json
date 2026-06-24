@@ -3,26 +3,9 @@
   "design": {
     "set_a_source": "Full TSPDT × BOM intersection, franchise-deduplicated",
     "set_b_source": "TSPDT-only, top-500",
-    "set_c_source": "BOM-only, top-500 (expanded from top-300 to address 1990s decade shortfall and add Japanese/French non-English entries)",
-    "stratification": "Joint 2D (language_group × era) cell targets. Region caps as hard secondary constraint. Country caps as hard limits. Franchise deduplication applied before sampling: at most one film per franchise, preferring the oldest entry.",
-    "language_group_logic": "Multi-language films: non-Anglophone country + English present → English dropped, first non-English token used. Chinese variants (Mandarin, Cantonese, etc.) → 'Chinese'. Silent / Experimental preserved as distinct groups.",
-    "set_b_exclusions": {
-      "n": 10,
-      "rationale": "Construct validity: BOM absence is a measurement artifact.",
-      "films": [
-        "King Kong",
-        "Snow White and the Seven Dwarfs",
-        "The Shawshank Redemption",
-        "Pinocchio",
-        "One Flew Over the Cuckoo's Nest",
-        "The Wizard of Oz",
-        "West Side Story",
-        "Fantasia",
-        "My Neighbour Totoro",
-        "Grave of the Fireflies"
-      ]
-    },
-    "set_b_silent_german_note": "Silent target lowered to 4 (from 6) to free pool capacity for German sound films. All 4 Silent films in Set B are silent-era German productions (Metropolis, Nosferatu, The Last Laugh, Pandora's Box). Two additional German sound films are now explicitly targeted."
+    "set_c_source": "BOM-only, top-500",
+    "stratification": "Joint 2D (language_group × era) cell targets. Region caps as hard secondary constraint. Country caps as hard limits. Franchise deduplication applied before sampling.",
+    "language_group_logic": "Multi-language films: non-Anglophone country + English present → English dropped, first non-English token used. Chinese variants (Mandarin, Cantonese, etc.) → 'Chinese'. Silent / Experimental preserved as distinct groups."
   },
   "sets": {
     "A": {
