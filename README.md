@@ -23,7 +23,7 @@ llm-film-preference/
 ├── renv.lock                 # R dependencies
 │
 ├── data/
-│   ├── film_sample_200.csv   # stimulus set + covariates
+│   └── film_sample_200.csv   # stimulus set + covariates
 │
 ├── analysis/
 │   ├── LLM_Film_Regression.qmd   # Regression analysis (Tables 2, D1)
