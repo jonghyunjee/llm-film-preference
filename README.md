@@ -4,7 +4,7 @@ Reproduction package for:
 
 > Jee, J., & Shaw, A. (2026). *Critical Acclaim Orientation in Large
 > Language Models: Evidence from Film Preference Elicitation.*
-> AIES 2026. [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX)
+> [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX)
 
 ---
 
@@ -163,7 +163,6 @@ All models queried at temperature = 0.
 @inproceedings{Jee_Shaw_2026,
   title     = {Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation},
   author    = {Jee, Jonghyun and Shaw, Aaron},
-  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
   year      = {2026}
 }
 ```
