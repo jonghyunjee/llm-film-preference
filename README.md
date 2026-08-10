@@ -4,7 +4,7 @@ Reproduction package for:
 
 > Jee, J., & Shaw, A. (2026). *Critical Acclaim Orientation in Large
 > Language Models: Evidence from Film Preference Elicitation.*
-> [[arXiv]](https://arxiv.org/abs/XXXX.XXXXX)
+> [[arXiv]](https://arxiv.org/abs/2608.06955)
 
 ---
 
